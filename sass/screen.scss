@@ -2,9 +2,9 @@
 @import "compass/css3";
 @import "fonts";
 
-$blue: #3f6fff;
+$blue: #2196F3;
 $grayDark: #363636;
-$grayMedium: #cbcbcb;
+$grayMedium: #adadad;
 $grayLight: #f2f2f2;
 $orange: #ee8434;
 $color4: #2d3047;
@@ -14,20 +14,31 @@ $red: #F44336;
 $fontHead: 'Josefin Slab', serif;
 $fontBody: 'Josefin Sans', sans-serif;
 
+$imgTransformTime: 200ms;
+$imgTransformFunc: cubic-bezier(0.65, 0, 0.45, 1.6);
+
+@mixin contain {
+  max: {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@mixin material-shadow {
+  @include box-shadow(0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12));
+}
+
 body {
   font-family: $fontBody;
   background: $grayLight;
+  min-width: 300px;
   @media (max-width: 440px) {
     font-size: 0.7em;
   }
 }
 
 img {
-  max: {
-    width: 100%;
-    height: 100%;
-  }
-
+  @include contain;
 }
 
 * {
@@ -40,6 +51,10 @@ a {
   text-decoration: none;
   vertical-align: middle;
 }
+p a {
+  vertical-align: initial;
+  color: $blue;
+}
 
 strong {
   font-weight: bold;
@@ -51,57 +66,50 @@ header {
   position: fixed;
   z-index: 100;
   width: 100%;
+  height: 2em;
   padding: 10px;
   background: transparent;
-  font: {
-    family: $fontHead;
-    size: 1.5em;
+  font-size: 1.5em;
+  @media screen and (min-width: 800px) {
+    text-align: center;
   }
   .logo {
     color: #fff;
     opacity: 0;
     display: inline-block;
     pointer-events: none;
-    @include transition(all, $headerTransitionTime, $easeInOut);
-    font: {
-      family: $fontHead;
-      size: 1.5em;
-    }
+    @include transition(all, $headerTransitionTime, $imgTransformFunc);
     @media screen and (max-width: 600px) {
       span {
         display: none;
       }
     }
-
     img.small-photo {
-      border: 2px solid #fff;
+      border: 1px solid #fff;
       @include border-radius(50%);
-      height: 35px;
-      width: 35px;
+      height: 1em;
+      width: 1em;
       margin: 0 10px;
-      @include transition(all, $headerTransitionTime, $easeInOut);
       vertical-align: middle;
-    }
-    &:hover {
-      letter-spacing: 0.05em;
-      img.small-photo {
-        @include transform(scale(1.3, 1.3));
-      }
     }
   }
   &.opaque {
-    background: $grayDark;
+    background: $blue;
     .logo {
       pointer-events: auto;
       opacity: 1;
-    }
-    .inline-menu a:hover {
-      color: $grayDark;
+      @include scale(2);
+      @include transform-origin(top, center);
+      &:hover {
+        @include scale(2.3);
+      }
     }
   }
-
   .inline-menu {
-    float: right;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    text-transform: lowercase;
   }
 }
 
@@ -119,6 +127,7 @@ header {
       &:hover {
         color: $blue;
         background: rgba(255, 255, 255, 0.8);
+        @include material-shadow;
       }
     }
   }
@@ -136,14 +145,13 @@ h1 {
 }
 
 h2 {
+  color: $blue;
   font: {
-    size: 2em;
+    size: 3em;
+    weight: 500;
   }
   margin: 10px auto 20px;
-  text: {
-    transform: lowercase;
-    align: center;
-  }
+  text-align: center;
 }
 
 section {
@@ -168,7 +176,9 @@ section {
     }
 
     h3 {
-      flex: 1 0 150px;
+      @media screen and (min-width: 701px) {
+        flex: 1 0 150px;
+      }
       text: {
         align: right;
         transform: uppercase;
@@ -193,12 +203,12 @@ section {
   background: $red;
   //background: $red url("../img/photo_big.jpg") center center no-repeat;
   //background-size: cover;
-  @media (min-width: 600px) {
+  @media (min-width: 601px) {
     height: 100vh;
   }
 
-  .background{
-    background: rgba(244, 67, 54, 0.7);
+  .background {
+    //background: rgba(244, 67, 54, 0.7);
   }
 }
 
@@ -209,35 +219,53 @@ section {
   }
 }
 
-.floating_photo {
-  position: absolute;
-  bottom: 0;
-  max: {
-    width: 50%;
-    height: 80%;
+.foreground {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.photo_container {
+  height: 35vw;
+  width: 35vw;
+  padding: 5vw 0;
+
+  margin: auto;
+  @media screen and (min-width: 601px) {
+    height: 35vh;
+    width: 35vh;
+    padding: 5vh 0;
   }
-  overflow: hidden;
+}
+
+.floating_photo {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
   font-size: 0;
+  margin: auto;
+  display: inline-block;
+  @include transition(transform $imgTransformTime $imgTransformFunc);
   img {
-    max: {
-      width: 100%;
-      height: 100%;
+    height: 100%;
+    @include border-radius(50%);
+    @include material-shadow;
+    @include transition(transform $imgTransformTime $imgTransformFunc $imgTransformTime, box-shadow $imgTransformTime $imgTransformFunc);
+    border: 4px solid #ffffff;
+    overflow: hidden;
+  }
+  &:hover {
+    @include scale(1.2);
+    img {
+      @include box-shadow(0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19));
     }
   }
+
   @media (max-width: 600px) {
     position: relative;
     bottom: inherit;
     text-align: center;
     max-width: 100%;
-    width: 100%;
-    height: 50%;
-    margin-top: 45px;
-    img {
-      max: {
-        height: 300px;
-        width: 80%;
-      }
-    }
   }
 }
 
@@ -247,27 +275,33 @@ section {
   width: 100%;
   height: 100%;
   overflow: hidden;
-
+  background: $blue;
   .dark {
     background: rgba(0, 0, 0, 0.2);
     height: 100%;
-    width: 65%;
+    width: 85%;
     position: absolute;
     right: 0;
     @include transform(skew(-165deg, 0) translateX(384px));
+    @media screen and (max-width: 600px) {
+      width: 130vw;
+    }
   }
   .light {
-    background: rgba(255, 255, 255, 0.2);
-    height: 100%;
+    background: $red;
+    height: 80%;
     width: 100%;
     position: absolute;
     bottom: 0;
     @include transform(skew(0deg, 15deg) translateY(410px));
+    border: 1px solid gray;
+    @media screen and (max-width: 600px) {
+      width: 300vh;
+    }
   }
 }
 
 .headings {
-  position: absolute;
   text: {
     align: center;
     transform: uppercase;
@@ -276,13 +310,14 @@ section {
 
   top: 30%;
   right: 0;
-  margin: 0 4em;
+  margin: 0 auto;
+
   color: #fff;
   @media (min-width: 900px) {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
   @media (max-width: 600px) {
-    margin: 50px auto 0;
+    margin: 10px auto 40px;
     position: static;
   }
   h3 {
@@ -343,11 +378,10 @@ section {
   a {
     color: $grayDark;
     &:before {
-      background-color: #E1E8ED;
+      background-color: #ffffff;
       text-align: center;
       border: none;
-      @include text-shadow(3px 2px 8px $grayMedium);
-      @include box-shadow(2px 2px 1px  -1px $grayMedium);
+      @include material-shadow;
       overflow: hidden;
     }
   }
@@ -381,10 +415,17 @@ section {
 .connections.quick {
   margin-top: 50px;
   font-size: 1.6em;
-  a:before{
-    @include transition(all 100ms, box-shadow 300ms 100ms);
+  overflow: hidden;
+  height: 3.2em;
+  li{
+    margin-bottom: 0.3em;
   }
-  a:hover:before{
+  a:before {
+    display: inline-block;
+    padding: 15px;
+    @include transition(all 100ms $imgTransformFunc);
+  }
+  a:hover:before {
     border: 3px solid #E1E8ED;
   }
   a:not(:hover) {
@@ -401,7 +442,6 @@ section {
   }
 }
 
-
 .inner-shadow-overlay {
   position: absolute;
   top: 0;
@@ -412,11 +452,6 @@ section {
   //TODO polyfill
   pointer-events: none;
   @include box-shadow(inset 0 -6px 9px -4px $grayDark);
-}
-
-section > h2 {
-  //TODO inline-block+border
-  text-decoration: underline;
 }
 
 .experiences-list {
@@ -434,18 +469,34 @@ section > h2 {
       size: 1.3em;
     }
     line-height: 1.2em;
+    text-align: center;
+
+    @media screen and (min-width: 601px) {
+      &:nth-child(even) {
+        text-align: right;
+        .logo{
+          float: left;
+        }
+      }
+      &:nth-child(odd) {
+        text-align: left;
+        .logo{
+          float: right;
+        }
+      }
+    }
 
     .logo {
       max: {
         width: 7em;
         height: 3em;
       }
-      float: right;
     }
     h4 {
       margin-top: 1em;
       color: $red;
       font: {
+        size: 1.4em;
         family: $fontHead;
       }
       strong {
@@ -467,6 +518,7 @@ section > h2 {
         font-size: 0.8em;
         color: $grayMedium;
         text-transform: none;
+        display: inline-block;
       }
     }
     .time-period {
@@ -474,7 +526,11 @@ section > h2 {
         size: 1em;
         weight: 300;
       }
-      display: block;
+      display: inline-block;
+      @media screen and (max-width: 600px) {
+        display: block;
+        margin-bottom: 10px;
+      }
     }
   }
 }
@@ -671,41 +727,3 @@ section > h2 {
     overflow: hidden;
   }
 }
-
-//body {
-//  top: 60px;
-//  left: 0;
-//  right: 0;
-//  bottom: 0;
-//  perspective: 1px;
-//  overflow-x: hidden;
-//  overflow-y: scroll;
-//
-//  height: auto;
-//  main{
-//    position: fixed;
-//    transform-style: preserve-3d;
-//    font-size: 20px;
-//    background: transparent;
-//    //overflow: initial;
-//    //overflow-x: hidden;
-//    overflow-y: scroll;
-//    perspective: 1px;
-//
-//  }
-//  #home{
-//    position: relative;
-//    background: transparent;
-//    transform-style: preserve-3d;
-//  }
-//  .background{
-//    transform: translateZ(-1px) scale(2);
-//    background: $red;
-//  }
-//  .foreground{
-//    position: absolute;
-//    top: 0;
-//    height: 100%;
-//    width: 100%;
-//  }
-//}
