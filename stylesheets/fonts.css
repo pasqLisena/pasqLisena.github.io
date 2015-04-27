@@ -21,7 +21,7 @@
 }
 
 /* line 28, ../sass/fonts.scss */
-.icon-location-:before {
+.icon-location:before {
   content: "\e601";
 }
 
@@ -43,6 +43,26 @@
 /* line 44, ../sass/fonts.scss */
 .icon-linkedin:before {
   content: "\eac9";
+}
+
+/* line 48, ../sass/fonts.scss */
+.icon-skype:before {
+  content: "\eac6";
+}
+
+/* line 53, ../sass/fonts.scss */
+.icon-earth:before {
+  content: "\e9ca";
+}
+
+/* line 57, ../sass/fonts.scss */
+.icon-facebook:before {
+  content: "\ea8c";
+}
+
+/* line 61, ../sass/fonts.scss */
+.icon-call:before {
+  content: "\e602";
 }
 
 /*# sourceMappingURL=fonts.css.map */

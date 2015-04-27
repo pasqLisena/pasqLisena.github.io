@@ -9,7 +9,7 @@ $grayLight: #f2f2f2;
 $orange: #ee8434;
 $color4: #2d3047;
 $color5: #419d78;
-$purple: #880031;
+$red: #F44336;
 
 $fontHead: 'Josefin Slab', serif;
 $fontBody: 'Josefin Sans', sans-serif;
@@ -150,8 +150,9 @@ section {
   padding-top: 60px;
   position: relative;
   overflow: hidden;
+  background: $grayLight;
   &:nth-child(odd) {
-    background: $purple;
+    background: $red;
     color: #fff;
   }
 
@@ -189,9 +190,15 @@ section {
 }
 
 #home {
-  background: $purple;
+  background: $red;
+  //background: $red url("../img/photo_big.jpg") center center no-repeat;
+  //background-size: cover;
   @media (min-width: 600px) {
     height: 100vh;
+  }
+
+  .background{
+    background: rgba(244, 67, 54, 0.7);
   }
 }
 
@@ -286,40 +293,114 @@ section {
 .connections {
   margin: 1em auto;
   text-align: center;
-  font-size: 3em;
+  display: inline-block;
+  vertical-align: top;
+  &:before {
+    font-size: 3em;
+  }
 
   li {
     display: inline-block;
   }
   a {
     margin: 0 5px;
-    span {
-      display: none;
-    }
     &, &:hover, &:visited {
-      color: $purple;
+      color: $red;
     }
     &:before {
       padding: 6px;
-      border: 1px solid $purple;
+      border: 1px solid $red;
       @include border-radius(50%);
     }
+  }
+  span {
+    font-family: $fontBody;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+#contacts {
+  .connections {
+    li {
+      font-size: 1.2em;
+      text-align: left;
+      min-height: 2em;
+      margin-bottom: 1em;
+      display: block;
+    }
+  }
+  .map {
+    display: block;
+    margin: {
+      top: 10px;
+      left: 45px;
+    }
+  }
+}
+
+.connections {
+  a {
+    color: $grayDark;
+    &:before {
+      background-color: #E1E8ED;
+      text-align: center;
+      border: none;
+      @include text-shadow(3px 2px 8px $grayMedium);
+      @include box-shadow(2px 2px 1px  -1px $grayMedium);
+      overflow: hidden;
+    }
+  }
+  .icon-location:before,
+  .icon-mail:before {
+    color: #E55325;
+  }
+  .icon-linkedin:before {
+    color: #007AB9;
+  }
+  .icon-github:before {
+    color: #424242;
+  }
+  .icon-twitter:before {
+    color: #55ACEE;
+  }
+  .icon-facebook:before {
+    color: #3B5998;
+  }
+  .icon-call:before {
+    color: #4EA23B;
+  }
+  .icon-skype:before {
+    color: #00A8EA;
+  }
+  .icon-earth:before {
+    color: #c26514;
   }
 }
 
 .connections.quick {
   margin-top: 50px;
   font-size: 1.6em;
-  a {
-    &, &:hover, &:visited {
-      color: #ffffff;
-    }
+  a:before{
+    @include transition(all 100ms, box-shadow 300ms 100ms);
+  }
+  a:hover:before{
+    border: 3px solid #E1E8ED;
+  }
+  a:not(:hover) {
     &:before {
-      border-color: #ffffff;
+      background-color: transparent;
+      @include text-shadow(none);
+      @include box-shadow(none);
+      color: #ffffff;
+      border: 3px solid #ffffff;
     }
-
+  }
+  span {
+    display: none;
   }
 }
+
 
 .inner-shadow-overlay {
   position: absolute;
@@ -363,7 +444,7 @@ section > h2 {
     }
     h4 {
       margin-top: 1em;
-      color: $purple;
+      color: $red;
       font: {
         family: $fontHead;
       }
@@ -452,8 +533,8 @@ section > h2 {
   display: block;
   background: #fff;
   flex: 1 1 auto;
-  color: $purple;
-  border: 1px solid $purple;
+  color: $red;
+  border: 1px solid $red;
   width: 100px;
 }
 
@@ -577,3 +658,54 @@ section > h2 {
   margin: auto;
   max-width: 900px;
 }
+
+.connections-cont {
+  display: flex;
+  flex: {
+    wrap: wrap;
+  }
+  justify-content: space-around;
+  .connections {
+    flex: 1 1 auto;
+    padding: 5px 10px;
+    overflow: hidden;
+  }
+}
+
+//body {
+//  top: 60px;
+//  left: 0;
+//  right: 0;
+//  bottom: 0;
+//  perspective: 1px;
+//  overflow-x: hidden;
+//  overflow-y: scroll;
+//
+//  height: auto;
+//  main{
+//    position: fixed;
+//    transform-style: preserve-3d;
+//    font-size: 20px;
+//    background: transparent;
+//    //overflow: initial;
+//    //overflow-x: hidden;
+//    overflow-y: scroll;
+//    perspective: 1px;
+//
+//  }
+//  #home{
+//    position: relative;
+//    background: transparent;
+//    transform-style: preserve-3d;
+//  }
+//  .background{
+//    transform: translateZ(-1px) scale(2);
+//    background: $red;
+//  }
+//  .foreground{
+//    position: absolute;
+//    top: 0;
+//    height: 100%;
+//    width: 100%;
+//  }
+//}
