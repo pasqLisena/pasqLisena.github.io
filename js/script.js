@@ -10,6 +10,9 @@ $(window).on('scroll resize', function (e) {
 $(document).ready(function () {
     $('.popup-link').magnificPopup({
         type: 'ajax',
+        ajax:{
+            cache: true
+        },
         callbacks: {
             open: function () {
                 var $clickedEl = $(this.currItem.el[0]);
@@ -17,16 +20,27 @@ $(document).ready(function () {
                     window.location.href.match(/^[^\#\?]+/)[0] + '#' + $clickedEl.data('proj'));
             },
             close: function () {
-                history.pushState(null, $('title').text(),
-                    window.location.href.match(/^[^\#\?]+/)[0]);
+                //if the url still contains the hash
+                if (window.location.hash) {
+                    //remove it!
+                    history.pushState(null, $('title').text(),
+                        window.location.href.match(/^[^\#\?]+/)[0]);
+                }
             }
         },
         fixedContentPos: true,
         closeBtnInside: true
     });
 
+    onChangeHash();
+});
+
+$(window).on('popstate', onChangeHash);
+
+function onChangeHash() {
+    $.magnificPopup.close();
     if (window.location.hash) {
         var hashContent = window.location.hash.replace('#', '');
         $('[data-proj="' + hashContent + '"]').click();
     }
-});
+}
