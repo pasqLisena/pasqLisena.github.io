@@ -53,3 +53,7 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+
+stylesheets/lib
+stylesheets/fonts.css
+stylesheets/fonts.css.map

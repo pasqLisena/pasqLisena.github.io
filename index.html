@@ -11,10 +11,6 @@
 </head>
 <body>
 <header id="header">
-    <!--<a href="#home" class="logo" title="Go to top">-->
-    <!--<img class="small-photo" src="img/photo.jpg" alt=""/>-->
-    <!--<span>Pasquale Lisena</span>-->
-    <!--</a>-->
     <a href="#home" class="logo" title="Go to top">
         <img class="small-photo" src="img/photo.jpg" alt=""/>
     </a>
@@ -36,24 +32,25 @@
             <div class="inner-shadow-overlay">&nbsp;</div>
             <div class="headings">
                 <div class="photo_container">
-                    <a class="floating_photo">
+                    <div class="floating_photo">
                         <img src="img/photo.jpg">
-                    </a>
+                    </div>
                 </div>
                 <h1>Pasquale Lisena</h1>
 
                 <h3>Front-End Web Engineer</h3>
                 <ul class="connections quick">
-                    <li><a class="icon-mail" href="mailto:pasq.lisena@gmail.com" title="mail">
+                    <li><a target="_blank" class="icon-mail" href="mailto:pasq.lisena@gmail.com" title="mail">
                         <span>pasq.lisena@gmail.com</span>
                     </a></li>
-                    <li><a class="icon-linkedin" href="http://www.linkedin.com/in/pasqualelisena/en" title="LinkedIn">
+                    <li><a target="_blank" class="icon-linkedin" href="http://www.linkedin.com/in/pasqualelisena/en"
+                           title="LinkedIn">
                         <span>LinkedIn</span>
                     </a></li>
-                    <li><a class="icon-twitter" href="https://twitter.com/PasqLisena" title="Github">
+                    <li><a target="_blank" class="icon-twitter" href="https://twitter.com/PasqLisena" title="Github">
                         <span>Twitter</span>
                     </a></li>
-                    <li><a class="icon-github" href="https://github.com/pasqLisena" title="Github">
+                    <li><a target="_blank" class="icon-github" href="https://github.com/pasqLisena" title="Github">
                         <span>Github</span>
                     </a></li>
                 </ul>
@@ -94,22 +91,35 @@
         </ul>
     </section>
     <section id="projects" class="band">
-        <h3>projects</h3>
+        <div class="bg-shadows background">
+            <div class="light">&nbsp;</div>
+            <div class="dark">&nbsp;</div>
+        </div>
+
+        <h3>latest projects</h3>
 
         <div class="content">
             <div class="card-container">
                 <div class="card">
-                    <img src="img/projects/hTedLogo_big.png"/>
-                    <a href="#" class="card-title">HyperTed</a>
+                    <img src="img/projects/hyperted_logo.png"/>
+                    <a href="partials\hyperted_popup.html" class="card-title popup-link"
+                       title="HyperTED" data-proj="hyperted">
+                        <time datetime="09-2014">2014</time>
+                        HyperTed</a>
                 </div>
                 <div class="card">
                     <img src="img/projects/muffin.png"/>
-                    <a href="#" class="card-title">MaFFiN</a>
+                    <a href="partials\maffin_popup.html" class="card-title popup-link"
+                       title="MaFFiN" data-proj="maffin">
+                        <time datetime="09-2014">2014</time>
+                        MaFFiN</a>
                 </div>
-                <div class="card">
-                    <img src="img/projects/logo-episco+.png"/>
-                    <a href="#" class="card-title">episco+</a>
-                </div>
+                <!--<div class="card">-->
+                <!--<img src="img/projects/logo-episco+.png"/>-->
+                <!--<a href="#" class="card-title">-->
+                <!--<time datetime="07-2013">2013</time>-->
+                <!--episco+</a>-->
+                <!--</div>-->
             </div>
         </div>
     </section>
@@ -152,86 +162,78 @@
                 <h4><strong>ERASMUS Master Thesis Internship</strong></h4>
 
                 <p class="descr">
-                    Design and implementation of <a href="http://www.slideshare.net/SquaLeLis/developing-a-nodejs">MaFFiN</a>,
+                    Design and implementation of
+                    <a class="popup-link" href="partials/maffin_popup.html" data-proj="maffin" title="MaFFiN">MaFFiN</a>,
                     a Media Fragment Node.JS Server.<br>
                     Research project:
-                    <a href="http://www.slideshare.net/JosLuisRedondoGarca/hyperted-40494120">HyperTED</a>.
+                    <a class="popup-link" href="partials/hyperted_popup.html" data-proj="hyperted" title="HyperTED">HyperTED</a>.
                 </p>
             </li>
         </ul>
     </section>
     <section id="cv-cont" class="band">
+        <div class="bg-shadows background">
+            <div class="light">&nbsp;</div>
+            <div class="dark">&nbsp;</div>
+        </div>
         <h3>learn more</h3>
 
         <div class="content">
             <a class="button" href="#">download my cv</a>
-            <a class="button" href="http://www.linkedin.com/in/pasqualelisena/en">visit me on LinkedIn</a>
+            <a target="_blank" class="button" href="http://www.linkedin.com/in/pasqualelisena/en">visit me on
+                LinkedIn</a>
         </div>
     </section>
     <section id="contacts">
         <h2>Contacts</h2>
 
-        <div class="wrapper">
-            <form id="contact-form" style="display:none">
-                <fieldset>
-                    <label for="contact-message">Message</label>
-                    <textarea name="message" id="contact-message" placeholder="Hi Pasquale ... :)" required></textarea>
-                </fieldset>
-                <fieldset>
-                    <label for="contact-name">Your Name</label>
-                    <input type="text" name="name" id="contact-name" required>
-                </fieldset>
-                <fieldset>
-                    <label for="contact-mail">Your Email</label>
-                    <input type="email" name="email" id="contact-mail" required>
-                </fieldset>
-                <button type="submit">send</button>
-            </form>
-            <div class="connections-cont">
-                <ul class="connections">
-                    <li><a class="icon-location"
-                           href="https://www.google.it/maps/place/Via+Raffaello+Morghen,+28,+10143+Torino" title="home">
-                        <span>via Raffaello Morghen, 28<br>10143 Torino ITALY</span>
-                        <img class="map"
-                             src="http://maps.google.com/maps/api/staticmap?center=45.0790276,7.6576637&zoom=12&size=250x150&maptype=terrain&markers=size:mid|color:black|45.0790276,7.6576637">
-                    </a></li>
-                </ul>
+        <div class="connections-cont">
+            <ul class="connections">
+                <li><a target="_blank" class="icon-location"
+                       href="https://www.google.it/maps/place/Via+Raffaello+Morghen,+28,+10143+Torino" title="home">
+                    <span>via Raffaello Morghen, 28<br>10143 Torino ITALY</span>
+                    <img class="map"
+                         src="http://maps.google.com/maps/api/staticmap?center=45.0790276,7.6576637&zoom=12&size=250x150&maptype=terrain&markers=size:mid|color:black|45.0790276,7.6576637">
+                </a></li>
+            </ul>
 
-                <ul class="connections">
-                    <li><a class="icon-mail" href="mailto:pasq.lisena@gmail.com" title="mail">
-                        <span>pasq.lisena@gmail.com</span>
-                    </a></li>
-                    <li><a class="icon-call" href="tel:+393292653473" title="tel">
-                        <span>(+39) 329 265 34 73</span>
-                    </a></li>
-                    <li><a class="icon-earth" href="#" title="Personal website">
-                        <span>www.pasqualelisena.it</span>
-                    </a></li>
-                    <li><a class="icon-skype" href="skype:squale.lis?call" title="Skype">
-                        <span>squale.lis</span>
-                    </a></li>
-                </ul>
-                <ul class="connections">
-                    <li><a class="icon-linkedin" href="http://www.linkedin.com/in/pasqualelisena/en"
-                           title="LinkedIn Profile">
-                        <span>LinkedIn</span>
-                    </a></li>
-                    <li><a class="icon-facebook" href="https://www.facebook.com/pasq.lisena" title="Facebook Profile">
-                        <span>/pasq.lisena</span>
-                    </a></li>
-                    <li><a class="icon-twitter" href="https://twitter.com/PasqLisena" title="Twitter Profile">
-                        <span>@PasqLisena</span>
-                    </a></li>
-                    <li><a class="icon-github" href="https://github.com/pasqLisena" title="Github">
-                        <span>/pasqLisena</span>
-                    </a></li>
-                </ul>
-            </div>
+            <ul class="connections">
+                <li><a target="_blank" class="icon-mail" href="mailto:pasq.lisena@gmail.com" title="mail">
+                    <span>pasq.lisena@gmail.com</span>
+                </a></li>
+                <li><a target="_blank" class="icon-call" href="tel:+393292653473" title="tel">
+                    <span>(+39) 329 265 34 73</span>
+                </a></li>
+                <li><a target="_blank" class="icon-earth" href="#" title="Personal website">
+                    <span>www.pasqualelisena.it</span>
+                </a></li>
+                <li><a target="_blank" class="icon-skype" href="skype:squale.lis?call" title="Skype">
+                    <span>squale.lis</span>
+                </a></li>
+            </ul>
+            <ul class="connections">
+                <li><a target="_blank" class="icon-linkedin" href="http://www.linkedin.com/in/pasqualelisena/en"
+                       title="LinkedIn Profile">
+                    <span>LinkedIn</span>
+                </a></li>
+                <li><a target="_blank" class="icon-facebook" href="https://www.facebook.com/pasq.lisena"
+                       title="Facebook Profile">
+                    <span>/pasq.lisena</span>
+                </a></li>
+                <li><a target="_blank" class="icon-twitter" href="https://twitter.com/PasqLisena"
+                       title="Twitter Profile">
+                    <span>@PasqLisena</span>
+                </a></li>
+                <li><a target="_blank" class="icon-github" href="https://github.com/pasqLisena" title="Github">
+                    <span>/pasqLisena</span>
+                </a></li>
+            </ul>
         </div>
-        <p class="copyright">&copy; Pasquale Lisena, 2015</p>
+        <p class="copyright">&copy; Pasquale Lisena, 2015.</p>
     </section>
 </main>
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="js/lib/jquery.magnific-popup.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

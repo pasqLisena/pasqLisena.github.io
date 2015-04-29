@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "fonts";
+@import "lib/magnific-popup";
 
 $blue: #2196F3;
 $grayDark: #363636;
@@ -35,6 +36,10 @@ body {
   @media (max-width: 440px) {
     font-size: 0.7em;
   }
+
+  &.popup-block {
+    overflow: hidden;
+  }
 }
 
 img {
@@ -50,10 +55,18 @@ img {
 a {
   text-decoration: none;
   vertical-align: middle;
+  color: inherit;
+  &:visited {
+    color: inherit;
+  }
 }
+
 p a {
   vertical-align: initial;
-  color: $blue;
+  color: $red;
+  &:visited {
+    color: $red;
+  }
 }
 
 strong {
@@ -62,7 +75,7 @@ strong {
 
 $headerTransitionTime: 500ms;
 $easeInOut: cubic-bezier(.42, 0, .58, 1);
-header {
+#header {
   position: fixed;
   z-index: 100;
   width: 100%;
@@ -140,7 +153,7 @@ h1, h2 {
 h1 {
   font: {
     size: 4em;
-    weight: 100;
+    weight: 400;
   }
 }
 
@@ -165,50 +178,55 @@ section {
   }
 
   &.band {
-    padding: 10px 0;
-    height: 10em;
-
-    display: flex;
-    justify-content: space-around;
-    align: {
-      items: center;
-      content: center;
+    .bg-shadows .light {
+      background: $blue;
+      @media screen and (max-width: 600px) {
+        width: 150vh;
+      }
+    }
+    padding: 2em 0;
+    @media screen and (min-width: 701px) {
+      display: flex;
+      justify-content: space-around;
+      align: {
+        items: center;
+        content: center;
+      }
     }
 
     h3 {
-      @media screen and (min-width: 701px) {
-        flex: 1 0 150px;
-      }
       text: {
-        align: right;
         transform: uppercase;
+        align: center;
       }
-      display: inline-block;
-
       font-size: 1.5em;
       margin: 20px;
+      @media screen and (min-width: 701px) {
+        flex: 1 0 150px;
+        display: inline-block;
+      }
     }
     .content {
-      display: inline-block;
-      flex: 2 2 auto;
-
+      @media screen and (min-width: 701px) {
+        flex: 2 2 auto;
+        display: inline-block;
+      }
       text-align: center;
       height: 100%;
+      max-width: 100%;
       overflow: hidden;
+    }
+    h3, .content {
+      position: relative;
+      z-index: 1;
     }
   }
 }
 
 #home {
-  background: $red;
-  //background: $red url("../img/photo_big.jpg") center center no-repeat;
-  //background-size: cover;
+  background: $blue;
   @media (min-width: 601px) {
     height: 100vh;
-  }
-
-  .background {
-    //background: rgba(244, 67, 54, 0.7);
   }
 }
 
@@ -275,7 +293,7 @@ section {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: $blue;
+  background: transparent;
   .dark {
     background: rgba(0, 0, 0, 0.2);
     height: 100%;
@@ -330,28 +348,36 @@ section {
   text-align: center;
   display: inline-block;
   vertical-align: top;
-  &:before {
-    font-size: 3em;
-  }
-
   li {
     display: inline-block;
   }
   a {
     margin: 0 5px;
-    &, &:hover, &:visited {
-      color: $red;
+    @include transition(all 200ms $imgTransformFunc);
+    &, &:visited {
+      color: $grayDark;
     }
     &:before {
       padding: 6px;
       border: 1px solid $red;
       @include border-radius(50%);
     }
+    &:hover {
+      color: $blue;
+    }
   }
   span {
     font-family: $fontBody;
     display: inline-block;
     vertical-align: top;
+  }
+}
+
+.connections-cont {
+  text-align: center;
+  .connections {
+    width: 300px;
+    margin: 0 20px;
   }
 }
 
@@ -364,12 +390,22 @@ section {
       margin-bottom: 1em;
       display: block;
     }
+    @media screen and (max-width: 600px) {
+      margin: -10px auto;
+      li {
+        margin: 20px auto;
+        font-size: 1.4em;
+      }
+    }
   }
   .map {
     display: block;
-    margin: {
-      top: 10px;
-      left: 45px;
+    margin: auto;
+    @media screen and (min-width: 601px) {
+      margin: {
+        top: 10px;
+        left: 45px;
+      }
     }
   }
 }
@@ -417,7 +453,7 @@ section {
   font-size: 1.6em;
   overflow: hidden;
   height: 3.2em;
-  li{
+  li {
     margin-bottom: 0.3em;
   }
   a:before {
@@ -455,13 +491,15 @@ section {
 }
 
 .experiences-list {
-  margin: auto;
+  margin: 0 auto 4em;
   max-width: 900px;
   li {
+    @include border-radius(3px);
+    @include material-shadow;
+
     display: block;
     position: relative;
     background: #ffffff;
-    @include border-radius(7px);
     padding: 20px;
     clear: both;
     margin: 40px 0;
@@ -474,13 +512,13 @@ section {
     @media screen and (min-width: 601px) {
       &:nth-child(even) {
         text-align: right;
-        .logo{
+        .logo {
           float: left;
         }
       }
       &:nth-child(odd) {
         text-align: left;
-        .logo{
+        .logo {
           float: right;
         }
       }
@@ -600,7 +638,8 @@ section {
   height: 8em;
   width: 13em;
   max-height: 100%;
-  @include border-radius(5px);
+  @include border-radius(3px);
+  @include material-shadow;
   vertical-align: top;
   padding: 8px;
   position: relative;
@@ -617,6 +656,8 @@ section {
     }
   }
   a {
+    @include border-radius(inherit);
+    @include transition(all 200ms $imgTransformTime);
     display: inline-block;
     opacity: 0;
     position: absolute;
@@ -626,13 +667,19 @@ section {
     height: 100%;
 
     color: #fff;
-    background: rgba(0, 0, 0, 0.8);
-    @include border-radius(inherit);
-    @include transition(opacity 500ms);
+    background: rgba(33, 150, 243, 0.9);
     font: {
-      size: 1.5em;
+      size: 1.7em;
     }
-    line-height: 4.5em;
+    padding-top: 1.2em;
+    time {
+      display: block;
+      font: {
+        size: 0.8em;
+        weight: 100;
+      }
+      line-height: 1em;
+    }
     &:hover {
       opacity: 1;
     }
@@ -678,52 +725,165 @@ section {
   padding: 10px;
 }
 
-#contact-form {
-  display: inline-block;
-  max-width: 50%;
-
-  fieldset {
-    margin-bottom: 10px;
-  }
-  label {
-    display: inline-block;
-    width: 5em;
-    text-align: right;
-    border-top: 1px solid $grayDark;
-    vertical-align: top;
-    margin: {
-      left: 10px;
-      right: 2px;
-    }
-    font: {
-      weight: 400;
-    }
-  }
-
-  input, textarea {
-    background: transparent;
-    border: 1px solid $grayMedium;
-    &:focus {
-      outline: none;
-      background: #ffffff;
-    }
-  }
-}
-
 .wrapper {
   margin: auto;
   max-width: 900px;
 }
 
-.connections-cont {
+.popup {
+  @include contain;
+  @include material-shadow;
+  @include border-radius(3px);
+  position: relative;
+  background: #fff;
+  margin: auto;
+  width: 900px;
+  min-height: 40em;
   display: flex;
-  flex: {
-    wrap: wrap;
+  @media screen and (max-width: 600px) {
+    min-height: initial;
+    height: 96vh;
+    display: block;
+    overflow-y: auto;
   }
-  justify-content: space-around;
-  .connections {
-    flex: 1 1 auto;
-    padding: 5px 10px;
-    overflow: hidden;
+
+  .mfp-close {
+    @include border-radius(50%);
+    margin: 5px;
+    &:hover {
+      background: $grayLight;
+    }
+    @media screen and (max-width: 600px) {
+      background: $grayLight;
+      opacity: 1;
+    }
+
   }
+  .institution{
+    margin: 1em 0 2em;
+    img{
+      max:{
+        width: 4em;
+        height: 2em;
+      }
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 5px;
+    }
+  }
+  header {
+    flex: 0 1 17em;
+    background: $grayDark;
+    color: #FFFFFF;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (max-width: 700px) {
+      flex-basis: 11em;
+    }
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+
+  }
+  main {
+    flex: 2 2;
+    font-size: 1.1em;
+    p {
+      margin: 3em 1em;
+    }
+  }
+  .logo {
+    max-width: 80%;
+    margin: 3em 1em 1em;
+    @media screen and (max-width: 600px) {
+      margin-top: 1em;
+    }
+    &.title ~ h3 {
+      display: none;
+    }
+  }
+  .results {
+    margin: 3em 1em;
+    li {
+      margin-bottom: 1em;
+    }
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+    strong {
+      font: {
+        style: normal;
+        variant: small-caps;
+        weight: normal;
+      }
+      color: $red;
+    }
+  }
+  time {
+    display: block;
+    color: $grayLight;
+    font: {
+      weight: 100;
+      style: italic;
+    }
+    margin-top: 1em;
+  }
+  .authors {
+    li {
+      display: inline;
+      white-space: nowrap;
+      &:before {
+        content: '\00b7'; //middot
+        margin: 0 5px;
+      }
+      &:first-child:before {
+        content: none;
+      }
+    }
+    a {
+     @include transition(color 100ms $imgTransformFunc);
+      &:hover {
+        color: $red;
+      }
+    }
+  }
+  .links {
+    margin: 1em auto;
+    display: block;
+    width: 100%;
+    @media screen and (max-width: 600px) {
+      border-top: 1px solid $grayLight;
+      max-width: 95%;
+      li {
+        display: inline-block;
+        margin: 0 1em;
+
+      }
+    }
+    a {
+      color: #FFFFFF;
+      display: block;
+      padding: 0.8em 0;
+      text-decoration: underline;
+      &:hover {
+        background: #000;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .screenshot {
+    @include material-shadow;
+    display: block;
+    margin: 1em auto;
+    max-width: 80%;
+  }
+}
+
+.mfp-wrap {
+  -webkit-overflow-scrolling: touch;
 }
