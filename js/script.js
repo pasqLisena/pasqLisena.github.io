@@ -1,10 +1,3 @@
-Modernizr.load({
-    test: Modernizr.objectFit,
-    yep : 'geo.js',
-    nope: 'geo-polyfill.js'
-});
-
-
 $(window).on('scroll resize', function (e) {
     var scroll = $(window).scrollTop();
 
@@ -17,18 +10,19 @@ $(window).on('scroll resize', function (e) {
 $(document).ready(function () {
     $('.popup-link').magnificPopup({
         type: 'ajax',
-        ajax:{
+        ajax: {
             cache: true
         },
         callbacks: {
             open: function () {
                 var $clickedEl = $(this.currItem.el[0]);
-                history.pushState(null, $clickedEl.attr('title') + " | " + $('title').text(),
-                    window.location.href.match(/^[^\#\?]+/)[0] + '#' + $clickedEl.data('proj'));
+                if (Modernizr.history())
+                    history.pushState(null, $clickedEl.attr('title') + " | " + $('title').text(),
+                        window.location.href.match(/^[^\#\?]+/)[0] + '#' + $clickedEl.data('proj'));
             },
             close: function () {
                 //if the url still contains the hash
-                if (window.location.hash) {
+                if (Modernizr.history() && window.location.hash) {
                     //remove it!
                     history.pushState(null, $('title').text(),
                         window.location.href.match(/^[^\#\?]+/)[0]);

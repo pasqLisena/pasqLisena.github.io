@@ -648,7 +648,6 @@ section {
     margin: auto;
     height: 100%;
     width: 100%;
-    //TODO polyfill
     object: {
       fit: contain;
       //noinspection CssInvalidPropertyValue
@@ -684,6 +683,11 @@ section {
       opacity: 1;
     }
   }
+}
+
+.no-object-fit .card img{
+  height: auto;
+  width: auto;
 }
 
 .card-container {
@@ -738,7 +742,7 @@ section {
   background: #fff;
   margin: auto;
   width: 900px;
-  min-height: 40em;
+  min-height: 39em;
   display: flex;
   @media screen and (max-width: 600px) {
     min-height: initial;
@@ -790,6 +794,7 @@ section {
   }
   main {
     flex: 2 2;
+    overflow-x: hidden;
     font-size: 1.1em;
     p {
       margin: 3em 1em;
