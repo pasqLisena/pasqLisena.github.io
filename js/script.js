@@ -16,13 +16,13 @@ $(document).ready(function () {
         callbacks: {
             open: function () {
                 var $clickedEl = $(this.currItem.el[0]);
-                if (Modernizr.history())
+                if (Modernizr.history)
                     history.pushState(null, $clickedEl.attr('title') + " | " + $('title').text(),
                         window.location.href.match(/^[^\#\?]+/)[0] + '#' + $clickedEl.data('proj'));
             },
             close: function () {
                 //if the url still contains the hash
-                if (Modernizr.history() && window.location.hash) {
+                if (Modernizr.history && window.location.hash) {
                     //remove it!
                     history.pushState(null, $('title').text(),
                         window.location.href.match(/^[^\#\?]+/)[0]);
