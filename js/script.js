@@ -1,3 +1,10 @@
+Modernizr.load({
+    test: Modernizr.objectFit,
+    yep : 'geo.js',
+    nope: 'geo-polyfill.js'
+});
+
+
 $(window).on('scroll resize', function (e) {
     var scroll = $(window).scrollTop();
 
