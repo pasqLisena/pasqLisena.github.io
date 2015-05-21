@@ -252,7 +252,7 @@ section {
   @media screen and (min-width: 601px) {
     height: 35vh;
     width: 35vh;
-    padding: 5vh 0;
+    padding: 5vh;
   }
 }
 
@@ -265,6 +265,7 @@ section {
   display: inline-block;
   @include transition(transform $imgTransformTime $imgTransformFunc);
   img {
+    display: block;
     height: 100%;
     @include border-radius(50%);
     @include material-shadow;
@@ -401,6 +402,7 @@ section {
   .map {
     display: block;
     margin: auto;
+
     @media screen and (min-width: 601px) {
       margin: {
         top: 10px;
