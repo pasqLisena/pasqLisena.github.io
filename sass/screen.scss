@@ -265,7 +265,7 @@ section {
   display: inline-block;
   @include transition(transform $imgTransformTime $imgTransformFunc);
   img {
-    display: block;
+    display: inline-block;
     height: 100%;
     @include border-radius(50%);
     @include material-shadow;
