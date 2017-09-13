@@ -1,47 +1,24 @@
 {
-  "name": "ng2-brunch",
-  "description": "Brunch with Angular 2",
-  "author": "Colin Bate <colin@colinbate.com>",
-  "version": "1.0.0",
+  "name": "pasqlisena.github.io",
+  "version": "2.0.0",
+  "description": "Pasquale Lisena's personal website",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colinbate/ng2-brunch"
+    "url": "git+https://github.com/pasqLisena/pasqLisena.github.io.git"
   },
-  "scripts": {
-    "start": "brunch watch --server",
-    "build": "brunch build",
-    "build:prod": "brunch build --production"
+  "author": "",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/pasqLisena/pasqLisena.github.io/issues"
   },
-  "license": "MIT",
-  "dependencies": {
-    "@angular/common": "2.4.1",
-    "@angular/compiler": "2.4.1",
-    "@angular/core": "2.4.1",
-    "@angular/forms": "2.4.1",
-    "@angular/http": "2.4.1",
-    "@angular/material": "^2.0.0-beta.1",
-    "@angular/platform-browser": "2.4.1",
-    "@angular/platform-browser-dynamic": "2.4.1",
-    "@angular/router": "3.4.1",
-    "@types/es6-shim": "^0.31.32",
-    "es6-promise": "^4.0.5",
-    "es6-shim": "^0.35.0",
-    "reflect-metadata": "^0.1.3",
-    "rxjs": "5.0.2",
-    "zone.js": "^0.7.4"
-  },
+  "homepage": "https://github.com/pasqLisena/pasqLisena.github.io#readme",
+  "dependencies": {},
   "devDependencies": {
-    "auto-reload-brunch": "2.7.1",
-    "brunch": "2.6.0 - 2.8.0 || >2.8.1",
-    "brunch-typescript": "2.0.1",
-    "clean-css-brunch": "^2.0.0",
-    "environment-brunch": "^1.0.0",
-    "inline-css-brunch": "^2.0.0",
-    "javascript-brunch": "^2.0.0",
     "nib": "^1.1.2",
-    "rupture": "^0.6.2",
-    "stylus-brunch": "^2.8.0",
-    "typescript": "^2.0.3",
-    "uglify-js-brunch": "^2.0.1"
+    "rupture": "^0.6.2"
   }
 }

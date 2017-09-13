@@ -1,0 +1,273 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 0.9em;
+  }
+}
+.inner {
+  margin: auto;
+  max-width: 900px;
+}
+#mainHeader {
+  display: block;
+  background: -webkit-linear-gradient(left, #ca4539 50%, #d8776f 51%);
+  background: -moz-linear-gradient(left, #ca4539 50%, #d8776f 51%);
+  background: -o-linear-gradient(left, #ca4539 50%, #d8776f 51%);
+  background: -ms-linear-gradient(left, #ca4539 50%, #d8776f 51%);
+  background: linear-gradient(to right, #ca4539 50%, #d8776f 51%);
+  overflow: hidden;
+}
+@media only screen and (min-width: 800px) {
+  #mainHeader {
+    font-size: 1.1em;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #mainHeader {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #mainHeader {
+    font-size: 0.7em;
+  }
+}
+#mainHeader .inner {
+  background: url("/images/face.jpg") #ca4539 bottom right no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  position: relative;
+}
+@media only screen and (max-width: 426px) {
+  #mainHeader .inner {
+    background-position: 10em bottom;
+  }
+}
+#mainHeader .inner:before {
+  content: '';
+  display: block;
+  background: #d8776f;
+  position: absolute;
+  top: -23em;
+  left: -41.4em;
+  height: 46em;
+  width: 46em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+@media only screen and (max-width: 600px) {
+  #mainHeader .inner:before {
+    top: -28.52em;
+  }
+}
+#mainHeader .inner .content {
+  height: 30em;
+  position: relative;
+  z-index: 5;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+#mainHeader .inner .content p {
+  color: rgba(255,255,255,0.8);
+  font-family: 'Exo', sans-serif;
+  font-weight: 100;
+  line-height: 1.3em;
+  padding-bottom: 0.3em;
+  border-bottom: 0.3rem solid #fff;
+}
+#mainHeader .inner .content p strong {
+  display: block;
+  color: #ffc107;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+@media only screen and (max-width: 600px) {
+  #mainHeader .inner .content p strong {
+    font-size: 1.1em;
+  }
+}
+#mainHeader .inner .content p strong:first-of-type {
+  font-size: 2em;
+}
+@media only screen and (max-width: 600px) {
+  #mainHeader .inner .content p strong:first-of-type {
+    font-size: 1.7em;
+  }
+}
+#mainHeader .inner .content p,
+#mainHeader .inner .content .fastLinks {
+  font-size: 1.6em;
+  margin: 0 50% 0 auto;
+  width: 50%;
+  max-width: 9.7em;
+}
+@media only screen and (max-width: 600px) {
+  #mainHeader .inner .content p,
+  #mainHeader .inner .content .fastLinks {
+    max-width: 8.6em;
+  }
+}
+@media only screen and (min-width: 800px) {
+  #mainHeader .inner .content p,
+  #mainHeader .inner .content .fastLinks {
+    margin-right: 60%;
+  }
+}
+#mainHeader .inner .content .fastLinks {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0.3em 0.4em;
+}
+#mainHeader .inner .content .fastLinks a {
+  color: #fff;
+  font-size: 0.8em;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+#mainHeader .inner .content .fastLinks a:hover {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+}
+#mainHeader .inner .content .fastLinks a img {
+  max-height: 0.9em;
+}

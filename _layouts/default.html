@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="author" content="Pasquale Lisena">
+  <meta name="description" content="Personal page of Pasquale Lisena, web engineer and researcher.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Exo:200,400,600|Roboto:300,400,500" rel="stylesheet">
+  <link href="http://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header id="mainHeader">
+    <div class="inner">
+      <div class="content">
+        <p>{{page.greetings}}</p>
+        <section class="fastLinks">
+          <div>
+            {% for s in page.social %}
+            <a class="mdi {{s.icon}}" alt="{{s.label}}" href="{{s.uri}}"></a> {% endfor %}
+          </div>
+          <div>
+            <a rel="external" target="_blank" href="{{page.current_job.uri}}" alt="{{page.current_job.label}}">
+              <img src="{{page.current_job.logo}}"/>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </header>
+
+  <p>{{ page.title }}!</p>
+
+</body>
+
+</html>
