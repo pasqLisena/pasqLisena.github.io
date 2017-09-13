@@ -14,27 +14,18 @@
 </head>
 
 <body>
-  <header id="mainHeader">
+  {% include header.big.html %}
+
+  <section class="page">
     <div class="inner">
-      <div class="content">
-        <p>{{page.greetings}}</p>
-        <section class="fastLinks">
-          <div>
-            {% for s in page.social %}
-            <a class="mdi {{s.icon}}" alt="{{s.label}}" href="{{s.uri}}"></a> {% endfor %}
-          </div>
-          <div>
-            <a rel="external" target="_blank" href="{{page.current_job.uri}}" alt="{{page.current_job.label}}">
-              <img src="{{page.current_job.logo}}"/>
-            </a>
-          </div>
-        </section>
+      <div class="box">
+        {{ content }}
       </div>
+
     </div>
-  </header>
+  </section>
 
-  <p>{{ page.title }}!</p>
-
+  <script type="application/ld+json">{{site.data.pasquale | jsonify}}</script>
 </body>
 
 </html>

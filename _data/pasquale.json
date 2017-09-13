@@ -1,0 +1,16 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Pasquale Lisena",
+  "email": "pasquale.lisena@eurecom.fr",
+  "jobTitle": "Web Engineer and Researcher",
+  "image": "../images/pasquale_lisena.jpg",
+  "url": "http://pasqlisena.github.io",
+  "mainEntityOfPage": "http://pasqlisena.github.io",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "EURECOM",
+    "logo": "/images/logo/eurecom.png",
+    "url": "http://www.eurecom.fr/"
+  }
+}

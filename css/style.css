@@ -96,16 +96,47 @@ a img {
 }
 html {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
 }
 @media only screen and (max-width: 600px) {
   html {
     font-size: 0.9em;
   }
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #e5e5e5;
+}
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.5em;
+  padding-bottom: 0.2em;
+  display: inline-block;
+  color: #ca4539;
+  border-bottom: 0.2rem solid #000;
+  margin-bottom: 1.4em;
+}
+p {
+  line-height: 1.2em;
+}
+a {
+  color: #ca4539;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  text-decoration: underline;
+}
 .inner {
   margin: auto;
   max-width: 900px;
+}
+.box {
+  display: block;
+  margin: 1em;
+  padding: 2em;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 #mainHeader {
   display: block;
@@ -132,7 +163,7 @@ html {
   }
 }
 #mainHeader .inner {
-  background: url("/images/face.jpg") #ca4539 bottom right no-repeat;
+  background: url("/images/pasquale_lisena.jpg") #ca4539 bottom right no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
@@ -163,8 +194,13 @@ html {
     top: -28.52em;
   }
 }
+@media only screen and (min-width: 800px) {
+  #mainHeader .inner:before {
+    left: -46em;
+  }
+}
 #mainHeader .inner .content {
-  height: 30em;
+  height: 28em;
   position: relative;
   z-index: 5;
   display: -webkit-box;
@@ -186,6 +222,17 @@ html {
   -webkit-justify-content: center;
   justify-content: center;
 }
+#mainHeader .inner .content > * {
+  font-size: 1.6em;
+  margin: 0 50% 0 auto;
+  width: 50%;
+  max-width: 9.7em;
+}
+@media only screen and (max-width: 600px) {
+  #mainHeader .inner .content > * {
+    max-width: 8.6em;
+  }
+}
 #mainHeader .inner .content p {
   color: rgba(255,255,255,0.8);
   font-family: 'Exo', sans-serif;
@@ -193,6 +240,7 @@ html {
   line-height: 1.3em;
   padding-bottom: 0.3em;
   border-bottom: 0.3rem solid #fff;
+  margin-top: 2em;
 }
 #mainHeader .inner .content p strong {
   display: block;
@@ -212,25 +260,6 @@ html {
 @media only screen and (max-width: 600px) {
   #mainHeader .inner .content p strong:first-of-type {
     font-size: 1.7em;
-  }
-}
-#mainHeader .inner .content p,
-#mainHeader .inner .content .fastLinks {
-  font-size: 1.6em;
-  margin: 0 50% 0 auto;
-  width: 50%;
-  max-width: 9.7em;
-}
-@media only screen and (max-width: 600px) {
-  #mainHeader .inner .content p,
-  #mainHeader .inner .content .fastLinks {
-    max-width: 8.6em;
-  }
-}
-@media only screen and (min-width: 800px) {
-  #mainHeader .inner .content p,
-  #mainHeader .inner .content .fastLinks {
-    margin-right: 60%;
   }
 }
 #mainHeader .inner .content .fastLinks {

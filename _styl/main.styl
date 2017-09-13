@@ -1,5 +1,6 @@
 // out: ../css/style.css, libs: nib rupture
 
+
 @import "nib/reset"
 @import "nib"
 @import "_vars";
@@ -11,94 +12,47 @@ global-reset()
 
 html
   margin 0
-  font-family: 'Roboto', sans-serif
   +below('s')
     font-size .9em
 
+body
+  font-family: 'Roboto', sans-serif
+  background lightGray
+
+h1
+  font-family titleFont
+  font-size 1.5em
+  padding-bottom .2em
+
+  display inline-block
+  color main
+  border-bottom .2rem solid #000
+  margin-bottom 1.4em
+
+p
+  line-height 1.2em
+
+a
+  color main
+  text-decoration none
+  font-weight 500
+  &:hover
+    text-decoration underline
 
 .inner
   margin auto
   max-width 900px
 
-
-triangleDim = 46em
-
-#mainHeader
+.box
   display block
-  background linear-gradient(left, main 50%, mainLight 51%)
-  overflow hidden
-  +above('l')
-    font-size 1.1em
-  +below('m')
-    font-size 0.8em
-  +below('s')
-    font-size 0.7em
-  .inner
-    background url("/images/face.jpg") main bottom right no-repeat
-    background-size contain
-    position relative
-    +below(426px)
-      background-position 10em bottom
-    &:before
-      // ligth triangle up left
-      content ''
-      display block
-      background mainLight
-      position absolute
-      top -0.5*triangleDim
-      left -0.9*triangleDim
-      height triangleDim
-      width triangleDim
-      transform rotate(45deg)
-      +below('s')
-        top -0.62*triangleDim
+  margin 1em
+  padding 2em
 
-    .content
-      height 30em
-      position relative
-      z-index 5
-      display flex
-      flex-direction column
-      justify-content center
-      p
-        color alpha(#fff, .8)
-        font-family 'Exo', sans-serif
-        font-weight 100
-        line-height 1.3em
-        padding-bottom .3em
-        border-bottom .3rem solid #fff
-        strong
-          display block
-          color accent
-          font-weight 600
-          font-size 1.3em
-          line-height 1.2em
-          +below('s')
-            font-size 1.1em
-          &:first-of-type
-            font-size 2em
-            +below('s')
-              font-size 1.7em
-      p,
-      .fastLinks
-        font-size 1.6em
-        margin 0 50% 0 auto
-        width 50%
-        max-width 9.7em
-        +below('s')
-          max-width 8.6em
-        +above('l')
-          margin-right 60%
-      .fastLinks
-        display flex
-        justify-content space-between
-        align-items center
-        padding .3em .4em
-        a
-          color #fff
-          font-size .8em
-          transition opacity .3s ease-in-out
-          &:hover
-            opacity .7
-          img
-            max-height .9em
+  background #fff
+  box-shadow 0 2px 2px 0 rgba(0, 0, 0, .14),
+            0 1px 5px 0 rgba(0, 0, 0, .12),
+            0 3px 1px -2px rgba(0, 0, 0, .2)
+
+
+
+@import "components/_header";
