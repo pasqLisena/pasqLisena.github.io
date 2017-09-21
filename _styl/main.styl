@@ -1,0 +1,75 @@
+// out: ../css/style.css, libs: nib rupture
+
+@import "nib/reset"
+@import "nib"
+@import "_vars";
+
+global-reset()
+
+*
+  box-sizing border-box
+
+html
+  margin 0
+  +below('s')
+    font-size .9em
+
+body
+  font-family: 'Roboto', sans-serif
+  background lightGray
+
+h1
+  font-family titleFont
+  font-size 1.5em
+  padding-bottom .2em
+
+  display inline-block
+  color main
+  border-bottom .2rem solid #000
+  margin-bottom 1.4em
+
+p
+  line-height 1.2em
+
+a
+  color main
+  text-decoration none
+  font-weight 500
+  transition all 200ms ease-in-out
+  &:hover
+    text-decoration underline
+
+.inner
+  margin auto
+  max-width 900px
+
+.flex
+  display flex
+
+.page.internal
+  +above('m')
+    min-height 30em
+
+.box
+  display block
+  margin 1em
+  padding 2em
+
+  background #fff
+  box-shadow 0 2px 2px 0 rgba(0, 0, 0, .14),
+            0 1px 5px 0 rgba(0, 0, 0, .12),
+            0 3px 1px -2px rgba(0, 0, 0, .2)
+  &.twitter
+    flex 0 0 400px
+    padding 1em
+
+.jekyll-twitter-plugin
+  text-align center
+
+nav
+  position relative
+  z-index 10
+
+@import "components/_header";
+@import "components/_footer";
+@import "components/_nav";

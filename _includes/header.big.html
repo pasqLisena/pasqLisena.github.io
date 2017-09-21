@@ -1,0 +1,22 @@
+<header id="mainHeader">
+  <div class="inner">
+    {% include nav.html %}
+    <div class="content">
+      <p>{{site.data.meta.greetings}}</p>
+      <section class="fastLinks">
+        <div>
+          {% for s in site.data.meta.social %}
+          {% if s.top %}
+          <a class="mdi {{s.icon}}" alt="{{s.label}}" href="{{s.uri}}"></a>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div>
+          <a rel="external" target="_blank" href="{{site.data.pasquale.worksFor.url}}" alt="{{site.data.pasquale.worksFor.label}}">
+            <img src="{{site.data.pasquale.worksFor.logo}}"/>
+          </a>
+        </div>
+      </section>
+    </div>
+  </div>
+</header>

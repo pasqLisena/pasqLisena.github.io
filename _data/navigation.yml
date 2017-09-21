@@ -1,0 +1,14 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  icon: mdi mdi-home
+  url: /
+
+- title: Research
+  url: /research
+
+- title: Experience
+  url: /experience
+
+- title: Projects
+  url: /projects

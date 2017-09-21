@@ -1,0 +1,18 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Pasquale Lisena",
+  "email": "pasquale.lisena@eurecom.fr",
+  "telephone": "+33 4 93 00 81 50",
+  "jobTitle": "Web Engineer and Researcher",
+  "image": "../images/pasquale_lisena.jpg",
+  "url": "http://pasqlisena.github.io",
+  "mainEntityOfPage": "http://pasqlisena.github.io",
+  "address" : "EURECOM\nCampus SophiaTech\n450 rue des Chappes\n06410 Biot FRANCE",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "EURECOM",
+    "logo": "/images/logo/eurecom.png",
+    "url": "http://www.eurecom.fr/"
+  }
+}

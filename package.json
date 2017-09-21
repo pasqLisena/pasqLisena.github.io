@@ -1,0 +1,24 @@
+{
+  "name": "pasqlisena.github.io",
+  "version": "2.0.0",
+  "description": "Pasquale Lisena's personal website",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasqLisena/pasqLisena.github.io.git"
+  },
+  "author": "",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/pasqLisena/pasqLisena.github.io/issues"
+  },
+  "homepage": "https://github.com/pasqLisena/pasqLisena.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nib": "^1.1.2",
+    "rupture": "^0.6.2"
+  }
+}

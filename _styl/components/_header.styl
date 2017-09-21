@@ -1,0 +1,100 @@
+// main: ../main.styl
+
+triangleDim = 46em
+
+#mainHeader
+  display block
+  background linear-gradient(left, main 50%, mainLight 51%)
+  overflow hidden
+  &:not(.small)
+    +above('l')
+      font-size 1.1em
+    +below('m')
+      font-size 0.8em
+    +below('s')
+      font-size 0.7em
+  &.small
+    .inner
+      height 3.6rem
+      padding 0 6em
+      +below('m')
+        background main
+        padding 0
+        &:before
+          content none
+  .inner
+    background url("/images/pasquale_lisena.jpg") main bottom right no-repeat
+    background-size contain
+    position relative
+    +below(426px)
+      background-position 10em bottom
+    &:before
+      // ligth triangle up left
+      content ''
+      display block
+      background mainLight
+      position absolute
+      top -0.5*triangleDim
+      left -0.9*triangleDim
+      height triangleDim
+      width triangleDim
+      transform rotate(45deg)
+      +below('s')
+        top -0.62*triangleDim
+      +above('l')
+        left -1*triangleDim
+
+    .content
+      height 28em
+      position relative
+      z-index 5
+      display flex
+      flex-direction column
+      justify-content center
+      > *
+        font-size 1.6em
+        margin 0 50% 0 auto
+        width 50%
+        max-width 9.7em
+        +below('s')
+          font-size 1.8em
+          max-width 10em
+          margin-left 20%
+      p
+        color alpha(#fff, .8)
+        font-family titleFont
+        font-weight 100
+        line-height 1.3em
+        padding-bottom .3em
+        border-bottom borderDim solid #fff
+        margin-top 2em
+
+        strong
+          display block
+          color accent
+          font-weight 600
+          font-size 1.3em
+          line-height 1.2em
+          +below('s')
+            font-size 1.1em
+          &:first-of-type
+            font-size 2em
+            +below('s')
+              font-size 1.7em
+      .fastLinks
+        display flex
+        justify-content space-between
+        align-items center
+
+        padding .3em .4em
+
+
+.fastLinks
+  a
+    color #fff
+    font-size 1.3rem !important
+    transition opacity .3s ease-in-out
+    &:hover
+      opacity .7
+    img
+      max-height .9em
