@@ -2,10 +2,10 @@
   <div class="inner">
     {% include nav.html %}
     <div class="content">
-      <p>{{page.greetings}}</p>
+      <p>{{site.data.meta.greetings}}</p>
       <section class="fastLinks">
         <div>
-          {% for s in page.social %}
+          {% for s in site.data.meta.social %}
           {% if s.top %}
           <a class="mdi {{s.icon}}" alt="{{s.label}}" href="{{s.uri}}"></a>
           {% endif %}

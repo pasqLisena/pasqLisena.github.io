@@ -6,12 +6,22 @@ triangleDim = 46em
   display block
   background linear-gradient(left, main 50%, mainLight 51%)
   overflow hidden
-  +above('l')
-    font-size 1.1em
-  +below('m')
-    font-size 0.8em
-  +below('s')
-    font-size 0.7em
+  &:not(.small)
+    +above('l')
+      font-size 1.1em
+    +below('m')
+      font-size 0.8em
+    +below('s')
+      font-size 0.7em
+  &.small
+    .inner
+      height 3.6rem
+      padding 0 6em
+      +below('m')
+        background main
+        padding 0
+        &:before
+          content none
   .inner
     background url("/images/pasquale_lisena.jpg") main bottom right no-repeat
     background-size contain

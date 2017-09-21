@@ -8,7 +8,7 @@
           <a class="contact" href="tel:{{site.data.pasquale.telephone | remove: " "}}">{{site.data.pasquale.telephone}}</a>
         </div>
         <section class="fastLinks">
-          {% for s in page.social %}
+          {% for s in site.data.meta.social %}
           {% unless s.bottom == false %}
           <a class="mdi {{s.icon}}" alt="{{s.label}}" href="{{s.uri}}"></a>
           {% endunless %}
