@@ -17,17 +17,21 @@
   {% include header.big.html %}
 
   <section class="page">
-    <div class="inner">
+    <div class="inner flex">
       <div class="box">
         {{ content }}
       </div>
-
+      <div class="box twitter">
+        {% twitter https://twitter.com/pasqLisena maxwidth=400 limit=2 %}
+      </div>
     </div>
   </section>
 
   {% include footer.html %}
 
-  <script type="application/ld+json">{{site.data.pasquale | jsonify}}</script>
+  <script type="application/ld+json">
+    {{site.data.pasquale | jsonify}}
+  </script>
 </body>
 
 </html>
