@@ -135,13 +135,15 @@ a:hover {
   margin: auto;
   max-width: 900px;
 }
-.flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
+@media only screen and (min-width: 800px) {
+  .inner.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+  }
 }
 @media only screen and (min-width: 600px) {
   .page.internal {
@@ -165,8 +167,6 @@ a:hover {
   -ms-flex: 0 0 400px;
   flex: 0 0 400px;
   padding: 1em;
-}
-.jekyll-twitter-plugin {
   text-align: center;
 }
 nav {

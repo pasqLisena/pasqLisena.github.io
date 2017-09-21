@@ -43,8 +43,9 @@ a
   margin auto
   max-width 900px
 
-.flex
-  display flex
+  &.flex
+    +above('l')
+      display flex
 
 .page.internal
   +above('m')
@@ -62,9 +63,7 @@ a
   &.twitter
     flex 0 0 400px
     padding 1em
-
-.jekyll-twitter-plugin
-  text-align center
+    text-align center
 
 nav
   position relative
