@@ -122,6 +122,11 @@ a {
   color: #ca4539;
   text-decoration: none;
   font-weight: 500;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 a:hover {
   text-decoration: underline;
@@ -158,6 +163,10 @@ a:hover {
 }
 .jekyll-twitter-plugin {
   text-align: center;
+}
+nav {
+  position: relative;
+  z-index: 10;
 }
 #mainHeader {
   display: block;
@@ -479,4 +488,36 @@ a:hover {
 }
 #mainFooter .inner .content .fastLinks a {
   margin-right: 0.7em;
+}
+nav {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 0.4em;
+}
+nav li {
+  display: inline-block;
+  margin: 0 2em;
+  font-size: 1rem;
+}
+nav li a {
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.8);
+  font-weight: 100;
+  padding: 0.5em;
+  display: inline-block;
+}
+nav li a.mdi {
+  font-size: 0;
+}
+nav li a.mdi::before {
+  font-size: 1rem;
+}
+nav li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+nav li.current a {
+  color: #fff;
+  border-bottom: 2px solid #ffc107;
 }
