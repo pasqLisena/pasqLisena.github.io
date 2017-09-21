@@ -1,0 +1,92 @@
+// main: ../main.styl
+
+triangleDim = 30em
+
+#mainFooter
+  display block
+  background main
+  color #fff
+  overflow hidden
+  +above('l')
+    font-size 1.1em
+  .inner
+    position relative
+    &:before, &:after
+      content ''
+      display block
+      background mainLight
+      position absolute
+
+      height triangleDim
+      width triangleDim
+      transform rotate(45deg)
+
+      // ligth triangles
+      +below('s')
+        content none
+
+    &:before
+      top -0.5*triangleDim
+      left -0.9*triangleDim
+      +above('l')
+        left -1*triangleDim
+
+    &:after
+      bottom -0.5*triangleDim
+      right -0.9*triangleDim
+      +above('l')
+        right -1*triangleDim
+
+    .content
+      position relative
+      z-index 5
+      padding 1em
+      +above('m')
+        display flex
+        justify-content center
+      +below('s')
+        text-align center
+      > div
+        padding 1em 3.5em
+        +below('m')
+          padding 2em 1em 2em
+
+      .contacts
+        flex 1
+        +above('m')
+          border-right 1px solid darken(main, 10)
+        +below('s')
+          border-bottom 1px solid darken(main, 10)
+        h1
+          margin-bottom .5em
+      .place
+        flex 1.5
+        .location
+          display block
+          +above('m')
+            float right
+
+      h1
+        color accent
+        border-bottom-color #fff
+        margin-bottom 1em
+
+      pre, a
+        font-size .9em
+        font-weight 100
+        line-height 1.2em
+
+      a
+        color #fff
+        transition opacity .3s ease-in-out
+        &:hover
+          opacity .7
+
+      .contact
+        display block
+        padding .3em
+        margin-bottom 1em
+
+      .fastLinks
+        a
+          margin-right .7em

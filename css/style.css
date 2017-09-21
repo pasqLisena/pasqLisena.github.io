@@ -230,7 +230,9 @@ a:hover {
 }
 @media only screen and (max-width: 600px) {
   #mainHeader .inner .content > * {
-    max-width: 8.6em;
+    font-size: 1.8em;
+    max-width: 10em;
+    margin-left: 20%;
   }
 }
 #mainHeader .inner .content p {
@@ -283,20 +285,177 @@ a:hover {
   align-items: center;
   padding: 0.3em 0.4em;
 }
-#mainHeader .inner .content .fastLinks a {
+.fastLinks a {
   color: #fff;
-  font-size: 0.8em;
+  font-size: 1.3rem !important;
   -webkit-transition: opacity 0.3s ease-in-out;
   -moz-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   -ms-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-#mainHeader .inner .content .fastLinks a:hover {
+.fastLinks a:hover {
   opacity: 0.7;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
   filter: alpha(opacity=70);
 }
-#mainHeader .inner .content .fastLinks a img {
+.fastLinks a img {
   max-height: 0.9em;
+}
+#mainFooter {
+  display: block;
+  background: #ca4539;
+  color: #fff;
+  overflow: hidden;
+}
+@media only screen and (min-width: 800px) {
+  #mainFooter {
+    font-size: 1.1em;
+  }
+}
+#mainFooter .inner {
+  position: relative;
+}
+#mainFooter .inner:before,
+#mainFooter .inner:after {
+  content: '';
+  display: block;
+  background: #d8776f;
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+@media only screen and (max-width: 600px) {
+  #mainFooter .inner:before,
+  #mainFooter .inner:after {
+    content: none;
+  }
+}
+#mainFooter .inner:before {
+  top: -15em;
+  left: -27em;
+}
+@media only screen and (min-width: 800px) {
+  #mainFooter .inner:before {
+    left: -30em;
+  }
+}
+#mainFooter .inner:after {
+  bottom: -15em;
+  right: -27em;
+}
+@media only screen and (min-width: 800px) {
+  #mainFooter .inner:after {
+    right: -30em;
+  }
+}
+#mainFooter .inner .content {
+  position: relative;
+  z-index: 5;
+  padding: 1em;
+}
+@media only screen and (min-width: 600px) {
+  #mainFooter .inner .content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #mainFooter .inner .content {
+    text-align: center;
+  }
+}
+#mainFooter .inner .content > div {
+  padding: 1em 3.5em;
+}
+@media only screen and (max-width: 800px) {
+  #mainFooter .inner .content > div {
+    padding: 2em 1em 2em;
+  }
+}
+#mainFooter .inner .content .contacts {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+@media only screen and (min-width: 600px) {
+  #mainFooter .inner .content .contacts {
+    border-right: 1px solid #a4362c;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #mainFooter .inner .content .contacts {
+    border-bottom: 1px solid #a4362c;
+  }
+}
+#mainFooter .inner .content .contacts h1 {
+  margin-bottom: 0.5em;
+}
+#mainFooter .inner .content .place {
+  -webkit-box-flex: 1.5;
+  -moz-box-flex: 1.5;
+  -o-box-flex: 1.5;
+  box-flex: 1.5;
+  -webkit-flex: 1.5;
+  -ms-flex: 1.5;
+  flex: 1.5;
+}
+#mainFooter .inner .content .place .location {
+  display: block;
+}
+@media only screen and (min-width: 600px) {
+  #mainFooter .inner .content .place .location {
+    float: right;
+  }
+}
+#mainFooter .inner .content h1 {
+  color: #ffc107;
+  border-bottom-color: #fff;
+  margin-bottom: 1em;
+}
+#mainFooter .inner .content pre,
+#mainFooter .inner .content a {
+  font-size: 0.9em;
+  font-weight: 100;
+  line-height: 1.2em;
+}
+#mainFooter .inner .content a {
+  color: #fff;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+#mainFooter .inner .content a:hover {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+}
+#mainFooter .inner .content .contact {
+  display: block;
+  padding: 0.3em;
+  margin-bottom: 1em;
+}
+#mainFooter .inner .content .fastLinks a {
+  margin-right: 0.7em;
 }

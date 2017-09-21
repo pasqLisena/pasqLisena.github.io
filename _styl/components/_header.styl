@@ -47,7 +47,9 @@ triangleDim = 46em
         width 50%
         max-width 9.7em
         +below('s')
-          max-width 8.6em
+          font-size 1.8em
+          max-width 10em
+          margin-left 20%
       p
         color alpha(#fff, .8)
         font-family titleFont
@@ -69,17 +71,20 @@ triangleDim = 46em
             font-size 2em
             +below('s')
               font-size 1.7em
-
       .fastLinks
         display flex
         justify-content space-between
         align-items center
+
         padding .3em .4em
-        a
-          color #fff
-          font-size .8em
-          transition opacity .3s ease-in-out
-          &:hover
-            opacity .7
-          img
-            max-height .9em
+
+
+.fastLinks
+  a
+    color #fff
+    font-size 1.3rem !important
+    transition opacity .3s ease-in-out
+    &:hover
+      opacity .7
+    img
+      max-height .9em
