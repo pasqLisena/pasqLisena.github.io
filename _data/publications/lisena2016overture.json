@@ -1,0 +1,15 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ScholarlyArticle",
+  "copyrightYear": "2016",
+  "name": "Exploring linked classical music catalogs with OVERTURE",
+  "author": [
+    "Lisena, Pasquale",
+    "Achichi, Manel",
+    "Fernandez, Eva",
+    "Todorov, Konstantin",
+    "Troncy, Rapha\"el"
+  ],
+  "isPartOf": "15$^th$ International Semantic Web Conference (ISWC)",
+  "url": "http://www.eurecom.fr/publication/5010"
+}

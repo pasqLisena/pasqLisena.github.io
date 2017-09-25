@@ -1,0 +1,22 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ScholarlyArticle",
+  "isPartOf": "The Ninth International Conference on Advances in Computer-Human Interactions (ACHI'16)",
+  "name": "User-Customizable Web Components for Building One-Page Sites",
+  "author": [
+    "Lisena, Pasquale",
+    "Xhembulla, Jetmir",
+    "Malnati, Giovanni",
+    "Morra, Pasquale"
+  ],
+  "copyrightYear": "2016",
+  "keywords": [
+    "website generation",
+    "web components",
+    "html5",
+    "modularity",
+    "end-user generation",
+    "sme"
+  ],
+  "url": "http://porto.polito.it/2643086/"
+}
