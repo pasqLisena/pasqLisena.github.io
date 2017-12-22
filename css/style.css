@@ -115,6 +115,11 @@ h1 {
   border-bottom: 0.2rem solid #000;
   margin-bottom: 1.4em;
 }
+h2 {
+  font-family: 'Exo', sans-serif;
+  font-size: 1em;
+  margin-bottom: 1em;
+}
 p {
   line-height: 1.2em;
 }
@@ -169,9 +174,32 @@ a:hover {
   padding: 1em;
   text-align: center;
 }
+.box em {
+  font-style: italic;
+}
+.box ul {
+  list-style: disc;
+  padding-left: 1.3em;
+}
+.box ul li {
+  margin-bottom: 0.4em;
+}
+.box > ul {
+  margin-bottom: 1em;
+}
+.box > ul li {
+  font-weight: 100;
+  line-height: 1.2em;
+}
+.box > ul a {
+  font-weight: 100;
+}
 nav {
   position: relative;
   z-index: 10;
+}
+strong {
+  font-weight: bold;
 }
 #mainHeader {
   display: block;

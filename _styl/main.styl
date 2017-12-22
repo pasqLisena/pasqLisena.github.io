@@ -27,6 +27,11 @@ h1
   color main
   border-bottom .2rem solid #000
   margin-bottom 1.4em
+  
+h2
+  font-family titleFont
+  font-size 1em
+  margin-bottom 1em
 
 p
   line-height 1.2em
@@ -65,9 +70,30 @@ a
     padding 1em
     text-align center
 
+  em
+    font-style italic
+
+  ul
+    list-style disc
+    padding-left 1.3em
+    li
+      margin-bottom .4em
+  
+  > ul
+      margin-bottom 1em
+      li
+        font-weight 100
+        line-height 1.2em
+      a
+        font-weight 100
+
 nav
   position relative
   z-index 10
+
+strong
+  font-weight bold
+  
 
 @import "components/_header";
 @import "components/_footer";
