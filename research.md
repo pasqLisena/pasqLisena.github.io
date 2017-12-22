@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Research | Pasquale Lisena"
+description: "Publications, demos, talks..."
 list: [1,2,3]
 ---
 
@@ -63,3 +64,7 @@ System Based on External Driving Factors**. In *[16th International Semantic Web
 - [Redondo García, J. L.](http://jluisred.github.io/), [Sabatino, M.](https://marsab.github.io), Lisena, P., & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Detecting Hot Spots in Web Videos**. In *[13th International Semantic Web Conference (ISWC'14)](http://iswc2014.semanticweb.org/)*, Posters & Demo Track, CEUR Proceedings Vol. 1272, pages 141-144, Riva del Garda, Italy, October 21-23, 2014.  
 [PDF](http://www.eurecom.fr/en/publication/4399/download/mm-publi-4399.pdf) -
 [BIB](./publications/redondo2014hotspots.bib)
+
+
+<!-- # Demos -->
+
