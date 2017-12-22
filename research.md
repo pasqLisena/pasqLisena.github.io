@@ -85,7 +85,7 @@ System Based on External Driving Factors**. In *[16th International Semantic Web
 [BIB](./publications/redondo2014hotspots.bib)
 </span>
 
-# Talks
+# Talks.
 - **Des Catalogues au Web des Données** [fr], in
 *[Les métadonnées en bibliothèques : offres, usages, innovations](https://www.transition-bibliographique.fr/16-09-26_jp_metadonnees_inscriptions/)*, Bibliothèque nationale de France (BnF), Paris, November 9, 2016.
 <span class="links" markdown="1">

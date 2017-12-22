@@ -4,7 +4,7 @@ title: "Projects | Pasquale Lisena"
 description: "What I work on"
 ---
 <section class="project" markdown="1">
-# DOREMUS: DOing REusable MUSical data
+# DOREMUS: DOing REusable MUSical data.
 ![DOREMUS](http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png)
 > FR ANR (2014-2018)  
 Consortium: 3 academic and 5 industrial partner
