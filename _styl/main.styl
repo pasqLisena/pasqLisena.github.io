@@ -28,6 +28,9 @@ h1
   border-bottom .2rem solid #000
   margin-bottom 1.4em
   
+  &:not(:first-of-type)
+    margin-top 2em
+  
 h2
   font-family titleFont
   font-size 1em
@@ -94,7 +97,44 @@ nav
 strong
   font-weight bold
   
+.demo
+  margin-bottom 2em
+  +above('m')
+    display flex
+    p
+      padding-left 1em
+    h2
+      flex 0 0 5em
+    img
+      max-width 10em
 
+.project
+  margin-bottom 3em
+  > p > img
+    max-width 10em
+    +above('s')
+      float right
+  blockquote
+    opacity .5
+    font-size 0.8em
+    margin-bottom .3em
+      
+.links
+  display block
+  font-size .8em
+  a
+    font-weight 400 !important
+    color #777
+    opacity .7
+    &:hover
+      opacity 1
+    &:after
+      margin 0 .2em 0 .4em
+      content '|'
+      color #000
+    &:last-of-type:after
+      content none
+      
 @import "components/_header";
 @import "components/_footer";
 @import "components/_nav";

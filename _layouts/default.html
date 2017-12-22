@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
   <meta name="author" content="Pasquale Lisena">
-  <meta name="description" content="Personal page of Pasquale Lisena, web engineer and researcher.">
+  <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="3k-A4xWf0y4Aqrq9-AOD89DWNM0jLBQdeMYODzbnr7E" />
   
@@ -22,7 +22,7 @@
       <div class="box">
         {{ content }}
       </div>
-      <div class="box twitter">
+      <div class="box twitter" id="twitter">
         <a class="twitter-timeline" data-width="400" data-tweet-limit="2" data-link-color="#ca4539" href="https://twitter.com/PasqLisena">Tweets by PasqLisena</a>
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>

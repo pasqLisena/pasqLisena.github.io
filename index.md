@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Pasquale Lisena"
-
+description: "Hello! I am Pasquale, and I am a Web Engineer and Researcher in Semantic Web technologies applied to Music Recommendation. Currently at EURECOM, France"
 ---
 
 # About me.
