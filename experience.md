@@ -15,11 +15,12 @@ description: "How did I arrive here"
 
 - Fernandez-Marin, E., **Exploring Semantic Music Catalogs**, EURECOM + Universidad de Zaragoza, September 2016
 <span class="links" markdown="1">
-[SLIDES](https://docs.google.com/presentation/d/1DBP5g9zljmFXSeEKriQCyBT5kridbtgvgQpERD-TPh8/edit?usp=sharing)
+[SLIDES](https://docs.google.com/presentation/d/1DBP5g9zljmFXSeEKriQCyBT5kridbtgvgQpERD-TPh8)
 </span>
-- Canale, L., **Ensemble strategies for Entity Linking through Deep Learning**, EURECOM + Politecnico di Torino, February 2018
-<!-- <span class="links" markdown="1">
-</span> -->
+- Canale, L., **NERD for NexGenTV**, EURECOM + Politecnico di Torino, January 2018
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/1hSJ5Evs_oMhvIWOBFt6JfAS9uVGK33mIhwUEHirnfqU/edit)
+</span>
 
 # Studies.
 
