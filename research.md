@@ -7,15 +7,40 @@ list: [1,2,3]
 
 # Publications.
 
+## 2018
+
+- Canale, L., Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **A novel ensemble method for named entity recognition and disambiguation based on neural network**. In *[17th International Semantic Web Conference (ISWC)]*, Monterey, CA, USA, October 8-12, 2018.
+
+- Achichi, M., Lisena, P., [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Troncy, R.](http://www.eurecom.fr/~troncy/) & [Delahousse, J.](https://www.linkedin.com/in/jeandelahousse/) **DOREMUS: A graph of linked musical works**. In *[17th International Semantic Web Conference (ISWC)]*, Resource Track, Monterey, CA, USA, October 8-12, 2018.
+
+- Lisena, P., [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), Cecconi, C. ,  Leresche, F., Canno, I., Puyrenier, F., Voisin, M., Le Meur, T. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Controlled  Vocabularies  for  Music  Metadata**. In *[19th International Society for Music Information Retrieval Conference (ISMIR)]*, Paris, France, September 23-27, 2018.
+
+- Lisena, P., & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Transforming the JSON Output of SPARQL Queries for Linked Data Clients**. In *[The The Web Conference 2018](https://www2018.thewebconf.org/)*, Developer Track, Lyon, France, April 23-27, 2018.
+<span class="links" markdown="1">
+[PDF](http://www.eurecom.fr/fr/publication/5520/download/data-publi-5520.pdf)
+[BIB](./publication/lisena2018sparqlTransformer.bib)
+[SLIDES](https://docs.google.com/presentation/d/1YssM-kxhLUz37Y0bgnI7382JlQiY5-50PfLpEimcb8Q)
+[CODE](https://github.com/D2KLab/sparql-transformer)
+</span>
+
+
+- Lisena, P., Achichi, M., [Choffé, P.](https://la-cascade.io/), Cecconi, C., [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Jacquemin, B.](https://pro.univ-lille.fr/bernard-jacquemin/) & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Improving (Re-) Usability of Musical Datasets: An Overview of the DOREMUS Project**. In *[BIBLIOTHEK - Forschung und Praxis](https://edoc.hu-berlin.de/handle/18452/19065)*,  AR 3189, March 2018.
+<span class="links" markdown="1">
+[PDF](http://www.eurecom.fr/fr/publication/5509/download/data-publi-5509.pdf) 
+[BIB](./publication/lisena2018improving.bib)
+</span>
+
 ## 2017
 
 - Lisena, P., & [Troncy, R.](http://www.eurecom.fr/~troncy/) Tutorial on **DOing REusable MUSical data**. In *[9th International Conference on Knowledge Capture (K-CAP'17)](http://k-cap2017.org/)*, Austin, Texas, USA, December 4-6, 2017.
 <span class="links" markdown="1">
+[PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf) 
+[BIB](./publication/lisena2017doremusTutorial.bib)
 [SITE](https://doremus-anr.github.io/kcap17_tutorial/)
 [SLIDES](https://doremus-anr.github.io/kcap17_tutorial/slides.html)
 </span>
 
-- Lisena, P., [Troncy, R.](http://www.eurecom.fr/~troncy/), [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov) & Achichi, M. **Modeling the Complexity of Music Metadata in Semantic Graphs for Exploration and Discovery**. In ([ISMIR'17](https://ismir2017.smcnus.org/)) **[4th International Workshop on Digital Libraries for Musicology (DLfM'17)](http://www.transforming-musicology.org/dlfm2017/)**, Shanghai, China, October 28, 2017.  
+- Lisena, P., [Troncy, R.](http://www.eurecom.fr/~troncy/), [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov) & Achichi, M. **Modeling the Complexity of Music Metadata in Semantic Graphs for Exploration and Discovery**. In ([ISMIR'17](https://ismir2017.smcnus.org/)) *[4th International Workshop on Digital Libraries for Musicology (DLfM'17)](http://www.transforming-musicology.org/dlfm2017/)*, Shanghai, China, October 28, 2017.  
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/5307/download/data-publi-5307.pdf)
 [BIB](./publication/lisena2017modeling.bib)
@@ -85,7 +110,22 @@ System Based on External Driving Factors**. In *[16th International Semantic Web
 [BIB](./publications/redondo2014hotspots.bib)
 </span>
 
-# Talks.
+# Talks and Tutorials.
+
+- Tutorial on **Music Knowledge Graph and Deep-Learning Based Recommender Systems**. In *[15th Extended Semantic Web Conference (ESWC'18)](https://2018.eswc-conferences.org/)*, Heraklion, Greece, June 3, 2018.
+<span class="links" markdown="1">
+[SITE](https://doremus-anr.github.io/eswc18_tutorial/)
+[SLIDES](https://doremus-anr.github.io/eswc18_tutorial/slides.html)
+</span>
+
+- Tutorial on **DOing REusable MUSical data**. In *[9th International Conference on Knowledge Capture (K-CAP'17)](http://k-cap2017.org/)*, Austin, Texas, USA, December 4, 2017.
+<span class="links" markdown="1">
+[PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf) 
+[BIB](./publication/lisena2017doremusTutorial.bib)
+[SITE](https://doremus-anr.github.io/kcap17_tutorial/)
+[SLIDES](https://doremus-anr.github.io/kcap17_tutorial/slides.html)
+</span>
+
 - **Des Catalogues au Web des Données** [fr], in
 *[Les métadonnées en bibliothèques : offres, usages, innovations](https://www.transition-bibliographique.fr/16-09-26_jp_metadonnees_inscriptions/)*, Bibliothèque nationale de France (BnF), Paris, November 9, 2016.
 <span class="links" markdown="1">

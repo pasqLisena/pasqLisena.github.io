@@ -22,9 +22,7 @@
   "dependencies": {},
   "devDependencies": {
     "array-prototype-last": "0.0.10",
-    "citation-js": "^0.3.4",
     "fs-extra": "^4.0.2",
-    "h2m": "^0.5.2",
     "nib": "^1.1.2",
     "node-dir": "^0.1.17",
     "rupture": "^0.6.2"
