@@ -9,11 +9,11 @@ list: [1,2,3]
 
 ## 2018
 
-- Canale, L., Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **A novel ensemble method for named entity recognition and disambiguation based on neural network**. In *[17th International Semantic Web Conference (ISWC)]*, Monterey, CA, USA, October 8-12, 2018.
+- Canale, L., Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **A novel ensemble method for named entity recognition and disambiguation based on neural network**. In *[17th International Semantic Web Conference (ISWC)](http://iswc2018.semanticweb.org/)*, Monterey, CA, USA, October 8-12, 2018.
 
-- Achichi, M., Lisena, P., [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Troncy, R.](http://www.eurecom.fr/~troncy/) & [Delahousse, J.](https://www.linkedin.com/in/jeandelahousse/) **DOREMUS: A graph of linked musical works**. In *[17th International Semantic Web Conference (ISWC)]*, Resource Track, Monterey, CA, USA, October 8-12, 2018.
+- Achichi, M., Lisena, P., [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Troncy, R.](http://www.eurecom.fr/~troncy/) & [Delahousse, J.](https://www.linkedin.com/in/jeandelahousse/) **DOREMUS: A graph of linked musical works**. In *[17th International Semantic Web Conference (ISWC)](http://iswc2018.semanticweb.org/)*, Resource Track, Monterey, CA, USA, October 8-12, 2018.
 
-- Lisena, P., [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), Cecconi, C. ,  Leresche, F., Canno, I., Puyrenier, F., Voisin, M., Le Meur, T. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Controlled  Vocabularies  for  Music  Metadata**. In *[19th International Society for Music Information Retrieval Conference (ISMIR)]*, Paris, France, September 23-27, 2018.
+- Lisena, P., [Todorov, K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), Cecconi, C. ,  Leresche, F., Canno, I., Puyrenier, F., Voisin, M., Le Meur, T. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Controlled  Vocabularies  for  Music  Metadata**. In *[19th International Society for Music Information Retrieval Conference (ISMIR)](http://ismir2018.ircam.fr/)*, Paris, France, September 23-27, 2018.
 
 - Lisena, P., & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Transforming the JSON Output of SPARQL Queries for Linked Data Clients**. In *[The The Web Conference 2018](https://www2018.thewebconf.org/)*, Developer Track, Lyon, France, April 23-27, 2018.
 <span class="links" markdown="1">
