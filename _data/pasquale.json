@@ -13,6 +13,7 @@
     "@type": "Organization",
     "name": "EURECOM",
     "logo": "/images/logo/eurecom.png",
-    "url": "http://www.eurecom.fr/"
+    "url": "http://www.eurecom.fr/",
+    "location": "https://goo.gl/maps/NWQURbgYuJB2"
   }
 }
