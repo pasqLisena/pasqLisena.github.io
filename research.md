@@ -25,12 +25,19 @@ list: [1,2,3]
 - Giammusso S., Guerriero M., Lisena P., [Palumbo E.](https://enricopal.github.io/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Predicting The Emotion of Playlists Using Track Lyrics**. In *[19th International Society for Music Information Retrieval Conference (ISMIR)](http://ismir2018.ircam.fr/)*, Late-Breaking Demo Track, Paris, France, September 23-27, 2018.
 <span class="links" markdown="1">
 [BIB](./publication/giammusso2018emotion.bib)
+[PDF](https://drive.google.com/file/d/1TOfU6_yhJ-JLFHAuAiMA_F0BXpuONLv-/)
+[POSTER](https://drive.google.com/open?id=1iWNpal9A_Q1jkGuzrM3Uk5NpcPh9jhK1)
+[SLIDES](docs.google.com/presentation/d/1VAzrx6vk8bfaJd52HmsFNS-aGEILxU37emuX5xJd6RQ)
+[DEMO](http://data.doremus.org/emotion)
+[CODE](https://github.com/sgiammy/emotion-patterns-in-music-playlists)
 </span>
 
 - Lisena P., [Todorov K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), Cecconi C.,  Leresche F., Canno I., Puyrenier F., Voisin M., Le Meur T. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Controlled  Vocabularies  for  Music  Metadata**. In *[19th International Society for Music Information Retrieval Conference (ISMIR)](http://ismir2018.ircam.fr/)*, Paris, France, September 23-27, 2018.
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/5646/download/data-publi-5646.pdf)
 [BIB](./publication/lisena2018vocabularies.bib)
+[POSTER](https://drive.google.com/file/d/1MfeLziCWK17wfOXItXlRJ8ebA5Rr-PBu)
+[SLIDES](https://docs.google.com/presentation/d/1423Of_aA3-bdJiEUfJsb3uiX0z07eJzccAESD0Rpfo0)
 [RESOURCE](http://data.doremus.org/vocabularies)
 </span>
 
