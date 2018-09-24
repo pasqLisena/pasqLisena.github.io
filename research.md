@@ -27,7 +27,7 @@ list: [1,2,3]
 [BIB](./publication/giammusso2018emotion.bib)
 [PDF](https://drive.google.com/file/d/1TOfU6_yhJ-JLFHAuAiMA_F0BXpuONLv-/)
 [POSTER](https://drive.google.com/open?id=1iWNpal9A_Q1jkGuzrM3Uk5NpcPh9jhK1)
-[SLIDES](docs.google.com/presentation/d/1VAzrx6vk8bfaJd52HmsFNS-aGEILxU37emuX5xJd6RQ)
+[SLIDES](https://docs.google.com/presentation/d/1VAzrx6vk8bfaJd52HmsFNS-aGEILxU37emuX5xJd6RQ)
 [DEMO](http://data.doremus.org/emotion)
 [CODE](https://github.com/sgiammy/emotion-patterns-in-music-playlists)
 </span>
