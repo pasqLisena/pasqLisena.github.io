@@ -13,6 +13,7 @@ list: [1,2,3]
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/5564/download/data-publi-5564.pdf)
 [BIB](./publication/canale2018enerd.bib)
+[SLIDES](https://docs.google.com/presentation/d/1eo0uCYGW6C_nQkTQPpsmF9QrwAGcwBdP3e0yaE5ia28)
 </span>
 
 - Achichi M., Lisena P., [Todorov K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Troncy R.](http://www.eurecom.fr/~troncy/) & [Delahousse, J.](https://www.linkedin.com/in/jeandelahousse/) **DOREMUS: A graph of linked musical works**. In *[17th International Semantic Web Conference (ISWC)](http://iswc2018.semanticweb.org/)*, Resource Track, Monterey, CA, USA, October 8-12, 2018.
@@ -20,12 +21,13 @@ list: [1,2,3]
 [PDF](http://www.eurecom.fr/fr/publication/5565/download/data-publi-5565.pdf)
 [BIB](./publication/achichi2018doremus.bib)
 [RESOURCE](http://data.doremus.org)
+[SLIDES](https://docs.google.com/presentation/d/1g0GTIVTrk_EMtFK8b-c5dYjgdruVvDWQ1GLwysBB-x8)
 </span>
 
 - Giammusso S., Guerriero M., Lisena P., [Palumbo E.](https://enricopal.github.io/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Predicting The Emotion of Playlists Using Track Lyrics**. In *[19th International Society for Music Information Retrieval Conference (ISMIR)](http://ismir2018.ircam.fr/)*, Late-Breaking Demo Track, Paris, France, September 23-27, 2018.
 <span class="links" markdown="1">
-[BIB](./publication/giammusso2018emotion.bib)
 [PDF](https://drive.google.com/file/d/1TOfU6_yhJ-JLFHAuAiMA_F0BXpuONLv-/)
+[BIB](./publication/giammusso2018emotion.bib)
 [POSTER](https://drive.google.com/open?id=1iWNpal9A_Q1jkGuzrM3Uk5NpcPh9jhK1)
 [SLIDES](https://docs.google.com/presentation/d/1VAzrx6vk8bfaJd52HmsFNS-aGEILxU37emuX5xJd6RQ)
 [DEMO](http://data.doremus.org/emotion)
@@ -52,7 +54,7 @@ list: [1,2,3]
 
 - Lisena P., Achichi M., [Choffé P.](https://la-cascade.io/), Cecconi C., [Todorov K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Jacquemin B.](https://pro.univ-lille.fr/bernard-jacquemin/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Improving (Re-) Usability of Musical Datasets: An Overview of the DOREMUS Project**. In *[BIBLIOTHEK - Forschung und Praxis](https://www.degruyter.com/view/j/bfup.2018.42.issue-2/bfp-2018-0023/bfp-2018-0023.xml)*,  42(2), pp. 194-205, Jul 2018.
 <span class="links" markdown="1">
-[PDF](http://www.eurecom.fr/fr/publication/5509/download/data-publi-5509.pdf) 
+[PDF](http://www.eurecom.fr/fr/publication/5509/download/data-publi-5509.pdf)
 [BIB](./publication/lisena2018improving.bib)
 </span>
 
@@ -61,7 +63,7 @@ list: [1,2,3]
 
 - Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) Tutorial on **DOing REusable MUSical data**. In *[9th International Conference on Knowledge Capture (K-CAP'17)](http://k-cap2017.org/)*, Austin, Texas, USA, December 4-6, 2017.
 <span class="links" markdown="1">
-[PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf) 
+[PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf)
 [BIB](./publication/lisena2017doremusTutorial.bib)
 [SITE](https://doremus-anr.github.io/kcap17_tutorial/)
 [SLIDES](https://doremus-anr.github.io/kcap17_tutorial/slides.html)
@@ -98,7 +100,7 @@ System Based on External Driving Factors**. In *[16th International Semantic Web
 [DEMO](https://citymus.doremus.org)
 </span>
 
-## 2016 
+## 2016
 
 - Lisena P. **Modeling, Exploring and Recommending Music in Its Complexity**. In *[20th International Conference on Knowledge Engineering and Knowledge Management (EKAW'16)](http://ekaw2016.cs.unibo.it/)*, Doctoral Consortium Track, Bologna, Italy, November 19-23, 2016.  
 <span class="links" markdown="1">
@@ -147,7 +149,7 @@ System Based on External Driving Factors**. In *[16th International Semantic Web
 
 - Tutorial on **DOing REusable MUSical data**. In *[9th International Conference on Knowledge Capture (K-CAP'17)](http://k-cap2017.org/)*, Austin, Texas, USA, December 4, 2017.
 <span class="links" markdown="1">
-[PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf) 
+[PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf)
 [BIB](./publication/lisena2017doremusTutorial.bib)
 [SITE](https://doremus-anr.github.io/kcap17_tutorial/)
 [SLIDES](https://doremus-anr.github.io/kcap17_tutorial/slides.html)
