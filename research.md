@@ -32,7 +32,7 @@ list: [1,2,3]
 [SLIDES](https://docs.google.com/presentation/d/1g0GTIVTrk_EMtFK8b-c5dYjgdruVvDWQ1GLwysBB-x8)
 </span>
 
-- [Monti, D.](https://softeng.polito.it/monti/), [Palumbo E.](https://enricopal.github.io/), [Rizzo G.](http://giusepperizzo.github.io/), Lisena P. and [Troncy R.](http://www.eurecom.fr/~troncy/), Fell M. and [Cabrio E.](https://www-sop.inria.fr/members/Elena.Cabrio/) & [Morisio M.](https://softeng.polito.it/morisio/) **An Ensemble Approach of Recurrent Neural Networks using Pre-Trained Embeddings for Playlist Completion**. In *[12th ACM Conference on Recommender Systems (RecSys)](https://recsys.acm.org/recsys18/)*, [Challenge Track](https://recsys-challenge.spotify.com/), Vancouver, Canada, October 2-7, 2018.
+- [Monti, D.](https://softeng.polito.it/monti/), [Palumbo E.](https://enricopal.github.io/), [Rizzo G.](http://giusepperizzo.github.io/), Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/), Fell M., [Cabrio E.](https://www-sop.inria.fr/members/Elena.Cabrio/) & [Morisio M.](https://softeng.polito.it/morisio/) **An Ensemble Approach of Recurrent Neural Networks using Pre-Trained Embeddings for Playlist Completion**. In *[12th ACM Conference on Recommender Systems (RecSys)](https://recsys.acm.org/recsys18/)*, [Challenge Track](https://recsys-challenge.spotify.com/), Vancouver, Canada, October 2-7, 2018.
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/en/publication/5690/download/data-publi-5690.pdf)
 [BIB](./publication/monti2018recsyschallenge.bib)
