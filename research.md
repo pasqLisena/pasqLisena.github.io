@@ -9,7 +9,7 @@ list: [1,2,3]
 
 ## 2019
 
-- Lisena P., [Mero&ntilde;o-Pe	&ntilde;uela A.](https://www.albertmeronyo.org/), [Kuhn T.](http://www.tkuhn.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Easy Web API Development with SPARQL Transformer**. In *[18th International Semantic Web Conference (ISWC)](http://iswc2019.semanticweb.org/)*, Auckland, New Zealand, October 26-30, 2019.
+- Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/), [Kuhn T.](http://www.tkuhn.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Easy Web API Development with SPARQL Transformer**. In *[18th International Semantic Web Conference (ISWC)](http://iswc2019.semanticweb.org/)*, Auckland, New Zealand, October 26-30, 2019.
 <span class="links" markdown="1">
 [BIB](./publication/lisena2019easyweb.bib)
 </span>
@@ -58,7 +58,7 @@ list: [1,2,3]
 [RESOURCE](http://data.doremus.org/vocabularies)
 </span>
 
-- Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Transforming the JSON Output of SPARQL Queries for Linked Data Clients**. In *[The The Web Conference 2018](https://www2018.thewebconf.org/)*, Developer Track, Lyon, France, April 23-27, 2018.
+- Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Transforming the JSON Output of SPARQL Queries for Linked Data Clients**. In *[The Web Conference 2018](https://www2018.thewebconf.org/)*, Developer Track, Lyon, France, April 23-27, 2018.
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/5520/download/data-publi-5520.pdf)
 [BIB](./publication/lisena2018sparqlTransformer.bib)
@@ -67,7 +67,7 @@ list: [1,2,3]
 </span>
 
 
-- Lisena P., Achichi M., [Choffé P.](https://la-cascade.io/), Cecconi C., [Todorov K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Jacquemin B.](https://pro.univ-lille.fr/bernard-jacquemin/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Improving (Re-) Usability of Musical Datasets: An Overview of the DOREMUS Project**. In *[BIBLIOTHEK - Forschung und Praxis](https://www.degruyter.com/view/j/bfup.2018.42.issue-2/bfp-2018-0023/bfp-2018-0023.xml)*,  42(2), pp. 194-205, Jul 2018.
+- Lisena P., Achichi M., [Choffé P.](https://la-cascade.io/), Cecconi C., [Todorov K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Jacquemin B.](https://pro.univ-lille.fr/bernard-jacquemin/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Improving (Re-) Usability of Musical Datasets: An Overview of the DOREMUS Project**. In *[BIBLIOTHEK - Forschung und Praxis](https://www.degruyter.com/view/j/bfup.2018.42.issue-2/bfp-2018-0023/bfp-2018-0023.xml)*,  42(2), pp. 194-205, Jul 2018.
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/5509/download/data-publi-5509.pdf)
 [BIB](./publication/lisena2018improving.bib)
