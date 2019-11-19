@@ -11,7 +11,9 @@ list: [1,2,3]
 
 - Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/), [Kuhn T.](http://www.tkuhn.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **Easy Web API Development with SPARQL Transformer**. In *[18th International Semantic Web Conference (ISWC)](http://iswc2019.semanticweb.org/)*, Auckland, New Zealand, October 26-30, 2019.
 <span class="links" markdown="1">
+[PDF](http://www.eurecom.fr/en/publication/5927/download/data-publi-5927.pdf)
 [BIB](./publication/lisena2019easyweb.bib)
+[SLIDES](https://docs.google.com/presentation/d/1Etax-1qRZN31A_sj7m7Jik9X7_VemnGHvuEgXlHbLYk)
 </span>
 
 
