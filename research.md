@@ -16,6 +16,24 @@ list: [1,2,3]
 [SLIDES](https://docs.google.com/presentation/d/1Etax-1qRZN31A_sj7m7Jik9X7_VemnGHvuEgXlHbLYk)
 </span>
 
+- Achichi M., Lisena P., [Todorov K.](https://www.lirmm.fr/users/utilisateurs-lirmm/konstantin-todorov), [Troncy R.](http://www.eurecom.fr/~troncy/) & [Delahousse, J.](https://www.linkedin.com/in/jeandelahousse/) **DOREMUS : un graphe dœuvres musicales interconnectées**. In *[Journées francophones d'Ingénierie des Connaissances AFIA (IC)](https://www.irit.fr/pfia2019/ic/ic-2019-programme/)*, Toulouse, France, July 1-5, 2019.
+<span class="links" markdown="1">
+[PDF](http://www.eurecom.fr/en/publication/6009/download/sec-publi-6009.pdf)
+</span>
+
+- Canale L., Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/)
+ **Une nouvelle méthode ensembliste pour la reconnaissance et la désambiguïsation d'entités nommées en utilisant des réseaux de neurones**. In *[Journées francophones d'Ingénierie des Connaissances AFIA (IC)](https://www.irit.fr/pfia2019/ic/ic-2019-programme/)*, Toulouse, France, July 1-5, 2019.
+ <span class="links" markdown="1">
+ [PDF](http://www.eurecom.fr/en/publication/6010/download/data-publi-6010.pdf)
+ </span>
+
+ - Abderrahmani Ghor, T.; Agrawal, E.; Lisena, P.; et al.
+  **Linked Open Data Validity -- A Technical Report from ISWS 2018**. Arxiv pre-print, abs/1903.12554, 2019.
+  <span class="links" markdown="1">
+  [PDF](https://arxiv.org/abs/1903.12554)
+  [BIB](./publication/abderrahmani2019lodvalidity.bib)
+  </span>
+
 
 ## 2018
 
