@@ -9,7 +9,7 @@ description: "Teaching, talks, reviews"
 
 ## Lectures
 
-- **JavaScript lecture** in *[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2017Fall)*, EURECOM, December 15, 2017
+- **[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2020Fall)**, EURECOM,  2017 - 2020
 
 ## Master student supervision
 
