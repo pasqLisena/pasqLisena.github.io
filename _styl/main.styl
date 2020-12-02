@@ -9,13 +9,14 @@ global-reset()
 *
   box-sizing border-box
 
+
 html
   margin 0
   +below('s')
     font-size .9em
 
 body
-  font-family: 'Roboto', sans-serif
+  font-family 'Roboto', sans-serif
   background lightGray
 
 h1
@@ -38,6 +39,7 @@ h2
 
 p
   line-height 1.2em
+  margin-bottom 0.5em
 
 a
   color main
@@ -124,6 +126,8 @@ strong
 .links
   display block
   font-size .8em
+  &.inline
+    display inline-block
   a
     font-weight 400 !important
     color #777
@@ -136,6 +140,76 @@ strong
       color #000
     &:last-of-type:after
       content none
+
+.news
+  position relative
+  text-align center
+  background darkGray
+  color #fff
+  a
+    color accent
+    
+  +above(426px)
+    height 5em
+    text-align left
+    display flex
+  &:before
+    content "Happening Now/Next"
+    background accent
+    color #000
+    box-sizing border-box
+
+    display block
+    padding 1em
+    text-transform uppercase
+    font-weight 500
+    +above(426px)
+      display inline-block
+      padding 2em 0
+      height 100%
+      width calc(100vw - 327px - 5em)
+      text-align right
+    // +above(733px)
+    //   padding 2em
+    +above('m')
+      width calc(100vw - 411px - 5em)
+    +above('l')
+      width calc(100vw - 552px - 5em)
+    +above(pageWidth)
+      width 'calc(100vw - 552px - 5em - (100vw - %s)/2)' % pageWidth
+
+  &:after
+    // triangle
+    +above(426px)
+      content ''
+      display block
+    position absolute
+
+    width 0
+    height 0
+    border-top 5em solid accent
+    border-right 5em solid transparent
+    top 0
+    right 327px
+    +above('m')
+      right 411px
+    +above('l')
+      right 552px
+    +above(pageWidth)
+      right 'calc(552px + (100vw - %s)/2)' % pageWidth
+
+
+  ul
+    display inline-block
+    margin auto
+    list-style disc
+    padding 2em
+    &[data-children='1']
+      list-style none
+    +above(426px)
+      margin-left 7em
+      padding 0
+
 
 @import "components/_header";
 @import "components/_footer";

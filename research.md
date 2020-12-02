@@ -7,10 +7,10 @@ list: [1,2,3]
 
 # Research Areas.
 
-- Semantic Web & Knowledge Graphs
-- Knowledge Engineering and Knowledge Representation
-- Information Extraction
-- Recommender Systems
+- [Semantic Web](http://wikipedia.org/wiki/Semantic_Web) & [Knowledge Graphs](https://towardsdatascience.com/knowledge-graph-bb78055a7884)
+- [Knowledge Engineering](http://wikipedia.org/wiki/Knowledge_engineering) and [Knowledge Representation](http://wikipedia.org/wiki/Knowledge_representation_and_reasoning)
+- [Information Extraction](http://ewikipedia.org/wiki/Information_extraction)
+- [Recommender Systems](http://wikipedia.org/wiki/Recommender_system)
 
 # Current Projects.
 

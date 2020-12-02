@@ -23,14 +23,20 @@ description: "Teaching, talks, reviews"
 </span>
 
 # Tutorials.
+- **SPARQL Endpoints and Web API (SWApi)**. In *[19th International Semantic Web Conference (ISWC'20)](https://2018.eswc-conferences.org/)*, Athens, Greece, November 2, 2020.
+<span class="links" markdown="1">
+[SITE](https://d2klab.github.io/swapi2020/)
+[SLIDES](https://d2klab.github.io/swapi2020/slides.html)
+[VIDEO](https://www.youtube.com/playlist?list=PLSsFTlM4Tf905v1-mSsm1elWXOjDcANYP)
+</span>
 
-- Tutorial on **Music Knowledge Graph and Deep-Learning Based Recommender Systems**. In *[15th Extended Semantic Web Conference (ESWC'18)](https://2018.eswc-conferences.org/)*, Heraklion, Greece, June 3, 2018.
+- **Music Knowledge Graph and Deep-Learning Based Recommender Systems**. In *[15th Extended Semantic Web Conference (ESWC'18)](https://2018.eswc-conferences.org/)*, Heraklion, Greece, June 3, 2018.
 <span class="links" markdown="1">
 [SITE](https://doremus-anr.github.io/eswc18_tutorial/)
 [SLIDES](https://doremus-anr.github.io/eswc18_tutorial/slides.html)
 </span>
 
-- Tutorial on **DOing REusable MUSical data**. In *[9th International Conference on Knowledge Capture (K-CAP'17)](http://k-cap2017.org/)*, Austin, Texas, USA, December 4, 2017.
+- **DOing REusable MUSical data**. In *[9th International Conference on Knowledge Capture (K-CAP'17)](http://k-cap2017.org/)*, Austin, Texas, USA, December 4, 2017.
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf)
 [BIB](./publication/lisena2017doremusTutorial.bib)

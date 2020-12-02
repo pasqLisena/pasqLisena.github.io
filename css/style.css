@@ -125,6 +125,7 @@ h2 {
 }
 p {
   line-height: 1.2em;
+  margin-bottom: 0.5em;
 }
 a {
   color: #ca4539;
@@ -253,6 +254,9 @@ strong {
   display: block;
   font-size: 0.8em;
 }
+.links.inline {
+  display: inline-block;
+}
 .links a {
   font-weight: 400 !important;
   color: #777;
@@ -272,6 +276,108 @@ strong {
 }
 .links a:last-of-type:after {
   content: none;
+}
+.news {
+  position: relative;
+  text-align: center;
+  background: #444;
+  color: #fff;
+}
+.news a {
+  color: #ffc107;
+}
+@media only screen and (min-width: 426px) {
+  .news {
+    height: 5em;
+    text-align: left;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+  }
+}
+.news:before {
+  content: "Happening Now/Next";
+  background: #ffc107;
+  color: #000;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+@media only screen and (min-width: 426px) {
+  .news:before {
+    display: inline-block;
+    padding: 2em 0;
+    height: 100%;
+    width: calc(100vw - 327px - 5em);
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .news:before {
+    width: calc(100vw - 411px - 5em);
+  }
+}
+@media only screen and (min-width: 800px) {
+  .news:before {
+    width: calc(100vw - 552px - 5em);
+  }
+}
+@media only screen and (min-width: 900px) {
+  .news:before {
+    width: calc(100vw - 552px - 5em - (100vw - 900px)/2);
+  }
+}
+.news:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 5em solid #ffc107;
+  border-right: 5em solid transparent;
+  top: 0;
+  right: 327px;
+}
+@media only screen and (min-width: 426px) {
+  .news:after {
+    content: '';
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .news:after {
+    right: 411px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .news:after {
+    right: 552px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .news:after {
+    right: calc(552px + (100vw - 900px)/2);
+  }
+}
+.news ul {
+  display: inline-block;
+  margin: auto;
+  list-style: disc;
+  padding: 2em;
+}
+.news ul[data-children='1'] {
+  list-style: none;
+}
+@media only screen and (min-width: 426px) {
+  .news ul {
+    margin-left: 7em;
+    padding: 0;
+  }
 }
 #mainHeader {
   display: block;

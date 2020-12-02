@@ -8,7 +8,7 @@
   <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="3k-A4xWf0y4Aqrq9-AOD89DWNM0jLBQdeMYODzbnr7E" />
-  
+
   <link href="https://fonts.googleapis.com/css?family=Exo:200,400,600|Roboto:300,400,500" rel="stylesheet">
   <link href="https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -18,8 +18,19 @@
   {% include header.big.html %}
 
   <section class="page">
+    {% if page.news %}
+    <div class="news">
+      <ul data-children="{{page.news || size}}">
+        {% for item in page.news %}
+        <li>{{item | markdownify}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+
     <div class="inner flex">
-      <div class="box">
+      <div>
         {{ content }}
       </div>
       <div class="box twitter" id="twitter">
