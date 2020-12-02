@@ -27,10 +27,10 @@ h1
   color main
   border-bottom .2rem solid #000
   margin-bottom 1.4em
-  
+
   &:not(:first-of-type)
     margin-top 2em
-  
+
 h2
   font-family titleFont
   font-size 1em
@@ -81,7 +81,7 @@ a
     padding-left 1.3em
     li
       margin-bottom .4em
-  
+
   > ul
       margin-bottom 1em
       li
@@ -96,7 +96,7 @@ nav
 
 strong
   font-weight bold
-  
+
 .demo
   margin-bottom 2em
   +above('m')
@@ -109,16 +109,18 @@ strong
       max-width 10em
 
 .project
-  margin-bottom 3em
-  > p > img
-    max-width 10em
-    +above('s')
-      float right
-  blockquote
+  line-height 1.2em
+  margin-bottom 1em
+  img
+    max-width 4em
+    max-height 4em
+    margin 0 0.5em
+    float right
+  .sub
     opacity .5
     font-size 0.8em
     margin-bottom .3em
-      
+
 .links
   display block
   font-size .8em
@@ -134,7 +136,7 @@ strong
       color #000
     &:last-of-type:after
       content none
-      
+
 @import "components/_header";
 @import "components/_footer";
 @import "components/_nav";

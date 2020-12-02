@@ -1,0 +1,71 @@
+---
+layout: page
+title: "Activity | Pasquale Lisena"
+description: "Teaching, talks, reviews"
+
+---
+
+# Teaching.
+
+## Lectures
+
+- **JavaScript lecture** in *[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2017Fall)*, EURECOM, December 15, 2017
+
+## Master student supervision
+
+- Fernandez-Marin, E., **Exploring Semantic Music Catalogs**, EURECOM + Universidad de Zaragoza, September 2016
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/1DBP5g9zljmFXSeEKriQCyBT5kridbtgvgQpERD-TPh8)
+</span>
+- Canale, L., **NERD for NexGenTV**, EURECOM + Politecnico di Torino, January 2018
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/1hSJ5Evs_oMhvIWOBFt6JfAS9uVGK33mIhwUEHirnfqU/edit)
+</span>
+
+# Tutorials.
+
+- Tutorial on **Music Knowledge Graph and Deep-Learning Based Recommender Systems**. In *[15th Extended Semantic Web Conference (ESWC'18)](https://2018.eswc-conferences.org/)*, Heraklion, Greece, June 3, 2018.
+<span class="links" markdown="1">
+[SITE](https://doremus-anr.github.io/eswc18_tutorial/)
+[SLIDES](https://doremus-anr.github.io/eswc18_tutorial/slides.html)
+</span>
+
+- Tutorial on **DOing REusable MUSical data**. In *[9th International Conference on Knowledge Capture (K-CAP'17)](http://k-cap2017.org/)*, Austin, Texas, USA, December 4, 2017.
+<span class="links" markdown="1">
+[PDF](http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf)
+[BIB](./publication/lisena2017doremusTutorial.bib)
+[SITE](https://doremus-anr.github.io/kcap17_tutorial/)
+[SLIDES](https://doremus-anr.github.io/kcap17_tutorial/slides.html)
+</span>
+
+# Talks.
+
+- **Classical Music and Knowledge Graphs: Managing, reusing and recommending one of the most complex music genres**
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/1Ak5pX528n1LudbbgoYbHEvHWZTUNJrZxR4qMKtcBxgg)
+</span>
+  -	[Weekly Artificial Intelligence (WAI) meeting](https://wai.few.vu.nl/schedule/presentation/1057/), VU Amsterdam, 04/02/2019
+  -	Research seminar, Deezer, Paris, 16/04/2019
+  - [Semantic Web course](https://elite.polito.it/teaching/past-courses/360-01rrdiu-semantic-web-2019) (Computer and Control Engineering PhD program), Politecnico di Torino, 30/01/2019
+
+- **Des Catalogues au Web des Données** [fr], in
+*[Les métadonnées en bibliothèques : offres, usages, innovations](https://www.transition-bibliographique.fr/16-09-26_jp_metadonnees_inscriptions/)*, Bibliothèque nationale de France (BnF), Paris, 9/11/2016.
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/1gVckHWirYc_1ELD5Pen58BNPw3InFubb5eV_nunnMEQ/edit?usp=sharing)
+[VIDEO](http://www.bnf.fr/fr/professionnels/anx_journees_pros_videos/a.video_161109_presentation_doremus.html)
+</span>
+
+# Community service.
+
+Program Committes Member
+-	International Semantic Web Conference (ISWC), Poster&Demo Track, [2018](http://iswc2018.semanticweb.org/poster-demo-track-pc/index.html), [2019](https://iswc2019.semanticweb.org/poster-demo-track-pc/), [2020](https://iswc2020.semanticweb.org/organization/posters-demos-track-pc/)
+-	Extended Semantic Web Conference (ESWC), Poster&Demo Track, 2020
+-	Workshop on NLP for Music and Audio (NLP4MusA), [2020](https://sites.google.com/view/nlp4musa/committee)
+-	International Conference on Knowledge Capture (K-CAP), [2019](http://www.k-cap.org/2019/programme-committee/index.html)
+-	Workshop on Semantic Applications for Audio and Music (SAAM), [2018](https://saam.semanticaudio.ac.uk/call)
+-	International Conference on Digital Libraries for Musicology (DLfM), [2018](https://dlfm.web.ox.ac.uk/5th-international-conference-digital-libraries-musicology-paris-2018)
+
+Reviewer
+-	Knowledge-aware and Conversational Recommender Systems Workshop (KARS) 2018 (sub-reviewer)
+-	The Web Conference (TheWebConf) 2019 (sub-reviewer)
+-	IEEE Access [2020](https://publons.com/researcher/3637522/pasquale-lisena/peer-review/)

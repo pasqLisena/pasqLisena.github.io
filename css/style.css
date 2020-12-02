@@ -233,17 +233,16 @@ strong {
   }
 }
 .project {
-  margin-bottom: 3em;
+  line-height: 1.2em;
+  margin-bottom: 1em;
 }
-.project > p > img {
-  max-width: 10em;
+.project img {
+  max-width: 4em;
+  max-height: 4em;
+  margin: 0 0.5em;
+  float: right;
 }
-@media only screen and (min-width: 400px) {
-  .project > p > img {
-    float: right;
-  }
-}
-.project blockquote {
+.project .sub {
   opacity: 0.5;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);

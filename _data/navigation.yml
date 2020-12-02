@@ -4,11 +4,11 @@
   icon: mdi mdi-home
   url: /
 
+- title: Publications
+  url: /publications
+
 - title: Research
   url: /research
 
-- title: Experience
-  url: /experience
-
-- title: Projects
-  url: /projects
+- title: Activity
+  url: /activity
