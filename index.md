@@ -2,6 +2,9 @@
 layout: default
 title: "Pasquale Lisena"
 description: "Hello! I am Pasquale, and I am a Researcher in Semantic Web technologies. Currently at EURECOM, France"
+news:
+  - I will be at [TheWebConf'21](https://www2021.thewebconf.org/program/tutorials/) with the [SPARQL Endpoints and Web API Tutorial](https://d2klab.github.io/swapi-thewebconf21/) (April 2021)
+  - I will be at [ESWC'21](https://2021.eswc-conferences.org/) with the [SPARQL Endpoints and Web API Tutorial](https://d2klab.github.io/swapi-eswc21/) (June 2021)
 ---
 
 <section class="box" markdown="1">

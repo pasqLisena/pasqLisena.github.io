@@ -31,7 +31,7 @@
   <section class="page">
     {% if page.news %}
     <div class="news">
-      <ul data-children="{{page.news || size}}">
+      <ul data-children="{{page.news | size}}">
         {% for item in page.news %}
         <li>{{item | markdownify}}</li>
         {% endfor %}

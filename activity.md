@@ -23,11 +23,20 @@ description: "Teaching, talks, reviews"
 </span>
 
 # Tutorials.
-- **SPARQL Endpoints and Web API (SWApi)**. In *[19th International Semantic Web Conference (ISWC'20)](https://2018.eswc-conferences.org/)*, Athens, Greece, November 2, 2020.
+- **SPARQL Endpoints and Web API (SWApi)**. In:    
+  - *[19th International Semantic Web Conference (ISWC'20)](https://iswc2020.semanticweb.org/)*, Athens, Greece, November 2, 2020.
 <span class="links" markdown="1">
 [SITE](https://d2klab.github.io/swapi2020/)
 [SLIDES](https://d2klab.github.io/swapi2020/slides.html)
 [VIDEO](https://www.youtube.com/playlist?list=PLSsFTlM4Tf905v1-mSsm1elWXOjDcANYP)
+</span>
+  - *[30th The Web Conference (TheWebConf'21)](https://www2021.thewebconf.org/)*, Lubiana, Slovenia, April, 2021.
+<span class="links" markdown="1">
+[SITE](https://d2klab.github.io/swapi-thewebconf21/)
+</span>
+  - *[18th Extended Semantic Web Conference (ESWC'21)](https://2021.eswc-conferences.org/)*, Hersonissos, Greece, June, 2021.
+<span class="links" markdown="1">
+[SITE](https://d2klab.github.io/swapi-eswc21/)
 </span>
 
 - **Music Knowledge Graph and Deep-Learning Based Recommender Systems**. In *[15th Extended Semantic Web Conference (ESWC'18)](https://2018.eswc-conferences.org/)*, Heraklion, Greece, June 3, 2018.
@@ -75,3 +84,4 @@ Reviewer
 -	Knowledge-aware and Conversational Recommender Systems Workshop (KARS) 2018 (sub-reviewer)
 -	The Web Conference (TheWebConf) 2019 (sub-reviewer)
 -	IEEE Access [2020](https://publons.com/researcher/3637522/pasquale-lisena/peer-review/)
+- [Journal of Web Semantics](https://www.journals.elsevier.com/journal-of-web-semantics) 2020

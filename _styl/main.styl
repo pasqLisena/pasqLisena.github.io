@@ -148,8 +148,8 @@ strong
   color #fff
   a
     color accent
-    
-  +above(426px)
+
+  +above(500px)
     height 5em
     text-align left
     display flex
@@ -163,14 +163,12 @@ strong
     padding 1em
     text-transform uppercase
     font-weight 500
-    +above(426px)
+    +above(500px)
       display inline-block
       padding 2em 0
       height 100%
       width calc(100vw - 327px - 5em)
       text-align right
-    // +above(733px)
-    //   padding 2em
     +above('m')
       width calc(100vw - 411px - 5em)
     +above('l')
@@ -180,35 +178,29 @@ strong
 
   &:after
     // triangle
-    +above(426px)
+    +above(500px)
       content ''
       display block
-    position absolute
 
     width 0
     height 0
     border-top 5em solid accent
     border-right 5em solid transparent
     top 0
-    right 327px
-    +above('m')
-      right 411px
-    +above('l')
-      right 552px
-    +above(pageWidth)
-      right 'calc(552px + (100vw - %s)/2)' % pageWidth
-
+    order 2
 
   ul
     display inline-block
-    margin auto
+    margin auto 0 auto 0
     list-style disc
     padding 2em
     &[data-children='1']
       list-style none
-    +above(426px)
-      margin-left 7em
-      padding 0
+    +between(500px, 1100px)
+      flex 4 100 380px
+    +above(500px)
+      padding 0 0 0 1em
+      order 3
 
 
 @import "components/_header";
