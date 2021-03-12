@@ -7,9 +7,15 @@ list: [1,2,3]
 
 # Publications.
 
-## 2020
+## 2021
 
-- Carrive J., Lisena P. et al. **Transdisciplinary Analysis of a Corpus of French Newsreels: The ANTRACT Project**. To appear in *Digital Humanities Quarterly (DHQ)*, 2020.
+- Carrive J., Lisena P. et al. **Transdisciplinary Analysis of a Corpus of French Newsreels: The ANTRACT Project**. In *Digital Humanities Quarterly (DHQ)*, Volume 15, Number 1, January 2021.
+<span class="links" markdown="1">
+[PDF](http://www.digitalhumanities.org/dhq/vol/15/1/000523/000523.html)
+[BIB](./publication/carrive2021antract.bib)
+</span>
+
+## 2020
 
 - Lisena P. & Troncy R. **Representing Complex Knowledge for Exploration and Recommendation: The Case of Classical Music Information**. In *[Applications and Practices in Ontology Design, Extraction, and Reasoning](http://ebooks.iospress.nl/volume/applications-and-practices-in-ontology-design-extraction-and-reasoning)*. Studies on the Semantic Web Series (SSWS), Volume 49, pages 107-123, IOSPress, December 2020.
 <span class="links" markdown="1">

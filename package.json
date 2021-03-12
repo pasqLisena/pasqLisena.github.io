@@ -19,10 +19,9 @@
     "esversion": 6
   },
   "homepage": "https://github.com/pasqLisena/pasqLisena.github.io",
-  "dependencies": {},
   "devDependencies": {
     "array-prototype-last": "0.0.10",
-    "fs-extra": "^9.0.1",
+    "fs-extra": "^9.1.0",
     "nib": "^1.1.2",
     "node-dir": "^0.1.17",
     "rupture": "^0.7.1"
