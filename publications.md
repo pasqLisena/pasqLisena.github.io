@@ -9,7 +9,29 @@ list: [1,2,3]
 
 ## 2021
 
-- Carrive J., Lisena P. et al. **Transdisciplinary Analysis of a Corpus of French Newsreels: The ANTRACT Project**. In *Digital Humanities Quarterly (DHQ)*, Volume 15, Number 1, January 2021.
+- Lisena P., [Laaksonen J.](https://people.aalto.fi/jorma.laaksonen) & [Troncy R.](http://www.eurecom.fr/~troncy/)
+**FaceRec: An Interactive Framework for Face Recognition in Video Archives**.
+In *[2nd International Workshop on Data-driven Personalisation of Television (DataTV-2021)](http://datatv2021.iti.gr/)* at the [ACM International Conference on Interactive Media Experiences (IMX 2021)](https://imx.acm.org/2021/),
+21-23 June, 2021, New York City, USA [Online]
+<span class="links" markdown="1">
+[BIB](./publication/lisena2021facerec.bib)
+[REPO](https://git.io/facerec)
+[DEMO](http://facerec.eurecom.fr/visualizer)
+</span>
+
+
+- Lisena P., [van Erp M.](https://mariekevanerp.com/), [Bembibre C.](http://www.smellofheritage.org/) & [Leemans I.](https://ingerleemans.wordpress.com/)
+**Data Mining and Knowledge Graphs as a Backbone for Advanced Olfactory Experiences**.
+In *[STT21: Smell, Taste, and Temperature Interfaces workshop](https://stt21.plopes.org/)* at [CHI 2021](https://chi2021.acm.org/).
+7–9 May 2021, Yokohama, Japan [Online]
+<span class="links" markdown="1">
+[PDF](https://stt21.plopes.org/wp-content/uploads/2021/05/STT2021_Odeuropa.pdf)
+[BIB](./publication/lisena2021stt.bib)
+[SLIDES](https://bit.ly/odeuropa-stt21)
+</span>
+
+
+- [Carrive J.](https://twitter.com/jeancarrive), Lisena P. et al. **Transdisciplinary Analysis of a Corpus of French Newsreels: The ANTRACT Project**. In *Digital Humanities Quarterly (DHQ)*, Volume 15, Number 1, January 2021.
 <span class="links" markdown="1">
 [PDF](http://www.digitalhumanities.org/dhq/vol/15/1/000523/000523.html)
 [BIB](./publication/carrive2021antract.bib)
@@ -17,13 +39,13 @@ list: [1,2,3]
 
 ## 2020
 
-- Lisena P. & Troncy R. **Representing Complex Knowledge for Exploration and Recommendation: The Case of Classical Music Information**. In *[Applications and Practices in Ontology Design, Extraction, and Reasoning](http://ebooks.iospress.nl/volume/applications-and-practices-in-ontology-design-extraction-and-reasoning)*. Studies on the Semantic Web Series (SSWS), Volume 49, pages 107-123, IOSPress, December 2020.
+- Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Representing Complex Knowledge for Exploration and Recommendation: The Case of Classical Music Information**. In *[Applications and Practices in Ontology Design, Extraction, and Reasoning](http://ebooks.iospress.nl/volume/applications-and-practices-in-ontology-design-extraction-and-reasoning)*. Studies on the Semantic Web Series (SSWS), Volume 49, pages 107-123, IOSPress, December 2020.
 <span class="links" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/6404/download/data-publi-6404.pdf)
 [BIB](./publication/lisena2020complexmusic.bib)
 </span>
 
-- Lisena P., Harrando I., Kandakji O. & Troncy R. **ToModAPI: A Topic Modeling API to Train, Use and Compare Topic Models**. In *[2nd Workshop for Natural Language Processing Open Source Software (NLP-OSS)](https://nlposs.github.io/2020/)*, November 19, 2020
+- Lisena P., [Harrando I.](http://harrando.me/), Kandakji O. & [Troncy R.](http://www.eurecom.fr/~troncy/) **ToModAPI: A Topic Modeling API to Train, Use and Compare Topic Models**. In *[2nd Workshop for Natural Language Processing Open Source Software (NLP-OSS)](https://nlposs.github.io/2020/)*, November 19, 2020
 <span class="links" markdown="1">
 [PDF](https://www.aclweb.org/anthology/2020.nlposs-1.19/)
 [BIB](./publication/lisena2020tomodapi.bib)
