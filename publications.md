@@ -14,6 +14,7 @@ list: [1,2,3]
 In *[2nd International Workshop on Data-driven Personalisation of Television (DataTV-2021)](http://datatv2021.iti.gr/)* at the [ACM International Conference on Interactive Media Experiences (IMX 2021)](https://imx.acm.org/2021/),
 21-23 June, 2021, New York City, USA [Online]
 <span class="links" markdown="1">
+[PDF](https://doi.org/10.5281/zenodo.4764632)
 [BIB](./publication/lisena2021facerec.bib)
 [REPO](https://git.io/facerec)
 [DEMO](http://facerec.eurecom.fr/visualizer)
