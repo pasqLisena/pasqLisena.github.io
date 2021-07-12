@@ -16,7 +16,7 @@ list: [1,2,3]
 
 <section class="project" markdown="1">
 ![SILKNOW](./images/logo/silknow.png)
-**SILKNOW** <span class="sub">H2020 (2018-2021)</span>  
+**SILKNOW** <span class="sub">FR EU H2020 (2018-2021)</span>  
 Semantic Web applied to Silk Cultural Heritage.  
 I work on KG population and thesaurus realisation.
 <span class="links" markdown="1">
@@ -25,17 +25,9 @@ I work on KG population and thesaurus realisation.
 [CODE](https://github.com/SILKNOW)
 </span>  
 </section>
+
 <section class="project" markdown="1">
-![MeMAD](https://memad.eu/wp-content/uploads/MeMAD_vertical_PNG_RGB.png)
-**MeMAD: Methods for Managing Audiovisual Data** <span class="sub">H2020 (2018-2021)</span>    
-I work on web-based face recognition strategies on TV videos.
-<span class="links" markdown="1">
-[SITE](https://memad.eu/)
-[DATA](https://data.memad.eu/)
-</span>
-</section>
-<section class="project" markdown="1">
-**ANTRACT: Analyse transdisciplinaire des actualités filmées** <span class="sub">ANR (2018-2021)</span>    
+**ANTRACT: Analyse transdisciplinaire des actualités filmées** <span class="sub">FR ANR (2018-2021)</span>    
 I work on web-based face recognition strategies on historical videos.
 <span class="links" markdown="1">
 [SITE](https://antract.hypotheses.org/1)
@@ -44,7 +36,7 @@ I work on web-based face recognition strategies on historical videos.
 
 <section class="project" markdown="1">
 ![Odeuropa](./images/logo/odeuropa.jpg)
-**Odeuropa: Analyse transdisciplinaire des actualités filmées** <span class="sub">ANR (2021-2024)</span>    
+**Odeuropa** <span class="sub">EU H2020 (2021-2024)</span>    
 Preserve the European Olfactory Heritage.
 I work on Knowledge Graphs, data modeling and knowledge inference.
 <span class="links" markdown="1">
@@ -65,9 +57,17 @@ I contributed in realising the biggest dataset about classical music metadata.
 [DATA](http://data.doremus.org)
 [CODE](https://github.com/DOREMUS-ANR)
 </span>
-
 </section>
 
+<section class="project" markdown="1">
+![MeMAD](https://memad.eu/wp-content/uploads/MeMAD_vertical_PNG_RGB.png)
+**MeMAD: Methods for Managing Audiovisual Data** <span class="sub">EU H2020 (2018-2021)</span>    
+I work on web-based face recognition strategies on TV videos.
+<span class="links" markdown="1">
+[SITE](https://memad.eu/)
+[DATA](https://data.memad.eu/)
+</span>
+</section>
 # PhD Thesis.
 
 **Knowledge-based music recommendation: Models, algorithms and exploratory search**  
