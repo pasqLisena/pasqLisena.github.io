@@ -68,6 +68,7 @@ I work on web-based face recognition strategies on TV videos.
 [DATA](https://data.memad.eu/)
 </span>
 </section>
+
 # PhD Thesis.
 
 **Knowledge-based music recommendation: Models, algorithms and exploratory search**  

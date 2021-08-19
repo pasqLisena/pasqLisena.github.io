@@ -8,6 +8,16 @@ list: [1,2,3]
 # Publications.
 
 ## 2021
+- [Harrando I.](http://harrando.me/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **Apples to Apples: A Systematic Evaluation of Topic Models**. In [_Recent Advances in Natural Language Processing (RANLP)_](https://ranlp.org/ranlp2021/programme.php), September 1-3, 2021.
+<span class="links" markdown="1">
+[BIB](./publication/harrando2021apples.bib)
+</span>
+
+- Madaghiele V., Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq**. In [_International Society for Music Information Retrieval Conference (ISMIR)_](https://ismir2021.ismir.net/), November 8-12, 2021.
+<span class="links" markdown="1">
+[BIB](./publication/madaghiele2021mingus.bib)
+[REPO](https://git.io/mingus)
+</span>
 
 - Lisena P., [Laaksonen J.](https://people.aalto.fi/jorma.laaksonen) & [Troncy R.](http://www.eurecom.fr/~troncy/)
 **FaceRec: An Interactive Framework for Face Recognition in Video Archives**.
