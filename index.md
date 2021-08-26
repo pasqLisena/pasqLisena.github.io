@@ -3,14 +3,14 @@ layout: default
 title: "Pasquale Lisena"
 description: "Hello! I am Pasquale, and I am a Researcher in Semantic Web technologies. Currently at EURECOM, France"
 news:
-  - I will be at [ESWC'21](https://2021.eswc-conferences.org/) with the [SPARQL Endpoints and Web API Tutorial](https://d2klab.github.io/swapi-eswc21/) (June 2021)
-  - I will present [my work](https://zenodo.org/record/4764632) on face recognition on historical videos at [DataTV 2021](http://datatv2021.iti.gr/)
+  - I will present at [RANLP'21](https://ranlp.org/) a lesson learned from evaluating [topic models](https://www.eurecom.fr/publication/6617/) (1-3 Sept 2021)
+  - I will be at [ISMIR](https://ismir2021.ismir.net/) with a [work on automatic music generation](https://www.eurecom.fr/publication/6622) (8-12 Nov 2021)
 ---
 
 <section class="box" markdown="1">
 # About me.
 
-I am currently a Post-Doctoral researcher in the [Data Science department](https://ds.eurecom.fr/) at [EURECOM](http://www.eurecom.fr/), in the Data2Knowledge group.
+I am currently a Research Fellow in the [Data Science department](https://ds.eurecom.fr/) at [EURECOM](http://www.eurecom.fr/), in the Data2Knowledge group.
 I got a PhD in Computer Science in 2019, with a thesis on [_Knowledge-based music recommendation: Models, algorithms and exploratory search_](./research#phd-thesis).
 
 My [research fields](./research) involves Knowledge Graphs, Knowledge Engineering and Recommender System. Currently working on [Odeuropa](https://odeuropa.eu/) and [ANTRACT](https://antract.hypotheses.org/).

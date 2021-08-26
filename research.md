@@ -43,6 +43,10 @@ I work on Knowledge Graphs, data modeling and knowledge inference.
 [SITE](https://odeuropa.eu/)
 </span>
 
+<section class="project" markdown="1">
+**Knowledge Flow** <span class="sub">ANR JCJC (2022-2024)</span>    
+Reconstruct the flow of information from text (NLP, Knowledge Graphs).
+I am the scientific co-ordinator.
 </section>
 
 # Past Projects.
@@ -62,7 +66,7 @@ I contributed in realising the biggest dataset about classical music metadata.
 <section class="project" markdown="1">
 ![MeMAD](https://memad.eu/wp-content/uploads/MeMAD_vertical_PNG_RGB.png)
 **MeMAD: Methods for Managing Audiovisual Data** <span class="sub">EU H2020 (2018-2021)</span>    
-I work on web-based face recognition strategies on TV videos.
+I worked on web-based face recognition strategies on TV videos.
 <span class="links" markdown="1">
 [SITE](https://memad.eu/)
 [DATA](https://data.memad.eu/)
