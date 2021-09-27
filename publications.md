@@ -8,15 +8,35 @@ list: [1,2,3]
 # Publications.
 
 ## 2021
-- [Harrando I.](http://harrando.me/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **Apples to Apples: A Systematic Evaluation of Topic Models**. In [_Recent Advances in Natural Language Processing (RANLP)_](https://ranlp.org/ranlp2021/programme.php), September 1-3, 2021.
+
+- Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata**. To appear in *[Semantic Web Journal](https://content.iospress.com/journals/semantic-web)*, Special issue on Deep Learning for Knowledge Graphs, IOSPress, 2021.
 <span class="links" markdown="1">
-[BIB](./publication/harrando2021apples.bib)
+[PDF](http://doi.org/10.3233/SW-210446)
+[BIB](./publication/lisena2021midi2vec.bib)
+[REPO](http://git.io/midi2vec)
 </span>
 
-- Madaghiele V., Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq**. In [_International Society for Music Information Retrieval Conference (ISMIR)_](https://ismir2021.ismir.net/), November 8-12, 2021.
+
+- [Madaghiele V.](https://vincenzomadaghiele.github.io), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq**. In [_International Society for Music Information Retrieval Conference (ISMIR)_](https://ismir2021.ismir.net/), November 8-12, 2021.
 <span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/fr/publication/6622)
 [BIB](./publication/madaghiele2021mingus.bib)
 [REPO](https://git.io/mingus)
+</span>
+
+- [Ehrhart, T.](https://ehrh.art/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **KG Explorer: a Customisable Exploration Tool for Knowledge Graphs**. In *[Visualization and Interaction for Ontologies and Linked Data (VOILA)](http://voila2021.visualdataweb.org/)*, colocated with [ISWC 2021](https://iswc2021.semanticweb.org/), October 25, 2021.
+
+- [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/), Lisena P., Martínez-Ortiz C. **Web Data APIs for Knowledge Graphs: Easing Access to Semantic Data for Application Developers**. In *[Synthesis Lectures on Data, Semantics, and Knowledge](https://www.morganclaypool.com/toc/dsk/12/1)*, Morgan & Claypool Publishers, September, 2021.
+<span class="links" markdown="1">
+[PDF](https://doi.org/10.2200/S01114ED1V01Y202107DSK021)
+[BIB](./publication/merono2021webDataApi.bib)
+[REPO](https://github.com/api4kg/exercises)
+</span>
+
+- [Harrando I.](http://harrando.me/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **Apples to Apples: A Systematic Evaluation of Topic Models**. In [_Recent Advances in Natural Language Processing (RANLP)_](https://ranlp.org/ranlp2021/programme.php), September 1-3, 2021.
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/fr/publication/6617)
+[BIB](./publication/harrando2021apples.bib)
 </span>
 
 - Lisena P., [Laaksonen J.](https://people.aalto.fi/jorma.laaksonen) & [Troncy R.](http://www.eurecom.fr/~troncy/)
@@ -49,6 +69,14 @@ In *[STT21: Smell, Taste, and Temperature Interfaces workshop](https://stt21.plo
 </span>
 
 ## 2020
+
+-  [Harrando I.](http://harrando.me/), Reboud A., Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/), [Laaksonen J.](https://people.aalto.fi/jorma.laaksonen), Virkkunen A., Kurimo M. **Using fan-made content, subtitles and face recognition for character-centric video summarization**. In *[TRECVID 2020, International Workshop on Video Retrieval Evaluation](https://www-nlpir.nist.gov/projects/tv2020/)*, Virtual Conference, 8-11 December 2020.
+<span class="links" markdown="1">
+[PDF](https://www-nlpir.nist.gov/projects/tvpubs/tv20.papers/memad.pdf)
+[REPO](https://github.com/MeMAD-project/trecvid-vsum)
+[BIB](./publication/harrando2020fanmade.bib)
+</span>
+
 
 - Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Representing Complex Knowledge for Exploration and Recommendation: The Case of Classical Music Information**. In *[Applications and Practices in Ontology Design, Extraction, and Reasoning](http://ebooks.iospress.nl/volume/applications-and-practices-in-ontology-design-extraction-and-reasoning)*. Studies on the Semantic Web Series (SSWS), Volume 49, pages 107-123, IOSPress, December 2020.
 <span class="links" markdown="1">

@@ -3,7 +3,7 @@ layout: default
 title: "Pasquale Lisena"
 description: "Hello! I am Pasquale, and I am a Researcher in Semantic Web technologies. Currently at EURECOM, France"
 news:
-  - I will present at [RANLP'21](https://ranlp.org/) a lesson learned from evaluating [topic models](https://www.eurecom.fr/publication/6617/) (1-3 Sept 2021)
+  - I will virtually attend [ISWC'21](https://iswc2021.semanticweb.org/) presenting a paper in [VOILA workshop](http://voila2021.visualdataweb.org/) (25 Oct 2021)
   - I will be at [ISMIR](https://ismir2021.ismir.net/) with a [work on automatic music generation](https://www.eurecom.fr/publication/6622) (8-12 Nov 2021)
 ---
 
