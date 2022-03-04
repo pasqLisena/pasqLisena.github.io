@@ -7,6 +7,12 @@ list: [1,2,3]
 
 # Publications.
 
+## 2022
+
+- Lisena	P., Schwabe	D.,	van Erp	M.,
+[Troncy R.](http://www.eurecom.fr/~troncy/), Tullett	W.,	Leemans I.,	Marx L.  &	Ehrich S.
+**Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information**. In *[19th Extended Semantic Web Conference (ESWC)](https://2022.eswc-conferences.org/), Resource Track, Hersonissos, Greece, May 29 - June 2, 2022.
+
 ## 2021
 
 - Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata**. To appear in *[Semantic Web Journal](https://content.iospress.com/journals/semantic-web)*, Special issue on Deep Learning for Knowledge Graphs, IOSPress, 2021.

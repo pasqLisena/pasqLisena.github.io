@@ -14,17 +14,6 @@ list: [1,2,3]
 
 # Current Projects.
 
-<section class="project" markdown="1">
-![SILKNOW](./images/logo/silknow.png)
-**SILKNOW** <span class="sub">FR EU H2020 (2018-2021)</span>  
-Semantic Web applied to Silk Cultural Heritage.  
-I work on KG population and thesaurus realisation.
-<span class="links" markdown="1">
-[SITE](https://silknow.eu/)
-[DATA](https://data.silknow.org/)
-[CODE](https://github.com/SILKNOW)
-</span>  
-</section>
 
 <section class="project" markdown="1">
 **ANTRACT: Analyse transdisciplinaire des actualités filmées** <span class="sub">FR ANR (2018-2021)</span>    
@@ -42,14 +31,31 @@ I work on Knowledge Graphs, data modeling and knowledge inference.
 <span class="links" markdown="1">
 [SITE](https://odeuropa.eu/)
 </span>
+</section>
 
 <section class="project" markdown="1">
+![kFLOW](./images/logo/kFLOW_logo.png)
 **Knowledge Flow** <span class="sub">ANR JCJC (2022-2024)</span>    
 Reconstruct the flow of information from text (NLP, Knowledge Graphs).
 I am the scientific co-ordinator.
+<span class="links" markdown="1">
+[SITE](https://anr-kflow.github.io/)
+</span>
 </section>
 
 # Past Projects.
+
+<section class="project" markdown="1">
+![SILKNOW](./images/logo/silknow.png)
+**SILKNOW** <span class="sub">FR EU H2020 (2018-2021)</span>  
+Semantic Web applied to Silk Cultural Heritage.  
+I work on KG population and thesaurus realisation.
+<span class="links" markdown="1">
+[SITE](https://silknow.eu/)
+[DATA](https://data.silknow.org/)
+[CODE](https://github.com/SILKNOW)
+</span>  
+</section>
 
 <section class="project" markdown="1">
 ![DOREMUS](http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png)
