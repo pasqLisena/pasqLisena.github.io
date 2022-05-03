@@ -9,7 +9,8 @@ description: "Teaching, talks, reviews"
 
 ## Lectures
 
-- **[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2020Fall)**, EURECOM,  2017 - 2020
+- **Introduction to Data Bases**, EURECOM, Spring 2023 - now
+- **[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2020Fall)**, JavaScript lecturer, EURECOM,  2017 - now
 
 ## Master student supervision
 
@@ -27,6 +28,7 @@ description: "Teaching, talks, reviews"
   - *[19th International Semantic Web Conference (ISWC'20)](https://iswc2020.semanticweb.org/)*, Athens, Greece, November 2, 2020.
   - *[30th The Web Conference (TheWebConf'21)](https://www2021.thewebconf.org/)*, Lubiana, Slovenia, April, 2021.
   - *[18th Extended Semantic Web Conference (ESWC'21)](https://2021.eswc-conferences.org/)*, Hersonissos, Greece, June, 2021.
+  - *[22nd International Conference on Web Engineering (ICWE'22)](https://icwe2022.webengineering.org/sparql-endpoints-and-web-api-swapi/)*, Bari, Italy, July, 2022.
   <span class="links" markdown="1">
   [SITE](https://api4kg.github.io/swapi-tutorial/)
   [SLIDES](https://api4kg.github.io/swapi-tutorial/resources.html)

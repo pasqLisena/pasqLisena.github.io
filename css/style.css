@@ -178,6 +178,11 @@ a:hover {
   padding: 1em;
   text-align: center;
 }
+@media only screen and (min-width: 800px) {
+  .box.twitter {
+    min-width: 400px;
+  }
+}
 .box em {
   font-style: italic;
 }
@@ -383,6 +388,13 @@ strong {
     -webkit-order: 3;
     order: 3;
   }
+}
+.proj_img {
+  max-width: 4em;
+  max-height: 4em;
+  margin: 0 0.5em;
+  display: inline-block;
+  vertical-align: middle;
 }
 #mainHeader {
   display: block;

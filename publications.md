@@ -9,21 +9,25 @@ list: [1,2,3]
 
 ## 2022
 
+- Lisena P. and [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/). **SPARQL Endpoints and Web API (SWApi)**. In *[22nd International Conference on Web Engineering (ICWE)](https://icwe2022.webengineering.org/)*, Tutorial Track,  Bari, Italy, 5-8 July, 2022.
+
 - Lisena	P., Schwabe	D.,	van Erp	M.,
 [Troncy R.](http://www.eurecom.fr/~troncy/), Tullett	W.,	Leemans I.,	Marx L.  &	Ehrich S.
-**Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information**. In *[19th Extended Semantic Web Conference (ESWC)](https://2022.eswc-conferences.org/), Resource Track, Hersonissos, Greece, May 29 - June 2, 2022.
+**Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information**. In *[19th Extended Semantic Web Conference (ESWC)](https://2022.eswc-conferences.org/)*, Resource Track, Hersonissos, Greece, May 29 - June 2, 2022.
+<span class="links" markdown="1">
+[BIB](./publication/lisena2022odeuropa_model.bib)
+</span>
 
-## 2021
-
-- Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata**. To appear in *[Semantic Web Journal](https://content.iospress.com/journals/semantic-web)*, Special issue on Deep Learning for Knowledge Graphs, IOSPress, 2021.
+- Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata**. To appear in *[Semantic Web Journal](https://content.iospress.com/journals/semantic-web)*, Special issue on Deep Learning for Knowledge Graphs, vol.13, no.3, pp. 357-377, IOSPress, 6 April 2022.
 <span class="links" markdown="1">
 [PDF](http://doi.org/10.3233/SW-210446)
 [BIB](./publication/lisena2021midi2vec.bib)
 [REPO](http://git.io/midi2vec)
 </span>
 
+## 2021
 
-- [Madaghiele V.](https://vincenzomadaghiele.github.io), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq**. In [_International Society for Music Information Retrieval Conference (ISMIR)_](https://ismir2021.ismir.net/), November 8-12, 2021.
+- [Madaghiele V.](https://www.linkedin.com/in/vincenzo-madaghiele), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq**. In [_International Society for Music Information Retrieval Conference (ISMIR)_](https://ismir2021.ismir.net/), November 8-12, 2021.
 <span class="links" markdown="1">
 [PDF](https://www.eurecom.fr/fr/publication/6622)
 [BIB](./publication/madaghiele2021mingus.bib)
@@ -60,13 +64,18 @@ In *[2nd International Workshop on Data-driven Personalisation of Television (Da
 - Lisena P., [van Erp M.](https://mariekevanerp.com/), [Bembibre C.](http://www.smellofheritage.org/) & [Leemans I.](https://ingerleemans.wordpress.com/)
 **Data Mining and Knowledge Graphs as a Backbone for Advanced Olfactory Experiences**.
 In *[STT21: Smell, Taste, and Temperature Interfaces workshop](https://stt21.plopes.org/)* at [CHI 2021](https://chi2021.acm.org/).
-7–9 May 2021, Yokohama, Japan [Online]
+Yokohama, Japan [Online], 7–9 May 2021.
 <span class="links" markdown="1">
 [PDF](https://stt21.plopes.org/wp-content/uploads/2021/05/STT2021_Odeuropa.pdf)
 [BIB](./publication/lisena2021stt.bib)
 [SLIDES](https://bit.ly/odeuropa-stt21)
 </span>
 
+- West R., Bhagat S., Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) et al. **Summary of Tutorials at The Web Conference 2021**. In *[The Web Conference 2021 (TheWebConf)](https://thewebconf.org/www2021/)**, Companion Proceedings, Ljubljana, Slovenia, 19-23 April 2021.
+<span class="links" markdown="1">
+[PDF](https://dl.acm.org/doi/10.1145/3442442.3453701)
+[BIB](./publication/tutorial2021webconf.bib)
+</span>
 
 - [Carrive J.](https://twitter.com/jeancarrive), Lisena P. et al. **Transdisciplinary Analysis of a Corpus of French Newsreels: The ANTRACT Project**. In *Digital Humanities Quarterly (DHQ)*, Volume 15, Number 1, January 2021.
 <span class="links" markdown="1">

@@ -44,9 +44,19 @@
       <div>
         {{ content }}
       </div>
-      <div class="box twitter" id="twitter">
-        <a class="twitter-timeline" data-width="400" data-tweet-limit="2" data-link-color="#ca4539" href="https://twitter.com/PasqLisena">Tweets by PasqLisena</a>
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div>
+        <div class="box twitter" id="twitter">
+          <a class="twitter-timeline" data-width="400" data-tweet-limit="1" data-link-color="#ca4539" href="https://twitter.com/PasqLisena">Tweets by PasqLisena</a>
+          <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="box">
+          <h1>My Current Projects.</h1>
+          <div>
+            {% for item in page.current_proj %}
+            <a href="{{item.uri}}"><img class="proj_img" alt='{{item.name}}' src={{item.img}} />
+            {% endfor %}</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>

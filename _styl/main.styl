@@ -74,6 +74,9 @@ a
     flex 0 0 400px
     padding 1em
     text-align center
+    +above('l')
+      min-width: 400px
+
 
   em
     font-style italic
@@ -202,6 +205,12 @@ strong
       padding 0 0 0 1em
       order 3
 
+.proj_img
+  max-width 4em
+  max-height 4em
+  margin 0 0.5em
+  display inline-block
+  vertical-align middle
 
 @import "components/_header";
 @import "components/_footer";

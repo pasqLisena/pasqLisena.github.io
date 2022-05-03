@@ -2,9 +2,16 @@
 layout: default
 title: "Pasquale Lisena"
 description: "Hello! I am Pasquale, and I am a Researcher in Semantic Web technologies. Currently at EURECOM, France"
+current_proj:
+  - img: './images/logo/odeuropa.jpg'
+    name: 'Odeuropa'
+    uri: https://odeuropa.eu/
+  - img: './images/logo/kFLOW_logo.png'
+    name: 'kFLOW'
+    uri: https://anr-kflow.github.io/
 news:
-  - I will virtually attend [ISWC'21](https://iswc2021.semanticweb.org/) presenting a paper in [VOILA workshop](http://voila2021.visualdataweb.org/) (25 Oct 2021)
-  - I will be at [ISMIR](https://ismir2021.ismir.net/) with a [work on automatic music generation](https://www.eurecom.fr/publication/6622) (8-12 Nov 2021)
+  - I will attend [ESWC'22](https://2022.eswc-conferences.org/) presenting the Odeuropa Data Model (29 May - 2 June)
+  - The Tutorial [SWApi](https://api4kg.github.io/swapi-tutorial/) lands to Bari at [ICWE'22](https://icwe2022.webengineering.org/) (5-8 July)
 ---
 
 <section class="box" markdown="1">
@@ -19,9 +26,9 @@ My [research fields](./research) involves Knowledge Graphs, Knowledge Engineerin
 <section class="box" markdown="1">
 
 # Selected works.
-2020 - Representing Complex Knowledge for Exploration and Recommendation: The Case of Classical Music Information
+2022 - MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata
 <span class="links inline" markdown="1">
-[PDF](http://www.eurecom.fr/fr/publication/6404/download/data-publi-6404.pdf)
+[PDF](http://doi.org/10.3233/SW-210446)
 </span>  
 
 2019 - Easy Web API Development with SPARQL Transformer
