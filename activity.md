@@ -51,6 +51,14 @@ description: "Teaching, talks, reviews"
 
 # Talks.
 
+- **When did De Gaulle and Eishenower meet? Automatic Face Recognition in historical videos**. [AI4LAM Community Call](https://www.bnf.fr/fr/captations-et-supports-de-la-conference-2021#bnf-pr-sentations-clairs), 15 February 2022.
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/14cIYLJ_JnfHR1dQd2Mrb8XAjUarKsHuVptMK714upRU)
+[VIDEO](https://www.youtube.com/watch?v=Hh5rcIMAEE4)
+</span>
+
+
+
 - **Classical Music and Knowledge Graphs: Managing, reusing and recommending one of the most complex music genres**
 <span class="links" markdown="1">
 [SLIDES](https://docs.google.com/presentation/d/1Ak5pX528n1LudbbgoYbHEvHWZTUNJrZxR4qMKtcBxgg)
