@@ -203,6 +203,9 @@ a:hover {
 .box > ul a {
   font-weight: 100;
 }
+.box img {
+  max-width: 80%;
+}
 nav {
   position: relative;
   z-index: 10;
@@ -389,11 +392,27 @@ strong {
     order: 3;
   }
 }
-.proj_img {
+img.proj_img {
   max-width: 4em;
   max-height: 4em;
   margin: 0 0.5em;
   display: inline-block;
+  vertical-align: middle;
+}
+.award {
+  font-variant: small-caps;
+  display: block;
+  background: #d8776f;
+  color: #fff;
+}
+.award:before {
+  content: " ";
+  display: inline-block;
+  background: url("../images/award.png") #fff center/contain no-repeat;
+  padding: 2px 5px;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
   vertical-align: middle;
 }
 #mainHeader {
@@ -435,8 +454,6 @@ strong {
 }
 #mainHeader .inner {
   background: url("/images/pasquale_lisena.jpg") #ca4539 bottom right no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
   background-size: contain;
   position: relative;
 }

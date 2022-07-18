@@ -12,13 +12,18 @@ description: "Teaching, talks, reviews"
 - **Introduction to Data Bases**, EURECOM, Spring 2023 - now
 - **[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2020Fall)**, JavaScript lecturer, EURECOM,  2017 - now
 
+## PhD supervision
+
+- Rebboud Y., **Semantic Extraction of Event Relations from
+Text with Knowledge Graphs**, EURECOM, March 2022 - now
+
 ## Master student supervision
 
-- Fernandez-Marin, E., **Exploring Semantic Music Catalogs**, EURECOM + Universidad de Zaragoza, September 2016
+- Fernandez-Marin E., **Exploring Semantic Music Catalogs**, EURECOM + Universidad de Zaragoza, September 2016
 <span class="links" markdown="1">
 [SLIDES](https://docs.google.com/presentation/d/1DBP5g9zljmFXSeEKriQCyBT5kridbtgvgQpERD-TPh8)
 </span>
-- Canale, L., **NERD for NexGenTV**, EURECOM + Politecnico di Torino, January 2018
+- Canale L., **NERD for NexGenTV**, EURECOM + Politecnico di Torino, January 2018
 <span class="links" markdown="1">
 [SLIDES](https://docs.google.com/presentation/d/1hSJ5Evs_oMhvIWOBFt6JfAS9uVGK33mIhwUEHirnfqU/edit)
 </span>
@@ -79,15 +84,15 @@ description: "Teaching, talks, reviews"
 Conference Track Chair
 - The Web Conference (TheWebConf), Poster&Demo Track, [2022](https://www2022.thewebconf.org/cfp/posters-demos/)
 
-Program Committes Member
--	International Semantic Web Conference (ISWC), Poster&Demo Track, [2018](http://iswc2018.semanticweb.org/poster-demo-track-pc/index.html), [2019](https://iswc2019.semanticweb.org/poster-demo-track-pc/), [2020](https://iswc2020.semanticweb.org/organization/posters-demos-track-pc/)
--	Extended Semantic Web Conference (ESWC), Poster&Demo Track, 2020, 2021
+Program Committe Member
+-	International Semantic Web Conference (ISWC), Poster&Demo Track, [2018](http://iswc2018.semanticweb.org/poster-demo-track-pc/index.html), [2019](https://iswc2019.semanticweb.org/poster-demo-track-pc/), [2020](https://iswc2020.semanticweb.org/organization/posters-demos-track-pc/), [2022](https://iswc2022.semanticweb.org/index.php/poster-demos-track-pc/)
+-	Extended Semantic Web Conference (ESWC), Poster&Demo Track, 2020, 2021, 2022
 -	Workshop on NLP for Music and Audio ([NLP4MusA](https://sites.google.com/view/nlp4musa/committee)), 2020, 2021
 -	International Conference on Knowledge Capture (K-CAP), [2019](http://www.k-cap.org/2019/programme-committee/index.html), [2021](https://www.k-cap.org/2021/index.html)
 -	Workshop on Semantic Applications for Audio and Music (SAAM), [2018](https://saam.semanticaudio.ac.uk/call)
 -	International Conference on Digital Libraries for Musicology (DLfM), [2018](https://dlfm.web.ox.ac.uk/5th-international-conference-digital-libraries-musicology-paris-2018)
-- ACM HyperText, [2021](https://ht.acm.org/ht2021/organisation/)
-- Workshop on Ontology Design and Patterns (WOP), [2021](http://ontologydesignpatterns.org/wiki/WOP:2021)
+- ACM HyperText, [2021](https://ht.acm.org/ht2021/organisation/), [2022](https://ht.acm.org/ht2022/program-committee/)
+- Workshop on Ontology Design and Patterns (WOP), [2021](http://ontologydesignpatterns.org/wiki/WOP:2021), [2022]
 
 Reviewer
 -	Knowledge-aware and Conversational Recommender Systems Workshop (KARS @ ACM RecSys) 2018 (sub-reviewer)

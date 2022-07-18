@@ -11,55 +11,76 @@ list: [1,2,3]
 
 - Lisena P., [Laaksonen J.](https://people.aalto.fi/jorma.laaksonen) & [Troncy R.](http://www.eurecom.fr/~troncy/)
 **Understanding Videos with Face Recognition: A Complete Pipeline and Applications**.
-To appear in *[Multimedia Systems](https://www.springer.com/journal/530)*, Special Issue on Data-driven Personalisation of Television Content, 2022, Springer.
+To appear in *[Multimedia Systems](https://www.springer.com/journal/530)*, Special Issue on Data-driven Personalisation of Television Content, 15 June 2022, Springer.
 <span class="links" markdown="1">
+[PDF](https://link.springer.com/article/10.1007/s00530-022-00959-x)
 [BIB](./publication/lisena2022facerec.bib)
 [REPO](https://git.io/facerec)
 [DEMO](http://facerec.eurecom.fr/visualizer)
 </span>
 
+- Rebboud Y., Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/)
+**Beyond Causality: Representing Event Relations in Knowledge Graphs**.
+In *[23rd International Conference on Knowledge Engineering and Knowledge Management](https://ekaw2022.inf.unibz.it/)*, 26-29 September 2022, Bolzano (Italy).
+<span class="links" markdown="1">
+[RESOURCE](https://purl.org/faro)
+</span>
 
 - Lisena P. and [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/). **SPARQL Endpoints and Web API (SWApi)**. In *[22nd International Conference on Web Engineering (ICWE)](https://icwe2022.webengineering.org/)*, Tutorial Track,  Bari, Italy, 5-8 July, 2022.
 <span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/6954)
 [BIB](./publication/lisena2022swapi.bib)
 [SITE](https://api4kg.github.io/swapi-tutorial/)
 </span>
 
 
-- Lisena	P., Schwabe	D.,	van Erp	M.,
-[Troncy R.](http://www.eurecom.fr/~troncy/), Tullett	W.,	Leemans I.,	Marx L.  &	Ehrich S.
+- <span class="award">Best Resource Paper Award</span>
+Lisena	P., Schwabe	D.,	[van Erp M.](https://mariekevanerp.com/),
+[Troncy R.](http://www.eurecom.fr/~troncy/), Tullett	W.,	[Leemans I.](https://ingerleemans.wordpress.com/),	Marx L.  &	Ehrich S.
 **Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information**. In *[19th Extended Semantic Web Conference (ESWC)](https://2022.eswc-conferences.org/)*, Resource Track, Hersonissos, Greece, May 29 - June 2, 2022.
 <span class="links" markdown="1">
-[PDF](https://www.eurecom.fr/publication/6856/download/data-publi-6856.pdf)
+[PDF](https://www.eurecom.fr/publication/6856)
 [BIB](./publication/lisena2022odeuropa_model.bib)
 [REPO](https://github.com/Odeuropa/ontology)
+[SLIDES](http://bit.ly/odeuropa-eswc22)
 </span>
 
-- Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata**. To appear in *[Semantic Web Journal](https://content.iospress.com/journals/semantic-web)*, Special issue on Deep Learning for Knowledge Graphs, vol.13, no.3, pp. 357-377, IOSPress, 6 April 2022.
+- Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata**. In *[Semantic Web Journal](https://content.iospress.com/journals/semantic-web)*, Special issue on Deep Learning for Knowledge Graphs, vol.13, no.3, pp. 357-377, IOSPress, 6 April 2022.
 <span class="links" markdown="1">
 [PDF](http://doi.org/10.3233/SW-210446)
-[BIB](./publication/lisena2021midi2vec.bib)
+[BIB](./publication/lisena2022midi2vec.bib)
 [REPO](http://git.io/midi2vec)
 </span>
 
 ## 2021
+
+- Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **MIDI Representation with Graph Embeddings**. In [_International Society for Music Information Retrieval Conference (ISMIR)_](https://ismir2021.ismir.net/), Late-Breaking Demo Track, November 8-12, 2021.
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/6741)
+[BIB](./publication/lisena2021midi2vec.bib)
+[REPO](http://git.io/midi2vec)
+[SLIDES](https://docs.google.com/presentation/d/1Ag8E8-cv_swEZtyqZ42G2Q_RbD6U3b3hvxW5PRka1Cw)
+[POSTER](https://drive.google.com/file/d/16M__YwD-VTHOlDUddaOiVG3BVFEvEtqL/)
+</span>
 
 - [Madaghiele V.](https://www.linkedin.com/in/vincenzo-madaghiele), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/). **MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq**. In [_International Society for Music Information Retrieval Conference (ISMIR)_](https://ismir2021.ismir.net/), November 8-12, 2021.
 <span class="links" markdown="1">
 [PDF](https://www.eurecom.fr/fr/publication/6622)
 [BIB](./publication/madaghiele2021mingus.bib)
 [REPO](https://git.io/mingus)
+[SLIDES](https://docs.google.com/presentation/d/1CuBn6hsr0rt23kK-HGoPgkSmF47sg-zs)
 </span>
 
 - [Ehrhart, T.](https://ehrh.art/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **KG Explorer: a Customisable Exploration Tool for Knowledge Graphs**. In *[Visualization and Interaction for Ontologies and Linked Data (VOILA)](http://voila2021.visualdataweb.org/)*, colocated with [ISWC 2021](https://iswc2021.semanticweb.org/), October 25, 2021.
 <span class="links" markdown="1">
 [PDF](https://www.eurecom.fr/publication/6681/download/data-publi-6681.pdf)
 [BIB](./publication/ehrhart2021kgexplorer.bib)
+[SLIDES](https://bit.ly/kgexplorer2021)
 </span>
 
-- [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/), Lisena P., Martínez-Ortiz C. **Web Data APIs for Knowledge Graphs: Easing Access to Semantic Data for Application Developers**. In *[Synthesis Lectures on Data, Semantics, and Knowledge](https://www.morganclaypool.com/toc/dsk/12/1)*, Morgan & Claypool Publishers, September, 2021.
+- [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/), Lisena P., Martínez-Ortiz C. **Web Data APIs for Knowledge Graphs: Easing Access to Semantic Data for Application Developers**. In *[Synthesis Lectures on Data, Semantics, and Knowledge](https://www.springer.com/series/16928)*, Springer Cham, September, 2021.
 <span class="links" markdown="1">
-[PDF](https://doi.org/10.2200/S01114ED1V01Y202107DSK021)
+[BUY](https://doi.org/10.1007/978-3-031-01917-3)
 [BIB](./publication/merono2021webDataApi.bib)
 [REPO](https://github.com/api4kg/exercises)
 </span>
@@ -92,7 +113,7 @@ Yokohama, Japan [Online], 7–9 May 2021.
 [SLIDES](https://bit.ly/odeuropa-stt21)
 </span>
 
-- West R., Bhagat S., Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) et al. **Summary of Tutorials at The Web Conference 2021**. In *[The Web Conference 2021 (TheWebConf)](https://thewebconf.org/www2021/)**, Companion Proceedings, Ljubljana, Slovenia, 19-23 April 2021.
+- West R., Bhagat S., Lisena P., [Mero&ntilde;o-Pe&ntilde;uela A.](https://www.albertmeronyo.org/) et al. **Summary of Tutorials at The Web Conference 2021**. In *[The Web Conference 2021 (TheWebConf)](https://thewebconf.org/www2021/)*, Companion Proceedings, Ljubljana, Slovenia, 19-23 April 2021.
 <span class="links" markdown="1">
 [PDF](https://dl.acm.org/doi/10.1145/3442442.3453701)
 [BIB](./publication/tutorial2021webconf.bib)

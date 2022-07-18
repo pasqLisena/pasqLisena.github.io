@@ -22,7 +22,7 @@
   "devDependencies": {
     "array-prototype-last": "0.0.10",
     "fs-extra": "^10.1.0",
-    "nib": "^1.1.2",
+    "nib": "^1.2.0",
     "node-dir": "^0.1.17",
     "rupture": "^0.7.1"
   }

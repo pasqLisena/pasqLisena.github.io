@@ -10,22 +10,28 @@ current_proj:
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
 news:
-  - I will attend [ESWC'22](https://2022.eswc-conferences.org/) presenting the Odeuropa Data Model (29 May - 2 June)
-  - The Tutorial [SWApi](https://api4kg.github.io/swapi-tutorial/) lands to Bari at [ICWE'22](https://icwe2022.webengineering.org/) (5-8 July)
+  - I will attend [EKAW'22](https://ekaw2022.inf.unibz.it/) presenting the [FARO ontology](https://purl.org/faro) for event relationships (26-29 September)
 ---
 
 <section class="box" markdown="1">
 # About me.
 
 I am currently a Research Fellow in the [Data Science department](https://ds.eurecom.fr/) at [EURECOM](http://www.eurecom.fr/), in the Data2Knowledge group.
-I got a PhD in Computer Science in 2019, with a thesis on [_Knowledge-based music recommendation: Models, algorithms and exploratory search_](./research#phd-thesis).
+I got a PhD in Computer Science in 2019, with a thesis on [_Knowledge-based music recommendation: Models, algorithms and exploratory search_](./research#phd-thesis). In 2021, I obtained an ANR JCJC as project coordinator for the [kFLOW project](https://anr-kflow.github.io/).
 
-My [research fields](./research) involves Knowledge Graphs, Knowledge Engineering and Recommender System. Currently working on [Odeuropa](https://odeuropa.eu/) and [ANTRACT](https://antract.hypotheses.org/).
+My [research fields](./research) involves Knowledge Graphs, Knowledge Engineering and Recommender System. Currently working on [Odeuropa](https://odeuropa.eu/) and [kFLOW](https://anr-kflow.github.io/).
 </section>
 
 <section class="box" markdown="1">
 
 # Selected works.
+2022 - Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information
+<span class="links inline" markdown="1">
+[PDF](http://doi.org/10.3233/SW-210446)
+</span>  
+<span class="award">Best Resource Paper Award</span>
+
+
 2022 - MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata
 <span class="links inline" markdown="1">
 [PDF](http://doi.org/10.3233/SW-210446)
@@ -40,5 +46,13 @@ My [research fields](./research) involves Knowledge Graphs, Knowledge Engineerin
 <span class="links inline" markdown="1">
 [PDF](http://www.eurecom.fr/fr/publication/5565/download/data-publi-5565.pdf)
 </span>  
+
+</section>
+
+<section class="box" markdown="1">
+
+# My Book.
+
+[![Web Data APIs for Knowledge Graphs](https://media.springernature.com/full/springer-static/cover-hires/book/978-3-031-01917-3)](https://link.springer.com/book/10.1007/978-3-031-01917-3)
 
 </section>

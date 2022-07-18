@@ -16,14 +16,6 @@ list: [1,2,3]
 
 
 <section class="project" markdown="1">
-**ANTRACT: Analyse transdisciplinaire des actualités filmées** <span class="sub">FR ANR (2018-2021)</span>    
-I work on web-based face recognition strategies on historical videos.
-<span class="links" markdown="1">
-[SITE](https://antract.hypotheses.org/1)
-</span>
-</section>
-
-<section class="project" markdown="1">
 ![Odeuropa](./images/logo/odeuropa.jpg)
 **Odeuropa** <span class="sub">EU H2020 (2021-2024)</span>    
 Preserve the European Olfactory Heritage.
@@ -44,6 +36,15 @@ I am the scientific co-ordinator.
 </section>
 
 # Past Projects.
+
+<section class="project" markdown="1">
+**ANTRACT: Analyse transdisciplinaire des actualités filmées** <span class="sub">FR ANR (2018-2022)</span>    
+I work on web-based face recognition strategies on historical videos.
+<span class="links" markdown="1">
+[SITE](https://antract.hypotheses.org/1)
+</span>
+</section>
+
 
 <section class="project" markdown="1">
 ![SILKNOW](./images/logo/silknow.png)
