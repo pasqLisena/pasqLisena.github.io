@@ -10,7 +10,7 @@ current_proj:
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
 news:
-  - I will attend [EKAW'22](https://ekaw2022.inf.unibz.it/) presenting the [FARO ontology](https://purl.org/faro) for event relationships (26-29 September)
+  - The [Semantic Methods for Events and Stories workshop](https://anr-kflow.github.io/semmes/) will be held at [ESWC 20223](https://2023.eswc-conferences.org/). CfP is out!
 ---
 
 <section class="box" markdown="1">

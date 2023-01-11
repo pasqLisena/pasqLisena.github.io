@@ -7,6 +7,18 @@ list: [1,2,3]
 
 # Publications.
 
+## 2023
+
+-  Reboud A., [Harrando I.](http://harrando.me/), Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/)
+**Stories of Love and Violence: Zero-Shot Interesting Events Classification for Unsupervised TV Series Summarization**.
+In *[Multimedia Systems](https://www.springer.com/journal/530)*, 11 January 2023.
+<span class="links" markdown="1">
+<!-- [PDF](https://www-nlpir.nist.gov/projects/tvpubs/tv20.papers/memad.pdf) -->
+[REPO](https://github.com/alisonreboud/screenplay_summarization)
+[BIB](./publication/reboud2023stories.bib)
+</span>
+
+
 ## 2022
 
 - Lisena P., [Laaksonen J.](https://people.aalto.fi/jorma.laaksonen) & [Troncy R.](http://www.eurecom.fr/~troncy/)
@@ -23,6 +35,8 @@ To appear in *[Multimedia Systems](https://www.springer.com/journal/530)*, Speci
 **Beyond Causality: Representing Event Relations in Knowledge Graphs**.
 In *[23rd International Conference on Knowledge Engineering and Knowledge Management](https://ekaw2022.inf.unibz.it/)*, 26-29 September 2022, Bolzano (Italy).
 <span class="links" markdown="1">
+[PDF](https://doi.org/10.1007/978-3-031-17105-5_9)
+[BIB](./publication/rebboud2022beyond.bib)
 [RESOURCE](https://purl.org/faro)
 </span>
 
