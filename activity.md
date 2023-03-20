@@ -9,13 +9,12 @@ description: "Teaching, talks, reviews"
 
 ## Lectures
 
-- **Introduction to Data Bases**, EURECOM, Spring 2023 - now
+- [**Introduction to Data Bases**](https://www.eurecom.fr/en/course/database-2023spring), EURECOM, Spring 2023 - now
 - **[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2020Fall)**, JavaScript lecturer, EURECOM,  2017 - now
 
 ## PhD supervision
 
-- Rebboud Y., **Semantic Extraction of Event Relations from
-Text with Knowledge Graphs**, EURECOM, March 2022 - now
+- Rebboud Y., **Semantic Extraction of Event Relations from Text with Knowledge Graphs**, EURECOM, March 2022 - now
 
 ## Master student supervision
 
@@ -27,6 +26,7 @@ Text with Knowledge Graphs**, EURECOM, March 2022 - now
 <span class="links" markdown="1">
 [SLIDES](https://docs.google.com/presentation/d/1hSJ5Evs_oMhvIWOBFt6JfAS9uVGK33mIhwUEHirnfqU/edit)
 </span>
+- de Kok M., **From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach**, EURECOM + VU Amsterdam, July 2023.
 
 # Tutorials.
 - **SPARQL Endpoints and Web API (SWApi)**. In:    
@@ -62,6 +62,13 @@ Text with Knowledge Graphs**, EURECOM, March 2022 - now
 [VIDEO](https://www.youtube.com/watch?v=Hh5rcIMAEE4)
 </span>
 
+- **Travail et cinéma : la fabrique des Actualités françaises (1945-1969)**. 
+24ème édition du [Festival des Rendez-vous de l’Histoire](https://rdv-histoire.com/programme/travail-et-cinema-la-fabrique-des-actualites-francaises-1945-1969), Centre Européen de Promotion de l'Histoire; Fonds de dotation des Rendez-vous de l'histoire, Oct 2021, Blois, France
+<span class="links" markdown="1">
+[SLIDES](https://shs.hal.science/halshs-03768117)
+[AUDIO](https://rdv-histoire.com/programme/travail-et-cinema-la-fabrique-des-actualites-francaises-1945-1969)
+</span>
+
 
 
 - **Classical Music and Knowledge Graphs: Managing, reusing and recommending one of the most complex music genres**
@@ -81,12 +88,17 @@ Text with Knowledge Graphs**, EURECOM, March 2022 - now
 
 # Community service.
 
+Workshop Organisation
+- [Semantic Methods for Events and Stories workshop](https://anr-kflow.github.io/semmes/), held at [ESWC 20223](https://2023.eswc-conferences.org/)
+
 Conference Track Chair
 - The Web Conference (TheWebConf), Poster&Demo Track, [2022](https://www2022.thewebconf.org/cfp/posters-demos/)
 
 Program Committe Member
 -	International Semantic Web Conference (ISWC), Poster&Demo Track, [2018](http://iswc2018.semanticweb.org/poster-demo-track-pc/index.html), [2019](https://iswc2019.semanticweb.org/poster-demo-track-pc/), [2020](https://iswc2020.semanticweb.org/organization/posters-demos-track-pc/), [2022](https://iswc2022.semanticweb.org/index.php/poster-demos-track-pc/)
--	Extended Semantic Web Conference (ESWC), Poster&Demo Track, 2020, 2021, 2022
+-	Extended Semantic Web Conference (ESWC)
+    -  Resource Track, 2023
+    -  Poster&Demo Track, 2020, 2021, 2022, 2023
 -	Workshop on NLP for Music and Audio ([NLP4MusA](https://sites.google.com/view/nlp4musa/committee)), 2020, 2021
 -	International Conference on Knowledge Capture (K-CAP), [2019](http://www.k-cap.org/2019/programme-committee/index.html), [2021](https://www.k-cap.org/2021/index.html)
 -	Workshop on Semantic Applications for Audio and Music (SAAM), [2018](https://saam.semanticaudio.ac.uk/call)

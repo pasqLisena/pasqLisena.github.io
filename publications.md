@@ -9,11 +9,19 @@ list: [1,2,3]
 
 ## 2023
 
+- [Hürriyetoglu A.](http://www.hurrial.com/), [Paccosi T.](https://dh.fbk.eu/author/teresa/), [Menini, S.](https://dh.fbk.eu/author/stefano/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/), Lisena P., Akdemir K., [Troncy R.](http://www.eurecom.fr/~troncy/), [van Erp M.](https://mariekevanerp.com/). **MUSTI - Multimodal Undertanding of Smells in Texts and Images at MediaEval 2022**. In [*MediaEval 2022, Multimedia Evaluation Workshop*](https://multimediaeval.github.io/editions/2022/), 12-13 January 2023, Bergen, Norway.
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/en/publication/7180)
+[SITE](https://multimediaeval.github.io/editions/2022/tasks/musti/)
+[REPO](https://github.com/Odeuropa/musti_mediaeval2022)
+[BIB](./publication/hurriyetoglu2023musti.bib)
+</span>
+
 -  Reboud A., [Harrando I.](http://harrando.me/), Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/)
 **Stories of Love and Violence: Zero-Shot Interesting Events Classification for Unsupervised TV Series Summarization**.
 In *[Multimedia Systems](https://www.springer.com/journal/530)*, 11 January 2023.
 <span class="links" markdown="1">
-<!-- [PDF](https://www-nlpir.nist.gov/projects/tvpubs/tv20.papers/memad.pdf) -->
+[PDF](https://www.eurecom.fr/en/publication/7163)
 [REPO](https://github.com/alisonreboud/screenplay_summarization)
 [BIB](./publication/reboud2023stories.bib)
 </span>
@@ -23,9 +31,9 @@ In *[Multimedia Systems](https://www.springer.com/journal/530)*, 11 January 2023
 
 - Lisena P., [Laaksonen J.](https://people.aalto.fi/jorma.laaksonen) & [Troncy R.](http://www.eurecom.fr/~troncy/)
 **Understanding Videos with Face Recognition: A Complete Pipeline and Applications**.
-To appear in *[Multimedia Systems](https://www.springer.com/journal/530)*, Special Issue on Data-driven Personalisation of Television Content, 15 June 2022, Springer.
+In *[Multimedia Systems](https://www.springer.com/journal/530)*, Special Issue on Data-driven Personalisation of Television Content, v. 28, issue 6, pp. 2147–2159, Decembrer 2022, Springer.
 <span class="links" markdown="1">
-[PDF](https://link.springer.com/article/10.1007/s00530-022-00959-x)
+[PDF](https://www.eurecom.fr/en/publication/6931)
 [BIB](./publication/lisena2022facerec.bib)
 [REPO](https://git.io/facerec)
 [DEMO](http://facerec.eurecom.fr/visualizer)
