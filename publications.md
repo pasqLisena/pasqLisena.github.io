@@ -9,6 +9,12 @@ list: [1,2,3]
 
 ## 2023
 
+- [van Erp M.](https://mariekevanerp.com/), Tullet W., Christlein V., [Ehrhart, T.](https://ehrh.art/), [Hürriyetoglu A.](http://www.hurrial.com/), [Leemans I.](https://ingerleemans.wordpress.com/), Lisena P., Menini S., Schwabe D., Tonelli S., [Troncy R.](http://www.eurecom.fr/~troncy/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/). **More than the Name of the Rose: How to Make Computers Read, See, and Organize Smells**. In [The American Historical Review](https://academic.oup.com/ahr), Volume 128, Issue 1, March 2023, Pages 335–369 
+- <span class="links" markdown="1">
+[PDF](https://doi.org/10.1093/ahr/rhad141)
+</span>
+
+
 - [Hürriyetoglu A.](http://www.hurrial.com/), [Paccosi T.](https://dh.fbk.eu/author/teresa/), [Menini, S.](https://dh.fbk.eu/author/stefano/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/), Lisena P., Akdemir K., [Troncy R.](http://www.eurecom.fr/~troncy/), [van Erp M.](https://mariekevanerp.com/). **MUSTI - Multimodal Undertanding of Smells in Texts and Images at MediaEval 2022**. In [*MediaEval 2022, Multimedia Evaluation Workshop*](https://multimediaeval.github.io/editions/2022/), 12-13 January 2023, Bergen, Norway.
 <span class="links" markdown="1">
 [PDF](https://www.eurecom.fr/en/publication/7180)
