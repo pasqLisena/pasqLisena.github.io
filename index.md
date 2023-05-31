@@ -10,8 +10,6 @@ current_proj:
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
 news:
-  -  On May 6th I will give a talk about [Odeuropa](https://odeuropa.eu/) at the [Essenziarte conference](https://www.essenziarte.it/eventi/quarta-conferenza) in Venice
-  -  I will be at [ESWC 20223](https://2023.eswc-conferences.org/) co-organising the [Semantic Methods for Events and Stories workshop](https://anr-kflow.github.io/semmes/)
 ---
 
 <section class="box" markdown="1">

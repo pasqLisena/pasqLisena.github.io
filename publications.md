@@ -9,9 +9,17 @@ list: [1,2,3]
 
 ## 2023
 
+- [Rebboud Y.](https://ryoussra.github.io/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Prompt-based Data Augmentation for Semantically-Precise Event Relation Classification**. In [Semantic Methods for Events and Stories (SEMMES) Workshop](https://anr-kflow.github.io/semmes/), colocated with [ESWC 2023](https://2023.eswc-conferences.org/), May 29th, 2023, Hersonissos, Greece
+<span class="links" markdown="1">
+[PDF](https://drive.google.com/file/d/1JrFhI2ULGisPZ46ZcjH3EqVW8qunlzWe/view?usp=sharing)
+[BIB](./publication/vanerp2023morethanrose.bib)
+</span>
+
+
 - [van Erp M.](https://mariekevanerp.com/), Tullet W., Christlein V., [Ehrhart, T.](https://ehrh.art/), [Hürriyetoglu A.](http://www.hurrial.com/), [Leemans I.](https://ingerleemans.wordpress.com/), Lisena P., Menini S., Schwabe D., Tonelli S., [Troncy R.](http://www.eurecom.fr/~troncy/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/). **More than the Name of the Rose: How to Make Computers Read, See, and Organize Smells**. In [The American Historical Review](https://academic.oup.com/ahr), Volume 128, Issue 1, March 2023, Pages 335–369 
-- <span class="links" markdown="1">
+<span class="links" markdown="1">
 [PDF](https://doi.org/10.1093/ahr/rhad141)
+[BIB](./publication/vanerp2023morethanrose.bib)
 </span>
 
 
@@ -45,7 +53,7 @@ In *[Multimedia Systems](https://www.springer.com/journal/530)*, Special Issue o
 [DEMO](http://facerec.eurecom.fr/visualizer)
 </span>
 
-- Rebboud Y., Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/)
+- [Rebboud Y.](https://ryoussra.github.io/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/)
 **Beyond Causality: Representing Event Relations in Knowledge Graphs**.
 In *[23rd International Conference on Knowledge Engineering and Knowledge Management](https://ekaw2022.inf.unibz.it/)*, 26-29 September 2022, Bolzano (Italy).
 <span class="links" markdown="1">
