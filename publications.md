@@ -12,7 +12,7 @@ list: [1,2,3]
 - [Rebboud Y.](https://ryoussra.github.io/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Prompt-based Data Augmentation for Semantically-Precise Event Relation Classification**. In [Semantic Methods for Events and Stories (SEMMES) Workshop](https://anr-kflow.github.io/semmes/), colocated with [ESWC 2023](https://2023.eswc-conferences.org/), May 29th, 2023, Hersonissos, Greece
 <span class="links" markdown="1">
 [PDF](https://drive.google.com/file/d/1JrFhI2ULGisPZ46ZcjH3EqVW8qunlzWe/view?usp=sharing)
-[BIB](./publication/vanerp2023morethanrose.bib)
+[BIB](./publication/rebboud2023prompt.bib)
 </span>
 
 
