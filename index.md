@@ -9,7 +9,7 @@ current_proj:
   - img: './images/logo/kFLOW_logo.png'
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
-news:
+news: 'Our last work about the verbalisation of events will be presented in Glasgow, UK at [Text2Story](https://text2story24.inesctec.pt/) (March 24th)'
 ---
 
 <section class="box" markdown="1">

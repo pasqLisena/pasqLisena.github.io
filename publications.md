@@ -7,7 +7,20 @@ list: [1,2,3]
 
 # Publications.
 
+## 2024
+
+- de Kok, M., [Rebboud Y.](https://ryoussra.github.io/), Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/) & [Tiddi, I.](https://kmitd.github.io/ilaria/) **From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach**. In *Seventh International Workshop on Narrative Extraction from Texts ([Text2Story](https://text2story24.inesctec.pt/))*, colocated with [ECIR 2024](https://www.ecir2024.org/), March 24th, 2024, Glasgow, UK
+
+
 ## 2023
+
+- Lisena, P., Schwabe, D., [van Erp M.](https://mariekevanerp.com/), [Leemans I.](https://ingerleemans.wordpress.com/), Tullett, W,, [Troncy R.](http://www.eurecom.fr/~troncy/) , Ehrich, S. C. & [Ehrhart, T.](https://ehrh.art/) **An Ontology for Creating Hypermedia Stories over Knowledge Graphs**. In [SWODCH 2023, Workshop on Semantic Web and Ontology Design for Cultural Heritage](https://swodch2023.inf.unibz.it/), colocated with [ISWC 2023](https://iswc2023.semanticweb.org/workshops/), 7 November 2023, Athens, Greece
+<span class="links" markdown="1">
+[PDF](https://hal.univ-lorraine.fr/EURECOM/hal-04321300v1)
+[BIB](./publication/lisena2023hypermedia.bib)
+[SLIDES](https://docs.google.com/presentation/d/1YqmgnGfwCevDD9Q0l7W8Q-CXIUXnWHqZ1yjQVZwheTw)
+</span>
+
 
 - [Rebboud Y.](https://ryoussra.github.io/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Prompt-based Data Augmentation for Semantically-Precise Event Relation Classification**. In [Semantic Methods for Events and Stories (SEMMES) Workshop](https://anr-kflow.github.io/semmes/), colocated with [ESWC 2023](https://2023.eswc-conferences.org/), May 29th, 2023, Hersonissos, Greece
 <span class="links" markdown="1">
@@ -23,7 +36,7 @@ list: [1,2,3]
 </span>
 
 
-- [Hürriyetoglu A.](http://www.hurrial.com/), [Paccosi T.](https://dh.fbk.eu/author/teresa/), [Menini, S.](https://dh.fbk.eu/author/stefano/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/), Lisena P., Akdemir K., [Troncy R.](http://www.eurecom.fr/~troncy/), [van Erp M.](https://mariekevanerp.com/). **MUSTI - Multimodal Undertanding of Smells in Texts and Images at MediaEval 2022**. In [*MediaEval 2022, Multimedia Evaluation Workshop*](https://multimediaeval.github.io/editions/2022/), 12-13 January 2023, Bergen, Norway.
+- [Hürriyetoglu A.](http://www.hurrial.com/), [Paccosi T.](https://dh.fbk.eu/author/teresa/), [Menini, S.](https://dh.fbk.eu/author/stefano/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/), Lisena P., Akdemir K., [Troncy R.](http://www.eurecom.fr/~troncy/), [van Erp M.](https://mariekevanerp.com/). **MUSTI - Multimodal Undertanding of Smells in Texts and Images at MediaEval 2022**. In [*MediaEval 2022, Multimedia Evaluation Workshop*](https://multimediaeval.github.io/editions/2022/), 12-13 January 2023, Bergen, Norway
 <span class="links" markdown="1">
 [PDF](https://www.eurecom.fr/en/publication/7180)
 [SITE](https://multimediaeval.github.io/editions/2022/tasks/musti/)
