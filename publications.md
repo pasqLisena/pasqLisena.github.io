@@ -11,6 +11,14 @@ list: [1,2,3]
 
 - de Kok, M., [Rebboud Y.](https://ryoussra.github.io/), Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/) & [Tiddi, I.](https://kmitd.github.io/ilaria/) **From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach**. In *Seventh International Workshop on Narrative Extraction from Texts ([Text2Story](https://text2story24.inesctec.pt/))*, colocated with [ECIR 2024](https://www.ecir2024.org/), March 24th, 2024, Glasgow, UK
 
+- Carrive J. ,  Beloued A.,  Goetschel P.,  Heiden S., Lalande S.,  Lisena P.,  Mazuet F.,  Meignier S.,  Pincemin B. and Troncy Raphael.
+**Analyse transdisciplinaire d’un corpus d’actualités filmées. L’environnement d’analyse numérique développé par le projet ANTRACT.**
+In: *Les Nouveaux Paradigmes de l'Archive*, Publications des Archives nationales, February 9th, 2024, Pierrefitte-sur-Seine, France
+<span class="links" markdown="1">
+[PDF](https://books.openedition.org/pan/7194)
+[BIB](./publication/carrive2024antract.bib)
+</span>
+
 
 ## 2023
 
@@ -19,6 +27,12 @@ list: [1,2,3]
 [PDF](https://hal.univ-lorraine.fr/EURECOM/hal-04321300v1)
 [BIB](./publication/lisena2023hypermedia.bib)
 [SLIDES](https://docs.google.com/presentation/d/1YqmgnGfwCevDD9Q0l7W8Q-CXIUXnWHqZ1yjQVZwheTw)
+</span>
+
+- Lisena P., [Tiddi, I.](https://kmitd.github.io/ilaria/), [Gottschalk, S.](https://personal.l3s.uni-hannover.de/~gottschalk/) and [Steels, L.](https://www.upf.edu/web/icrea-luc-steels). **Semantic Methods for Events and Stories (SEMMES)** In [*ESWC 2023 Workshops and Tutorials Joint Proceedings*](https://ceur-ws.org/Vol-3443/), vol. 3443, CEUR Workshop Proceedings.
+<span class="links" markdown="1">
+[PDF](https://ceur-ws.org/Vol-3443/ESWC_2023_SEMMES_Preface.pdf)
+[BIB](./publication/lisena2023semmes.bib)
 </span>
 
 
