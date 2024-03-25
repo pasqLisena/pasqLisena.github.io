@@ -50,7 +50,7 @@ In: *Les Nouveaux Paradigmes de l'Archive*, Publications des Archives nationales
 </span>
 
 
-- [Hürriyetoglu A.](http://www.hurrial.com/), [Paccosi T.](https://dh.fbk.eu/author/teresa/), [Menini, S.](https://dh.fbk.eu/author/stefano/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/), Lisena P., Akdemir K., [Troncy R.](http://www.eurecom.fr/~troncy/), [van Erp M.](https://mariekevanerp.com/). **MUSTI - Multimodal Undertanding of Smells in Texts and Images at MediaEval 2022**. In [*MediaEval 2022, Multimedia Evaluation Workshop*](https://multimediaeval.github.io/editions/2022/), 12-13 January 2023, Bergen, Norway
+- [Hürriyetoglu A.](http://www.hurrial.com/), [Paccosi T.](https://dh.fbk.eu/author/teresa/), [Menini, S.](https://dh.fbk.eu/author/stefano/), [Zinnen M.](https://lme.tf.fau.de/person/zinnen/), Lisena P., Akdemir K., [Troncy R.](http://www.eurecom.fr/~troncy/), [van Erp M.](https://mariekevanerp.com/). **MUSTI - Multimodal Understanding of Smells in Texts and Images at MediaEval 2022**. In [*MediaEval 2022, Multimedia Evaluation Workshop*](https://multimediaeval.github.io/editions/2022/), 12-13 January 2023, Bergen, Norway
 <span class="links" markdown="1">
 [PDF](https://www.eurecom.fr/en/publication/7180)
 [SITE](https://multimediaeval.github.io/editions/2022/tasks/musti/)
