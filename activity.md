@@ -56,6 +56,11 @@ description: "Teaching, talks, reviews"
 
 # Talks.
 
+- **Unlocking narratives: The role of knowledge graphs and AI in story understanding**. [Le Monde des Mathématiques Industrielles", 9ème édition, MOMI 2025](https://phd-seminars-sam.inria.fr/momi-2025/), 27 May 2025, Sophia Antipolis, France.
+<span class="links" markdown="1">
+[SLIDES](https://bit.ly/kflow-momi2025)
+</span>
+
 - **When did De Gaulle and Eishenower meet? Automatic Face Recognition in historical videos**. [AI4LAM Community Call](https://www.bnf.fr/fr/captations-et-supports-de-la-conference-2021#bnf-pr-sentations-clairs), 15 February 2022.
 <span class="links" markdown="1">
 [SLIDES](https://docs.google.com/presentation/d/14cIYLJ_JnfHR1dQd2Mrb8XAjUarKsHuVptMK714upRU)

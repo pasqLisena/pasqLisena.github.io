@@ -7,9 +7,76 @@ list: [1,2,3]
 
 # Publications.
 
+## 2025
+
+- Vellard, E., Charolois-Pasqua, E., [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Interactive Playlist Generation from Titles**. In [Nineteenth ACM Conference on Recommender Systems (RecSys ’25)](https://recsys.acm.org/recsys25/), Demo Track, September 22–26, 2025, Prague, Czech Republic
+<span class="links" markdown="1">
+[BIB](./publication/vellardcharolois2025interactive.bib)
+[REPO](https://github.com/elea-vellard/DEMO-playlist-generation)
+</span>
+
+- Charolois-Pasqua, E., Vellard, E., [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **A Language Model-Based Playlist Generation Recommender System**. In [Nineteenth ACM Conference on Recommender Systems (RecSys ’25)](https://recsys.acm.org/recsys25/), September 22–26, 2025, Prague, Czech Republic
+<span class="links" markdown="1">
+[BIB](./publication/charoloisvellard2025lm-recommender.bib)
+[REPO](https://github.com/elea-vellard/LLM-Playlist-Recommender)
+</span>
+
+
+- [Burel, G.](https://kmi.open.ac.uk/people/member/gregoire-burel), Lisena, P., [Daga, E.](https://www.enridaga.net/), [Troncy R.](http://www.eurecom.fr/~troncy/) & [Alani, H.](https://profiles.open.ac.uk/harith-alani). **ClimateSense at CheckThat! 2025: Combining fine-tuned large language models and conventional machine learning models for subjectivity and scientific web discourse analysis**. In [CLEF 2025, Conference and Labs of the Evaluation Forum, Information Access Evaluation meets Multilinguality, Multimodality, and Visualization](https://clef2025.clef-initiative.eu/), CheckThat! Lab, 9-12 September 2025, Madrid, Spain.
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/8292)
+[BIB](./publication/burel2025clef.bib)
+[REPO](https://github.com/climatesense-project/climatesense-checkthat2025)
+</span>
+
+- Lisena P., [Ehrhart, T.](https://ehrh.art/) & [Troncy R.](http://www.eurecom.fr/~troncy/) **How to embed large but incomplete knowledge graphs in the culture heritage sector: Lessons learned from Odeuropa**. In [Handbook on Neurosymbolic AI and Knowledge Graphs](https://ebooks.iospress.nl/volume/handbook-on-neurosymbolic-ai-and-knowledge-graphs), Frontiers in Artificial Intelligence and Applications, pages 146 - 165, Vol. 400, March 2025
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/8150)
+[BIB](./publication/lisena2025embed.bib)
+[REPO](https://github.com/Odeuropa/kg-embeddings)
+</span>
+
 ## 2024
 
+- Flores, M., [Rebboud Y.](https://ryoussra.github.io/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Streamlining event relation extraction: A pipeline leveraging pretrained and large language models for inference**. In [EKAW 2024, 24th International Conference on Knowledge Engineering and Knowledge Management](https://event.cwi.nl/ekaw2024/), Poster and Demo Track, 26-28 November 2024, Amsterdam, The Netherlands
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/8052)
+[BIB](./publication/flores2024streamlining.bib)
+[POSTER](https://docs.google.com/presentation/d/1ASWjv71fE8ZwgKbECU5bHyF16WTjYWoA)
+[DEMO](https://demo.kflow.eurecom.fr/)
+[REPO](https://github.com/ANR-kFLOW/Relation_extraction/tree/main/pipeline)
+</span>
+
+- [Rebboud Y.](https://ryoussra.github.io/), [Tailhardat, L.](https://genears.github.io/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Benchmarking LLM-based ontology conceptualization: A proposal**. In [23rd International Semantic Web Conference (ISWC)](https://iswc.umbc.edu/), Special Session on Harmonising Generative AI and Semantic Web Technologies, November 11–15, 2024, Baltimore, USA
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/7944)
+[BIB](./publication/rebboud2024llm_bench.bib)
+[SLIDES](https://docs.google.com/presentation/d/1Y3QZ4x1Nkz_F4Zq6-UVCwq-ji-DWVjr9F-ODljC4EeI)
+[REPO](https://github.com/D2KLab/llm4ke)
+</span>
+
+- Vodopivec, I., Novalija, I., Mladenic, D., Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/), & [Leemans I.](https://ingerleemans.wordpress.com/). **One pattern to express them all? Towards Generalised Patterns for Ontology Design in the Digital Humanities**. In [WOP 2024, 15th Workshop on Ontology Design and Patterns](https://odpa.github.io/workshop-on-ontology-design-and-patterns/2024/index.html), colocated with the [23rd International Semantic Web Conference (ISWC 2024)](https://iswc.umbc.edu/), 11 November 2024, Baltimore, USA
+<span class="links" markdown="1">
+[PDF](https://openreview.net/forum?id=T24qBlUxtH)
+[BIB](./publication/ondraszek2024one.bib)
+[SLIDES](https://zenodo.org/records/14063901)
+</span>
+
+- [Rebboud Y.](https://ryoussra.github.io/), [Tailhardat, L.](https://genears.github.io/), Lisena P. & [Troncy R.](http://www.eurecom.fr/~troncy/) **Can LLMs generate competency questions?**. In [ESWC 2024, Extended Semantic Web Conference](https://2024.eswc-conferences.org/), Special Track on Large Language Models for Knowledge Engineering, May 26th-30th, 2023, Hersonissos, Greece
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/7699)
+[BIB](./publication/rebboud2024llm_cqs.bib)
+[SLIDES](https://bit.ly/EURECOM-llm4ke2024)
+[REPO](https://github.com/D2KLab/llm4ke)
+</span>
+
 - de Kok, M., [Rebboud Y.](https://ryoussra.github.io/), Lisena P., [Troncy R.](http://www.eurecom.fr/~troncy/) & [Tiddi, I.](https://kmitd.github.io/ilaria/) **From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach**. In *Seventh International Workshop on Narrative Extraction from Texts ([Text2Story](https://text2story24.inesctec.pt/))*, colocated with [ECIR 2024](https://www.ecir2024.org/), March 24th, 2024, Glasgow, UK
+<span class="links" markdown="1">
+[PDF](https://ceur-ws.org/Vol-3671/paper3.pdf)
+[BIB](./publication/dekok2024nodes2narratives.bib)
+[SLIDES](https://docs.google.com/presentation/d/1tcuBzHrIf2VZflDnRcB_8EWTbQ6AVDo1o7PIHoFPw3g)
+[REPO](https://github.com/ANR-kFLOW/KG2Narrative)
+</span>
 
 - Carrive J. ,  Beloued A.,  Goetschel P.,  Heiden S., Lalande S.,  Lisena P.,  Mazuet F.,  Meignier S.,  Pincemin B. and Troncy Raphael.
 **Analyse transdisciplinaire d’un corpus d’actualités filmées. L’environnement d’analyse numérique développé par le projet ANTRACT.**
@@ -22,7 +89,7 @@ In: *Les Nouveaux Paradigmes de l'Archive*, Publications des Archives nationales
 
 ## 2023
 
-- Lisena, P., Schwabe, D., [van Erp M.](https://mariekevanerp.com/), [Leemans I.](https://ingerleemans.wordpress.com/), Tullett, W,, [Troncy R.](http://www.eurecom.fr/~troncy/) , Ehrich, S. C. & [Ehrhart, T.](https://ehrh.art/) **An Ontology for Creating Hypermedia Stories over Knowledge Graphs**. In [SWODCH 2023, Workshop on Semantic Web and Ontology Design for Cultural Heritage](https://swodch2023.inf.unibz.it/), colocated with [ISWC 2023](https://iswc2023.semanticweb.org/workshops/), 7 November 2023, Athens, Greece
+- Lisena, P., Schwabe, D., [van Erp M.](https://mariekevanerp.com/), [Leemans I.](https://ingerleemans.wordpress.com/), Tullett, W., [Troncy R.](http://www.eurecom.fr/~troncy/), Ehrich, S. C. & [Ehrhart, T.](https://ehrh.art/) **An Ontology for Creating Hypermedia Stories over Knowledge Graphs**. In [SWODCH 2023, Workshop on Semantic Web and Ontology Design for Cultural Heritage](https://swodch2023.inf.unibz.it/), colocated with [ISWC 2023](https://iswc2023.semanticweb.org/workshops/), 7 November 2023, Athens, Greece
 <span class="links" markdown="1">
 [PDF](https://hal.univ-lorraine.fr/EURECOM/hal-04321300v1)
 [BIB](./publication/lisena2023hypermedia.bib)
