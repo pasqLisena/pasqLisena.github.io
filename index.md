@@ -9,7 +9,9 @@ current_proj:
   - img: './images/logo/kFLOW_logo.png'
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
-news: 'Our last work about the verbalisation of events will be presented in Glasgow, UK at [Text2Story](https://text2story24.inesctec.pt/) (March 24th)'
+news: 
+  - 'I will be in Madrid presenting our work in the CheckThat challenge at [CLEF 2025](https://clef2025.clef-initiative.eu/) (Sept 9-12)'
+  - 'In Prague for [RecSys](https://recsys.acm.org/recsys25) (Sept 22-26) for presenting our [LM-based playlist recommender](https://playlist-recommendation.tools.eurecom.fr/)'
 ---
 
 <section class="box" markdown="1">

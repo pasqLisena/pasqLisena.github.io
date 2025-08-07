@@ -13,6 +13,7 @@ list: [1,2,3]
 <span class="links" markdown="1">
 [BIB](./publication/vellardcharolois2025interactive.bib)
 [REPO](https://github.com/elea-vellard/DEMO-playlist-generation)
+[DEMO](https://playlist-recommendation.tools.eurecom.fr/)
 </span>
 
 - Charolois-Pasqua, E., Vellard, E., [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **A Language Model-Based Playlist Generation Recommender System**. In [Nineteenth ACM Conference on Recommender Systems (RecSys ’25)](https://recsys.acm.org/recsys25/), September 22–26, 2025, Prague, Czech Republic
