@@ -26,6 +26,8 @@ My [research fields](./research) involves Knowledge Graphs, Knowledge Engineerin
 <section class="box" markdown="1">
 
 # Selected works.
+2025 - A Language Model-Based Playlist Generation Recommender System
+
 2022 - Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information
 <span class="links inline" markdown="1">
 [PDF](http://doi.org/10.3233/SW-210446)
