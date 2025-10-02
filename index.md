@@ -10,8 +10,7 @@ current_proj:
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
 news: 
-  - 'I will be in Madrid presenting our work in the CheckThat challenge at [CLEF 2025](https://clef2025.clef-initiative.eu/) (Sept 9-12)'
-  - 'In Prague for [RecSys](https://recsys.acm.org/recsys25) (Sept 22-26) for presenting our [LM-based playlist recommender](https://playlist-recommendation.tools.eurecom.fr/)'
+  - 'I will give a talk during Leiden University seminar on CH & AI (Oct 6)'
 ---
 
 <section class="box" markdown="1">
@@ -27,6 +26,9 @@ My [research fields](./research) involves Knowledge Graphs, Knowledge Engineerin
 
 # Selected works.
 2025 - A Language Model-Based Playlist Generation Recommender System
+<span class="links inline" markdown="1">
+[PDF](https://doi.org/10.1145/3705328.3748053)
+</span>  
 
 2022 - Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information
 <span class="links inline" markdown="1">

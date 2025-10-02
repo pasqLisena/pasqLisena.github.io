@@ -11,15 +11,20 @@ list: [1,2,3]
 
 - Vellard, E., Charolois-Pasqua, E., [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Interactive Playlist Generation from Titles**. In [Nineteenth ACM Conference on Recommender Systems (RecSys ’25)](https://recsys.acm.org/recsys25/), Demo Track, September 22–26, 2025, Prague, Czech Republic
 <span class="links" markdown="1">
+[PDF](https://dl.acm.org/doi/10.1145/3705328.3759336)
 [BIB](./publication/vellardcharolois2025interactive.bib)
+[POSTER](https://drive.google.com/file/d/1Np28NKw6zHSQusWBkVXWNWyHCe51RgFf/view?usp=sharing)
 [REPO](https://github.com/elea-vellard/DEMO-playlist-generation)
 [DEMO](https://playlist-recommendation.tools.eurecom.fr/)
 </span>
 
 - Charolois-Pasqua, E., Vellard, E., [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **A Language Model-Based Playlist Generation Recommender System**. In [Nineteenth ACM Conference on Recommender Systems (RecSys ’25)](https://recsys.acm.org/recsys25/), September 22–26, 2025, Prague, Czech Republic
 <span class="links" markdown="1">
+[PDF](https://dl.acm.org/doi/10.1145/3705328.3748053)
 [BIB](./publication/charoloisvellard2025lm-recommender.bib)
 [REPO](https://github.com/elea-vellard/LLM-Playlist-Recommender)
+[SLIDES](https://bit.ly/lmrec-2025)
+[TALK](https://slideslive.com/39045764/a-language-modelbased-playlist-generation-recommender-system)
 </span>
 
 
