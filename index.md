@@ -26,32 +26,24 @@ My [research fields](./research) involve Knowledge Graphs, Knowledge Engineering
 <section class="box" markdown="1">
 
 # Selected works.
+
 2025 - A Language Model-Based Playlist Generation Recommender System
-<span class="links inline" markdown="1">
-[PDF](https://doi.org/10.1145/3705328.3748053)
-</span>  
+[PDF](https://doi.org/10.1145/3705328.3748053){: .links.inline}
 
 2022 - Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information
-<span class="links inline" markdown="1">
-[PDF](http://doi.org/10.3233/SW-210446)
-</span>  
-<span class="award">Best Resource Paper Award</span>
+[PDF](http://doi.org/10.3233/SW-210446){: .links.inline}
 
+Best Resource Paper Award
+{: .award}
 
 2022 - MIDI2vec: Learning MIDI Embeddings for Reliable Prediction of Symbolic Music Metadata
-<span class="links inline" markdown="1">
-[PDF](http://doi.org/10.3233/SW-210446)
-</span>  
+[PDF](http://doi.org/10.3233/SW-210446){: .links.inline}
 
 2019 - Easy Web API Development with SPARQL Transformer
-<span class="links inline" markdown="1">
-[PDF](http://www.eurecom.fr/en/publication/5927/download/data-publi-5927.pdf)
-</span>  
+[PDF](http://www.eurecom.fr/en/publication/5927/download/data-publi-5927.pdf){: .links.inline}
 
 2018 - DOREMUS: A graph of linked musical works
-<span class="links inline" markdown="1">
-[PDF](http://www.eurecom.fr/fr/publication/5565/download/data-publi-5565.pdf)
-</span>  
+[PDF](http://www.eurecom.fr/fr/publication/5565/download/data-publi-5565.pdf){: .links.inline}
 
 </section>
 
