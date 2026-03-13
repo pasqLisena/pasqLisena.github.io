@@ -10,7 +10,8 @@ current_proj:
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
 news: 
-  - 'I will give a talk during Leiden University seminar on CH & AI (Oct 6)'
+  - 'I will present a paper at ACM SAC / KNLP (March 23/27)'
+  - 'I will present a paper at LREC (May 11/15)'
 ---
 
 <section class="box" markdown="1">
@@ -19,7 +20,7 @@ news:
 I am currently a Research Fellow in the [Data Science department](https://ds.eurecom.fr/) at [EURECOM](http://www.eurecom.fr/), in the Data2Knowledge group.
 I got a PhD in Computer Science in 2019, with a thesis on [_Knowledge-based music recommendation: Models, algorithms and exploratory search_](./research#phd-thesis). In 2021, I obtained an ANR JCJC as project coordinator for the [kFLOW project](https://anr-kflow.github.io/).
 
-My [research fields](./research) involves Knowledge Graphs, Knowledge Engineering and Recommender System. Currently working on [Odeuropa](https://odeuropa.eu/) and [kFLOW](https://anr-kflow.github.io/).
+My [research fields](./research) involve Knowledge Graphs, Knowledge Engineering and Recommender System. Currently working on [Odeuropa](https://odeuropa.eu/) and [kFLOW](https://anr-kflow.github.io/).
 </section>
 
 <section class="box" markdown="1">
