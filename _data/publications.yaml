@@ -1,0 +1,1378 @@
+entries:
+- id: rebboud2026causalsense
+  type: inproceedings
+  fields:
+    author:
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: 'CausalSense: Leveraging common sense knowledge and LLMs for joint event extraction and relation classification'
+    booktitle: LREC 2026, International Conference on Language Resources and Evaluation
+    year: 2026
+    address: Palma, Mallorca, Spain
+    month: 5
+    eventdate: 2026-05-11/2026-05-16
+  resources:
+    pdf: https://www.eurecom.fr/publication/8673
+    poster: https://docs.google.com/presentation/d/1xAS6Jd9MqrnIE9vq5cUsCX6rgElB5gW-/
+    slides: https://docs.google.com/presentation/d/1N6LJ7d5HYtNZl6w_LoFDGrw4XvKjwElSU2VFt6DKGWA/
+    repo: https://github.com/ANR-kFLOW/Relation_extraction
+    demo: https://demo.kflow.eurecom.fr/
+- id: argese2026storyscore
+  type: inproceedings
+  fields:
+    author:
+    - Argese, Alex
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: 'Hallucination or creativity: How to evaluate AI-generated scientific stories?'
+    booktitle: Proceedings of the Text2Story’26 Workshop
+    address: Delft, The Netherlands
+    year: 2026
+    editor: CEUR-WS
+    numpages: 10
+    month: 3
+    day: 29
+    eventdate: 2026-03-29/2026-03-29
+  resources:
+    pdf: https://www.eurecom.fr/publication/8619
+    poster: https://docs.google.com/presentation/d/1oOXkuvLFPtTqa_3GU8DsrkWO_5-c_bJH/
+    slides: https://docs.google.com/presentation/d/19uZo-uX4KwA07gs-30XfelrTeseAc5Br/
+    repo: https://github.com/D2KLab/StoryScore
+- id: rebboud2026causalfactcheck
+  type: inproceedings
+  fields:
+    author:
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: Integrating Causal Reasoning into Automated Fact-Checking
+    booktitle: The 41st ACM/SIGAPP Symposium on Applied Computing (SAC '26)
+    year: 2026
+    date: 2026-03-23/2026-03-27
+    address: Thessaloniki, Greece
+    publisher: ACM
+    location: New York, NY, USA
+    pages: 3
+    doi: 10.1145/3748522.3779831
+    month: 3
+    eventdate: 2026-03-23/2026-03-27
+  resources:
+    pdf: https://arxiv.org/abs/2512.13286
+    poster: https://docs.google.com/presentation/d/1zt5xUziRjtiW2JzKJY7Q4gLsHJy1JhjZ/
+    repo: https://github.com/ANR-kFLOW/Fact_checking_reasoner
+- id: lisena2026deepfake
+  type: article
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Lee, Kong Aik
+    - Wang, Yi
+    - Todisco, Massimiliano
+    - Galdi, Chiara
+    - Troncy, Raphaël
+    - Evans, Nicholas
+    - Lin, Weiwei
+    - Chau, Lap-Pui
+    - Mak, Man-Wai
+    title: Future-Proofing Deepfake Detection by Integrating Audio, Video, and Text
+    year: 2026
+    issue_date: March 2026
+    publisher: Association for Computing Machinery
+    address: New York, NY, USA
+    volume: 1
+    number: 1
+    doi: 10.1145/3797958
+    journal: ACM AI Letters
+    month: mar
+    articleno: 6
+    numpages: 7
+  resources:
+    pdf: https://doi.org/10.1145/3797958
+- id: plu2025text2kgbenchlettria
+  type: inproceedings
+  fields:
+    author:
+    - Plu, Julien
+    - Escobar, Oscar Moreno
+    - Trouillez, Edouard
+    - Gapin, Axelle
+    - Lisena, Pasquale
+    - Ehrhart, Thibault
+    - Troncy, Raphaël
+    title: 'Text2KGBench-LettrIA: A refined benchmark for Text2Graph systems'
+    booktitle: KBC-LM and LM-KBC Challenge (Knowledge Base Construction from Pre-trained Language Models) at ISWC 2025, 24th International Semantic Web Conference, 2-6 November 2025, Nara, Japan
+    year: 2025
+    editor: CEUR-WS
+    address: Nara, Japan
+    url: https://ceur-ws.org/Vol-4041/paper3.pdf
+    month: 11
+    eventdate: 2025-11-02/2025-11-06
+  resources:
+    pdf: https://ceur-ws.org/Vol-4041/paper3.pdf
+    slides: https://docs.google.com/presentation/d/1186KeXHCTSp4E079ORpP9_ZLLWWtJy6CE4xYevDxQS0/edit?usp=sharing
+- id: qin2025variational
+  type: inproceedings
+  fields:
+    author:
+    - Qin, Siqing
+    - Lee, Kong Aik
+    - Mak, Man-Wai
+    - Lisena, Pasquale
+    - Todisco, Massimiliano
+    booktitle: 2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)
+    title: Variational Regularization for End-to-End Speech Deepfake Detection
+    year: 2025
+    volume: ''
+    number: ''
+    pages: 2241-2246
+    doi: 10.1109/APSIPAASC65261.2025.11249209
+    month: 10
+    eventdate: 2025-10-22/2025-10-24
+  resources:
+    pdf: https://www.eurecom.fr/publication/8514
+- id: charoloisvellard2025lm-recommender
+  type: inproceedings
+  fields:
+    author:
+    - Enzo Charolois--Pasqua
+    - Eléa Vellard
+    - Youssra Rebboud
+    - Pasquale Lisena
+    - Raphael Troncy
+    title: A Language Model-Based Playlist Generation Recommender System
+    booktitle: Proceedings of the 19th ACM Conference on Recommender Systems (RecSys '25)
+    year: 2025
+    pages: 11
+    publisher: ACM
+    address: Prague, Czech Republic
+    month: September 22--26
+    doi: 10.1145/3705328.3748053
+    eventdate: 2025-09-22/2025-09-26
+  resources:
+    pdf: https://dl.acm.org/doi/10.1145/3705328.3748053
+    repo: https://github.com/elea-vellard/LLM-Playlist-Recommender
+    slides: https://bit.ly/lmrec-2025
+    talk: https://slideslive.com/39045764/a-language-modelbased-playlist-generation-recommender-system
+- id: vellardcharolois2025interactive
+  type: inproceedings
+  fields:
+    author:
+    - Vellard, Eléa
+    - Charolois-Pasqua, Enzo
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: Interactive Playlist Generation from Titles
+    year: 2025
+    booktitle: Proceedings of the Nineteenth ACM Conference on Recommender Systems, Demo Track
+    series: RecSys '25
+    location: Prague, Czech Republic
+    pages: 3
+    publisher: ACM
+    address: New York, NY, USA
+    doi: 10.1145/3705328.3759336
+    month: 9
+    eventdate: 2025-09-22/2025-09-26
+  resources:
+    pdf: https://dl.acm.org/doi/10.1145/3705328.3759336
+    poster: https://drive.google.com/file/d/1Np28NKw6zHSQusWBkVXWNWyHCe51RgFf/view?usp=sharing
+    repo: https://github.com/elea-vellard/DEMO-playlist-generation
+    demo: https://playlist-recommendation.tools.eurecom.fr/
+- id: burel2025clef
+  type: inproceedings
+  fields:
+    author:
+    - Burel, Grégoire
+    - Lisena, Pasquale
+    - Daga, Enrico
+    - Troncy, Raphaël
+    - Alani, Harith
+    title: 'ClimateSense at CheckThat! 2025: Combining fine-tuned large language models and conventional machine learning models for subjectivity and scientific web discourse analysis'
+    booktitle: CLEF 2025 Working Notes
+    year: 2025
+    editor: CEUR-WS
+    address: Madrid, Spain
+    month: 9
+    eventdate: 2025-09-09/2025-09-12
+  resources:
+    pdf: https://www.eurecom.fr/publication/8292
+    repo: https://github.com/climatesense-project/climatesense-checkthat2025
+- id: lisena2025embed
+  type: incollection
+  fields:
+    title: 'How to Embed Large but Incomplete Knowledge Graphs in the Culture Heritage Sector: Lessons Learned from Odeuropa'
+    author:
+    - Lisena, Pasquale
+    - Ehrhart, Thibault
+    - Troncy, Raphaël
+    booktitle: Handbook on Neurosymbolic AI and Knowledge Graphs
+    pages: 146--165
+    year: 2025
+    publisher: IOS Press
+    month: 3
+    eventdate: 2025-03-01/2025-03-01
+  resources:
+    pdf: https://www.eurecom.fr/publication/8150
+    repo: https://github.com/Odeuropa/kg-embeddings
+- id: flores2024streamlining
+  type: conference
+  fields:
+    author:
+    - Miguel, Flores
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: 'Streamlining event relation extraction: A pipeline leveraging pretrained and large language models for inference'
+    booktitle: EKAW 2024, 24th International Conference on Knowledge Engineering and Knowledge Management, Poster and Demo Track
+    year: 2024
+    editor: CEUR-WS
+    address: Amsterdam, Netherlands
+    month: 11
+    eventdate: 2024-11-26/2024-11-28
+  resources:
+    pdf: https://www.eurecom.fr/publication/8052
+    poster: https://docs.google.com/presentation/d/1ASWjv71fE8ZwgKbECU5bHyF16WTjYWoA
+    demo: https://demo.kflow.eurecom.fr/
+    repo: https://github.com/ANR-kFLOW/Relation_extraction/tree/main/pipeline
+- id: ondraszek2024one
+  type: inproceedings
+  fields:
+    title: One pattern to express them all? Towards Generalised Patterns for Ontology Design in the Digital Humanities
+    author:
+    - Sarah Rebecca Ondraszek
+    - Bruno Sartini
+    - Marieke van Erp
+    - Andrea Poltronieri
+    - Pasquale Lisena
+    - Harald Sack
+    booktitle: 15th Workshop on Ontology Design and Patterns
+    year: 2024
+    url: https://openreview.net/forum?id=T24qBlUxtH
+    month: 11
+    day: 11
+    eventdate: 2024-11-11/2024-11-11
+  resources:
+    pdf: https://openreview.net/forum?id=T24qBlUxtH
+    slides: https://zenodo.org/records/14063901
+- id: rebboud2024llm_bench
+  type: conference
+  fields:
+    author:
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Tailhardat, Lionel
+    - Troncy, Raphaël
+    title: 'Benchmarking LLM-based ontology conceptualization: A proposal'
+    booktitle: ISWC 2024, 23rd International Semantic Web Conference, Special Session on Harmonising Generative AI and Semantic Web Technologies
+    year: 2024
+    editor: CEUR-WS
+    address: Baltimore, USA
+    month: 11
+    eventdate: 2024-11-11/2024-11-15
+  resources:
+    pdf: https://www.eurecom.fr/publication/7944
+    slides: https://docs.google.com/presentation/d/1Y3QZ4x1Nkz_F4Zq6-UVCwq-ji-DWVjr9F-ODljC4EeI
+    repo: https://github.com/D2KLab/llm4ke
+- id: dekok2024nodes2narratives
+  type: inproceedings
+  fields:
+    title: 'From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach'
+    author:
+    - de Kok, Mike
+    - Youssra Rebboud
+    - Pasquale Lisena
+    - Raphael Troncy
+    - Ilaria Tiddi
+    year: 2024
+    language: English
+    series: CEUR Workshop Proceedings
+    publisher: CEUR-WS.org
+    pages: 29--40
+    booktitle: 'Text2Story 2024: Narrative Extraction From Texts'
+    month: 3
+    day: 24
+    eventdate: 2024-03-24/2024-03-24
+  resources:
+    pdf: https://ceur-ws.org/Vol-3671/paper3.pdf
+    slides: https://docs.google.com/presentation/d/1tcuBzHrIf2VZflDnRcB_8EWTbQ6AVDo1o7PIHoFPw3g
+    repo: https://github.com/ANR-kFLOW/KG2Narrative
+- id: carrive2021antract
+  type: incollection
+  fields:
+    year: 2024
+    title: Analyse transdisciplinaire d'un corpus d'actualités filmées. L'environnement d'analyse numérique développé par le projet ANTRACT
+    author:
+    - Carrive, Jean
+    - Beloued, Abdelkrim
+    - Goetschel, Pascale
+    - Heiden, Serge
+    - Lalande, Steffen
+    - Lisena, Pasquale
+    - Mazuet, Franck
+    - Meignier, Sylvain
+    - Pincemin, Bénédicte
+    - Troncy, Raphaël
+    booktitle: Les Nouveaux Paradigmes de l'Archive
+    month: 2
+    url: https://books.openedition.org/pan/7194
+    address: Pierrefitte-sur-Seine, France
+    publisher: Publications des Archives nationales
+    editor: Scopsi, Claire and  Roullier, Clothilde and Sin Blima-Barru, Martine and Vasseur, Édouard
+    pages: 40-67
+    day: 9
+    eventdate: 2024-02-09/2024-02-09
+  resources:
+    pdf: https://books.openedition.org/pan/7194
+- id: lisena2023hypermedia
+  type: inproceedings
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Schwabe, Daniel
+    - van Erp, Marieke
+    - Leemans, Inger
+    - Tullett, William
+    - Troncy, Raphaël
+    - Ehrich, Sofia Colette
+    - Ehrhart, Thibault
+    editor: Antonis Bikakis and Roberta Ferrario and Stéphane Jean and Béatrice Markhoff and Alessandro Mosca and Marianna Nicolosi Asmundo"
+    title: An Ontology for Creating Hypermedia Stories Over Knowledge Graphs
+    booktitle: Proceedings of the International Workshop on Semantic Web and Ontology Design for Cultural Heritage (SWDOCH)"
+    address: Athens, Greece
+    eventdate: 2023-11-07
+    series: CEUR Workshop Proceedings
+    volume: 3540
+    publisher: CEUR-WS.org
+    year: 2023
+    url: https://ceur-ws.org/Vol-3540/paper5.pdf
+    month: 11
+    day: 7
+  resources:
+    pdf: https://hal.univ-lorraine.fr/EURECOM/hal-04321300v1
+    slides: https://docs.google.com/presentation/d/1YqmgnGfwCevDD9Q0l7W8Q-CXIUXnWHqZ1yjQVZwheTw
+- id: rebboud2022beyond
+  type: InProceedings
+  fields:
+    author:
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: Prompt-based Data Augmentation for Semantically-Precise Event Relation Classification
+    booktitle: Semantic Methods for Events and Stories workshop (SEMMES)
+    year: 2023
+    address: Hersonissos, Greece
+    month: 5
+    day: 29
+    eventdate: 2023-05-29/2023-05-29
+  resources:
+    pdf: https://drive.google.com/file/d/1JrFhI2ULGisPZ46ZcjH3EqVW8qunlzWe/view?usp=sharing
+- id: rebboud2024llm_cqs
+  type: InProceedings
+  fields:
+    author:
+    - Rebboud, Youssra
+    - Tailhardat, Lionel
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    editor: Meroño Peñuela, Albert and Corcho, Oscar and Groth, Paul and Simperl, Elena and Tamma, Valentina and Nuzzolese, Andrea Giovanni and Poveda-Villalón, Maria and Sabou, Marta and Presutti, Valentina and Celino, Irene and Revenko, Artem and Raad, Joe and Sartini, Bruno and Lisena, Pasquale
+    title: Can LLMs Generate Competency Questions?
+    booktitle: 'The Semantic Web: ESWC 2024 Satellite Events'
+    year: 2025
+    publisher: Springer Nature Switzerland
+    address: Cham
+    pages: 71--80
+    isbn: 978-3-031-78952-6
+    month: 5
+    eventdate: 2023-05-26/2023-05-30
+  resources:
+    pdf: https://www.eurecom.fr/publication/7699
+    slides: https://bit.ly/EURECOM-llm4ke2024
+    repo: https://github.com/D2KLab/llm4ke
+- id: vanerp2023morethanrose
+  type: article
+  fields:
+    author:
+    - van Erp, Marieke
+    - Tullett, William
+    - Christlein, Vincent
+    - Ehrhart, Thibault
+    - Hürriyetoğlu, Ali
+    - Leemans, Inger
+    - Lisena, Pasquale
+    - Menini, Stefano
+    - Schwabe, Daniel
+    - Tonelli, Sara
+    - Troncy, Raphaël
+    - Zinnen, Mathias
+    title: 'More than the Name of the Rose: How to Make Computers Read, See, and Organize Smells'
+    journal: The American Historical Review
+    volume: 128
+    number: 1
+    pages: 335-369
+    year: 2023
+    month: 3
+    issn: 0002-8762
+    doi: 10.1093/ahr/rhad141
+  resources:
+    pdf: https://doi.org/10.1093/ahr/rhad141
+- id: hurriyetoglu2023musti
+  type: conference
+  fields:
+    author:
+    - Hürriyetoglu, Ali
+    - Paccosi, Teresa
+    - Menini, Stefano
+    - Zinnen, Mathias
+    - Lisena, Pasquale
+    - Akdemir, Kiymet
+    - Troncy, Raphaël
+    - van Erp, Marieke
+    title: MUSTI - Multimodal Understanding of Smells in Texts and Images at MediaEval 2022
+    booktitle: MediaEval 2022, Multimedia Evaluation Workshop, 12-13 January 2023, Bergen, Norway (Hybrid Event)
+    year: 2023
+    editor: CEUR
+    address: Bergen
+    note: CEUR
+    month: 1
+    eventdate: 2023-01-12/2023-01-13
+  resources:
+    pdf: https://www.eurecom.fr/en/publication/7180
+    site: https://multimediaeval.github.io/editions/2022/tasks/musti/
+    repo: https://github.com/Odeuropa/musti_mediaeval2022
+- id: reboud2023stories
+  type: article
+  fields:
+    author:
+    - Reboud, Alison
+    - Harrando, Ismail
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: 'Stories of Love and Violence: Zero-Shot Interesting Events Classification for Unsupervised TV Series Summarization'
+    journal: Multimedia Systems
+    year: 2023
+    month: Jan
+    day: 11
+    issn: 1432-1882
+    doi: 10.1007/s00530-022-01040-3
+    date: '2023-01-11'
+  resources:
+    pdf: https://www.eurecom.fr/en/publication/7163
+    repo: https://github.com/alisonreboud/screenplay_summarization
+- id: lisena2022semantic
+  type: inproceedings
+  fields:
+    title: Semantic Methods for Events and Stories (SEMMES)
+    author:
+    - Lisena, Pasquale
+    - Tiddi, Ilaria
+    - Gottschalk, Simon
+    - Steels, Luc
+    year: 2023
+    address: Hersonissos, Greece
+    booktitle: ESWC 2023 Workshops and Tutorials Joint Proceedings
+    volume: 3443
+    publisher: CEUR Workshop Proceedings
+  resources:
+    pdf: https://ceur-ws.org/Vol-3443/ESWC_2023_SEMMES_Preface.pdf
+- id: lisena2022facerec
+  type: article
+  fields:
+    title: 'Understanding Videos with Face Recognition: A Complete Pipeline and Applications'
+    author:
+    - Lisena, Pasquale
+    - Laaksonen, Jorma
+    - Troncy, Raphaël
+    journal: Multimedia Systems
+    year: 2022
+    month: Dec
+    day: 1
+    volume: 28
+    number: 6
+    pages: 2147-2159
+    issn: 1432-1882
+    doi: 10.1007/s00530-022-00959-x
+  resources:
+    pdf: https://www.eurecom.fr/en/publication/6931
+    repo: https://git.io/facerec
+    demo: http://facerec.eurecom.fr/visualizer
+- id: rebboud2022beyond
+  type: InProceedings
+  fields:
+    author:
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: 'Beyond Causality: Representing Event Relations in Knowledge Graphs'
+    booktitle: Knowledge Engineering and Knowledge Management
+    year: 2022
+    publisher: Springer International Publishing
+    address: Cham
+    pages: 121--135
+    isbn: 978-3-031-17105-5
+    doi: 10.1007/978-3-031-17105-5_9
+    month: 9
+    eventdate: 2022-09-26/2022-09-29
+  resources:
+    pdf: https://doi.org/10.1007/978-3-031-17105-5_9
+    resource: https://purl.org/faro
+- id: lisena2022swapi
+  type: inproceedings
+  fields:
+    title: SPARQL Endpoints and Web API (SWApi)
+    author:
+    - Lisena, Pasquale
+    - Meroño-Peñuela, Albert
+    - Troncy, Raphaël
+    year: 2022
+    booktitle: 22nd International Conference on Web Engineering (ICWE), Tutorial Track
+    month: 7
+    eventdate: 2022-07-05/2022-07-08
+    address: Bari, Italy
+  resources:
+    pdf: https://www.eurecom.fr/publication/6954
+    site: https://api4kg.github.io/swapi-tutorial/
+- id: lisena2022odeuropa_model
+  type: inproceedings
+  fields:
+    title: 'Capturing the Semantics of Smell: The Odeuropa Data Model for Olfactory Heritage Information'
+    author:
+    - Lisena, Pasquale
+    - Schwabe, Daniel
+    - van Erp, Marieke
+    - Troncy, Raphaël
+    - Tullet, William
+    - Leemans, Inger
+    - Marx, Lizzie
+    - Ehrich, Sofia Colette
+    year: 2022
+    booktitle: 19th Extended Semantic Web Conference (ESWC), Resource Track
+    address: Hersonissos, Greece
+    eventdate: 2022-05-29/2022-06-02
+    month: 5
+  award: Best Resource Paper Award
+  resources:
+    pdf: https://www.eurecom.fr/publication/6856
+    repo: https://github.com/Odeuropa/ontology
+    slides: http://bit.ly/odeuropa-eswc22
+- id: menini2022odeuropa_benchmark
+  type: inproceedings
+  fields:
+    year: 2022
+    title: A Multilingual Benchmark to Capture Olfactory Situations over Time
+    author:
+    - Stefano Menini
+    - Teresa Paccosi
+    - Sara Tonelli
+    - Marieke van Erp
+    - Inger Leemans
+    - Pasquale Lisena
+    - Raphael Troncy
+    - William Tullett
+    - Ali Hürriyetoğlu
+    - Ger Dijkstra
+    - Femke Gordijn
+    - Elias Jürgens
+    - Josephine Koopman
+    - Aron Ouwerkerk
+    - Sanne Steen
+    - Inna Novalija
+    - Janez Brank
+    - Dunja Mladenic
+    - Anja Zidar
+    booktitle: 3rd International Workshop on Computational Approaches to Historical Language Change (LChange)
+    address: Dublin, Ireland
+    eventdate: 2022-05-26/2022-05-26
+    month: 5
+- id: lisena2022midi2vec
+  type: article
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Meroño-Peñuela, Albert
+    - Troncy, Raphaël
+    title: 'MIDI2vec: Learning MIDI embeddings for reliable prediction of symbolic music metadata'
+    journal: Semantic Web
+    year: 2022
+    publisher: IOS Press
+    volume: 13
+    pages: 357-377
+    note: 3
+    issn: 2210-4968
+    doi: 10.3233/SW-210446
+    month: 4
+    day: 6
+    date: '2022-04-06'
+  resources:
+    pdf: http://doi.org/10.3233/SW-210446
+    repo: http://git.io/midi2vec
+- id: lisena2022midi2vec
+  type: inproceedings
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Meroño-Peñuela, Albert
+    - Troncy, Raphaël
+    title: MIDI Representation with Graph Embeddings
+    booktitle: 22nd International Society for Music Information Retrieval Conference, Late-Breaking Demo Track
+    month: 11
+    eventdate: 2021-11-8/2021-11-12
+    address: Online
+    year: 2021
+  resources:
+    pdf: https://www.eurecom.fr/publication/6741
+    repo: http://git.io/midi2vec
+    slides: https://docs.google.com/presentation/d/1Ag8E8-cv_swEZtyqZ42G2Q_RbD6U3b3hvxW5PRka1Cw
+    poster: https://drive.google.com/file/d/16M__YwD-VTHOlDUddaOiVG3BVFEvEtqL/
+- id: ehrhart2021kgexplorer
+  type: inproceedings
+  fields:
+    author:
+    - Ehrhart, Thibault
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: 'KG Explorer: a Customisable Exploration Tool for Knowledge Graphs'
+    booktitle: Visualization and Interaction for Ontologies and Linked Data (VOILA)
+    month: 11
+    year: 2021
+    eventdate: 2021-11-8/2021-11-12
+    day: 25
+  resources:
+    pdf: https://www.eurecom.fr/publication/6681/download/data-publi-6681.pdf
+    slides: https://bit.ly/kgexplorer2021
+- id: madaghiele2021mingus
+  type: inproceedings
+  fields:
+    year: 2021
+    title: 'MINGUS: Melodic Improvisation Neural Generator Using Seq2Seq'
+    author:
+    - Madaghiele, Vincenzo
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    booktitle: 22nd International Society for Music Information Retrieval Conference (ISMIR), Late-Breaking Demo Track
+    eventdate: 2021-11-8/2021-11-12
+    address: Online
+    month: 11
+  resources:
+    pdf: https://www.eurecom.fr/fr/publication/6622
+    repo: https://git.io/mingus
+    slides: https://docs.google.com/presentation/d/1CuBn6hsr0rt23kK-HGoPgkSmF47sg-zs
+- id: merono2021webDataApi
+  type: book
+  fields:
+    author:
+    - Meroño-Peñuela, Albert
+    - Lisena, Pasquale
+    - Martínez-Ortiz, Carlos
+    title: 'Web Data APIs for Knowledge Graphs: Easing Access to Semantic Data for Application Developers'
+    journal: Synthesis Lectures on Data, Semantics, and Knowledge
+    volume: 12
+    number: 1
+    month: 9
+    pages: 1-118
+    year: 2021
+    series: Synthesis Lectures on Data, Semantics, and Knowledge
+    doi: 10.1007/978-3-031-01917-3
+    publisher: Springer Cham
+    editor: Ying Ding and Paul Groth
+  resources:
+    buy: https://doi.org/10.1007/978-3-031-01917-3
+    repo: https://github.com/api4kg/exercises
+- id: harrando2021apples
+  type: inproceedings
+  fields:
+    title: 'Apples to Apples: A Systematic Evaluation of Topic Models'
+    author:
+    - Harrando, Ismail
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    booktitle: Recent Advances in Natural Language Processing (RANLP)
+    month: 9
+    year: 2021
+    address: Online
+    eventdate: 2021-09-01/2021-09-03
+  resources:
+    pdf: https://www.eurecom.fr/fr/publication/6617
+- id: lisena2021facerec
+  type: inproceedings
+  fields:
+    year: 2021
+    title: 'FaceRec: An Interactive Framework for Face Recognition in Video Archives'
+    author:
+    - Lisena, Pasquale
+    - Laaksonen, Jorma
+    - Troncy, Raphaël
+    booktitle: 2nd International Workshop on Data-driven Personalisation of Television (DataTV-2021)
+    address: New York, USA
+    eventdate: 2021-06-21/2021-06-23
+    month: 6
+    doi: 10.5281/zenodo.4764632
+  resources:
+    pdf: https://doi.org/10.5281/zenodo.4764632
+    repo: https://git.io/facerec
+    demo: http://facerec.eurecom.fr/visualizer
+- id: lisena2021stt
+  type: inproceedings
+  fields:
+    year: 2021
+    title: Data Mining and Knowledge Graphs as a Backbone for Advanced Olfactory Experiences
+    author:
+    - Lisena, Pasquale
+    - van Erp, Marieke
+    - Bembibre, Cecilia
+    - Leemans, Inger
+    booktitle: 'STT21: Smell, Taste, and Temperature Interfaces workshop'
+    address: Yokohama, Japan
+    eventdate: 2021-05-07/2021-05-09
+    month: 5
+    url: https://stt21.plopes.org/wp-content/uploads/2021/05/STT2021_Odeuropa.pdf
+  resources:
+    pdf: https://stt21.plopes.org/wp-content/uploads/2021/05/STT2021_Odeuropa.pdf
+    slides: https://bit.ly/odeuropa-stt21
+    video: https://youtu.be/JLKc3XcvLMA
+- id: tutorial2021webconf
+  type: inproceedings
+  fields:
+    author:
+    - West, Robert
+    - Bhagat, Smriti
+    - Groth, Paul
+    - Zitnik, Marinka
+    - Couto, Francisco M.
+    - Lisena, Pasquale
+    - Meroño-Peñuela, Albert
+    - Zhao, Xiangyu
+    - Fan, Wenqi
+    - Yin, Dawei
+    - Tang, Jiliang
+    - Shou, Linjun
+    - Gong, Ming
+    - Pei, Jian
+    - Geng, Xiubo
+    - Zhou, Xingjie
+    - Jiang, Daxin
+    - Ricaud, Benjamin
+    - Aspert, Nicolas
+    - Miz, Volodymyr
+    - Dy, Jennifer
+    - Ioannidis, Stratis
+    - Yildiz, Ilkay
+    - Rezapour, Rezvaneh
+    - Aref, Samin
+    - Dinh, Ly
+    - Diesner, Jana
+    - Drutsa, Alexey
+    - Ustalov, Dmitry
+    - Popov, Nikita
+    - Baidakova, Daria
+    - Mishra, Shubhanshu
+    - Gopalan, Arjun
+    - Juan, Da-Cheng
+    - Ilharco Magalhaes, Cesar
+    - Ferng, Chun-Sung
+    - Heydon, Allan
+    - Lu, Chun-Ta
+    - Pham, Philip
+    - Yu, George
+    - Fan, Yicheng
+    - Wang, Yueqi
+    - Laurent, Florian
+    - Schraner, Yanick
+    - Scheller, Christian
+    - Mohanty, Sharada
+    - Chen, Jiawei
+    - Wang, Xiang
+    - Feng, Fuli
+    - He, Xiangnan
+    - Teinemaa, Irene
+    - Albert, Javier
+    - Goldenberg, Dmitri
+    - Vasile, Flavian
+    - Rohde, David
+    - Jeunen, Olivier
+    - Benhalloum, Amine
+    - Sakhi, Otmane
+    - Rong, Yu
+    - Huang, Wenbing
+    - Xu, Tingyang
+    - Bian, Yatao
+    - Cheng, Hong
+    - Sun, Fuchun
+    - Huang, Junzhou
+    - Fakhraei, Shobeir
+    - Faloutsos, Christos
+    - Çelebi, Onur
+    - Müller, Martin
+    - Schneider, Manuel
+    - Altunina, Olesia
+    - Wingerath, Wolfram
+    - Wollmer, Benjamin
+    - Gessert, Felix
+    - Succo, Stephan
+    - Ritter, Norbert
+    - Courdier, Evann
+    - Avram, Tudor Mihai
+    - Cvetinovic, Dragan
+    - Tsinadze, Levan
+    - Jose, Johny
+    - Howell, Rose
+    - Koenig, Mario
+    - Defferrard, Michaël
+    - Kenthapadi, Krishnaram
+    - Packer, Ben
+    - Sameki, Mehrnoosh
+    - Sephus, Nashlie
+    title: Summary of Tutorials at The Web Conference 2021
+    year: 2021
+    isbn: 9781450383134
+    publisher: Association for Computing Machinery
+    address: New York, NY, USA
+    doi: 10.1145/3442442.3453701
+    booktitle: Companion Proceedings of the Web Conference 2021
+    pages: 727-733
+    numpages: 7
+    location: Ljubljana, Slovenia
+    series: WWW '21
+    month: 4
+    eventdate: 2021-04-19/2021-04-23
+  resources:
+    pdf: https://dl.acm.org/doi/10.1145/3442442.3453701
+- id: carrive2021antract
+  type: article
+  fields:
+    year: 2021
+    title: Transdisciplinary Analysis of a Corpus of French Newsreels
+    author:
+    - Carrive, Jean
+    - Beloued, Abdelkrim
+    - Goetschel, Pascale
+    - Heiden, Serge
+    - Laurent, Antoine
+    - Lisena, Pasquale
+    - Mazuet, Franck
+    - Meignier, Sylvain
+    - Pincemin, Bénédicte
+    - Poels, Géraldine
+    - Troncy, Raphaël
+    journal: Digital Humanities Quarterly
+    month: 1
+    volume: 15
+    number: 1
+    url: http://www.digitalhumanities.org/dhq/vol/15/1/000523/000523.html
+  resources:
+    pdf: http://www.digitalhumanities.org/dhq/vol/15/1/000523/000523.html
+- id: harrando2020fanmade
+  type: inproceedings
+  fields:
+    author:
+    - Harrando, Ismail
+    - Reboud, Alison
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    - Laaksonen, Jorma
+    - Virkkunen, Anja
+    - Kurimo, Mikko
+    title: Using Fan-Made Content, Subtitles and Face Recognition for Character-Centric Video Summarization
+    booktitle: TRECVID 2020, International Workshop on Video Retrieval Evaluation, 8-11 December 2020 (Virtual Conference)
+    month: 12
+    year: 2020
+    editor: NIST
+    eventdate: 2020-12-08/2020-12-11
+  resources:
+    pdf: https://www-nlpir.nist.gov/projects/tvpubs/tv20.papers/memad.pdf
+    repo: https://github.com/MeMAD-project/trecvid-vsum
+- id: lisena2020complexmusic
+  type: incollection
+  fields:
+    doi: 10.3233/SSW200038
+    year: 2020
+    title: 'Representing Complex Knowledge for Exploration and Recommendation: The Case of Classical Music Information'
+    author:
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    booktitle: Applications and Practices in Ontology Design, Extraction, and Reasoning
+    editor: Cota, Giuseppe and Daquino, Marilena and Pozzato, Gian Luca
+    series: Studies on the Semantic Web Series (SSWS)
+    publisher: IOSPress
+    pages: 107-123
+    volume: 49
+    month: 12
+    eventdate: 2020-12-01/2020-12-01
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/6404/download/data-publi-6404.pdf
+- id: lisena2020tomodapi
+  type: inproceedings
+  fields:
+    title: 'TOMODAPI: A Topic Modeling API to Train, Use and Compare Topic Models'
+    author:
+    - Lisena, Pasquale
+    - Harrando, Ismail
+    - Kandakji, Oussama
+    - Troncy, Raphaël
+    booktitle: 2nd Workshop for NLP Open Source Software (NLP-OSS)
+    month: 11
+    year: 2020
+    address: Online
+    publisher: Association for Computational Linguistics
+    url: https://www.aclweb.org/anthology/2020.nlposs-1.19
+    pages: 132--140
+    day: 19
+    eventdate: 2020-11-19/2020-11-19
+  resources:
+    pdf: https://www.aclweb.org/anthology/2020.nlposs-1.19/
+    repo: https://github.com/D2KLab/tomodapi/
+- id: lisena2019easyweb
+  type: inproceedings
+  fields:
+    title: Easy Web API Development with SPARQL Transformer
+    author:
+    - Lisena, Pasquale
+    - Meroño-Peñuela, Albert
+    - Kuhn, Tobias
+    - Troncy, Raphaël
+    year: 2019
+    booktitle: 18th International Semantic Web Conference (ISWC), In-Use Track
+    address: Auckland, New Zealand
+    url: http://www.eurecom.fr/en/publication/5927/download/data-publi-5927.pdf
+    month: 10
+    eventdate: 2019-10-26/2019-10-30
+  resources:
+    pdf: http://www.eurecom.fr/en/publication/5927/download/data-publi-5927.pdf
+    slides: https://docs.google.com/presentation/d/1Etax-1qRZN31A_sj7m7Jik9X7_VemnGHvuEgXlHbLYk
+- id: lisena2019thesis
+  type: phdthesis
+  fields:
+    year: 2019
+    title: 'Knowledge-based Music Recommendation: Models, Algorithms and Exploratory Search'
+    author:
+    - Lisena, Pasquale
+    school: EURECOM, Sophia Antipolis, France
+    month: 10
+    url: http://www.eurecom.fr/publication/6027
+- id: ghor2019linked
+  type: misc
+  fields:
+    title: Linked Open Data Validity -- A Technical Report from ISWS 2018
+    author:
+    - Tayeb Abderrahmani Ghor
+    - Esha Agrawal
+    - Mehwish Alam
+    - Omar Alqawasmeh
+    - Claudia D'amato
+    - Amina Annane
+    - Amr Azzam
+    - Andrew Berezovskyi
+    - Russa Biswas
+    - Mathias Bonduel
+    - Quentin Brabant
+    - Cristina-iulia Bucur
+    - Elena Camossi
+    - Valentina Anita Carriero
+    - Shruthi Chari
+    - David Chaves Fraga
+    - Fiorela Ciroku
+    - Michael Cochez
+    - Hubert Curien
+    - Vincenzo Cutrona
+    - Rahma Dandan
+    - Danilo Dess
+    - Valerio Di Carlo
+    - Ahmed El Amine Djebri
+    - Marieke Van Erp
+    - Faiq Miftakhul Falakh
+    - Alba Fernndez Izquierdo
+    - Giuseppe Futia
+    - Aldo Gangemi
+    - Simone Gasperoni
+    - Arnaud Grall
+    - Lars Heling
+    - Pierre Henri
+    - Noura Herradi
+    - Subhi Issa
+    - Samaneh Jozashoori
+    - Nyoman Juniarta
+    - Lucie-aime Kaffee
+    - Ilkcan Keles
+    - Prashant Khare
+    - Viktor Kovtun
+    - Valentina Leone
+    - Siying Li
+    - Sven Lieber
+    - Pasquale Lisena
+    - Tatiana Makhalova
+    - Ludovica Marinucci
+    - Thomas Minier
+    - Benjamin Moreau
+    - Alberto Moya Loustaunau
+    - Durgesh Nandini
+    - Sylwia Ozdowska
+    - Amanda Pacini De Moura
+    - Swati Padhee
+    - Guillermo Palma
+    - Pedro Del Pozo Jimnez
+    - Valentina Presutti
+    - Roberto Reda
+    - Ettore Rizza
+    - Henry Rosales-mndez
+    - Sebastian Rudolph
+    - Harald Sack
+    - Luca Sciullo
+    - Humasak Simanjuntak
+    - Carlo Stomeo
+    - Thiviyan Thanapalasingam
+    - Tabea Tietz
+    - Dalia Varanka
+    - Maria-esther Vidal
+    - Michael Wolowyk
+    - Maximilian Zocholl
+    year: 2019
+    eprint: 1903.12554
+    archivePrefix: arXiv
+    primaryClass: cs.DB
+  resources:
+    pdf: https://arxiv.org/abs/1903.12554
+- id: canale2018enerd
+  type: inproceedings
+  fields:
+    year: 2018
+    title: A Novel Ensemble Method for Named Entity Recognition and Disambiguation Based on Neural Network
+    author:
+    - Canale, Lorenzo
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    booktitle: 17th International Semantic Web Conference (ISWC)
+    address: Monterey, CA, USA
+    eventdate: 2018-10-08/2018-10-12
+    month: 10
+    url: http://www.eurecom.fr/publication/5564
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5564/download/data-publi-5564.pdf
+    slides: https://docs.google.com/presentation/d/1eo0uCYGW6C_nQkTQPpsmF9QrwAGcwBdP3e0yaE5ia28
+- id: achichi2018doremus
+  type: inproceedings
+  fields:
+    year: 2018
+    title: 'DOREMUS: A Graph of Linked Musical Works'
+    author:
+    - Achichi, Manel
+    - Lisena, Pasquale
+    - Todorov, Konstantin
+    - Troncy, Raphaël
+    - Delahousse, Jean
+    booktitle: 17th International Semantic Web Conference (ISWC)
+    address: Monterey, CA, USA
+    eventdate: 2018-10-08/2018-10-12
+    month: 10
+    url: http://www.eurecom.fr/publication/5565
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5565/download/data-publi-5565.pdf
+    resource: http://data.doremus.org
+    slides: https://docs.google.com/presentation/d/1g0GTIVTrk_EMtFK8b-c5dYjgdruVvDWQ1GLwysBB-x8
+- id: monti2018recsyschallenge
+  type: inproceedings
+  fields:
+    author:
+    - Monti, Diego
+    - Palumbo, Enrico
+    - Rizzo, Giuseppe
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    - Fell, Michael
+    - Cabrio, Elena
+    - Morisio, Maurizio
+    title: An Ensemble Approach of Recurrent Neural Networks using Pre-Trained Embeddings for Playlist Completion
+    booktitle: 12th ACM Conference on Recommender Systems (RecSys), Challenge Track
+    eventdate: 2018-10-02/2018-10-07
+    address: Vancouver, BC, Canada
+    publisher: ACM
+    doi: 10.1145/3267471.3267484
+    year: 2018
+    month: 10
+  resources:
+    pdf: http://www.eurecom.fr/en/publication/5690/download/data-publi-5690.pdf
+- id: giammusso2018emotion
+  type: inproceedings
+  fields:
+    year: 2018
+    title: Predicting The Emotion of Playlists Using Track Lyrics
+    author:
+    - Giammusso, Sara
+    - Guerriero, Mario
+    - Lisena, Pasquale
+    - Palumbo, Enrico
+    - Troncy, Raphaël
+    eventdate: 2018-09-23/2018-09-27
+    booktitle: 19th International Society for Music Information Retrieval Conference (ISMIR), Late-Breaking Demo Track
+    address: Paris, France
+    month: 9
+  resources:
+    pdf: https://drive.google.com/file/d/1TOfU6_yhJ-JLFHAuAiMA_F0BXpuONLv-/
+    poster: https://drive.google.com/open?id=1iWNpal9A_Q1jkGuzrM3Uk5NpcPh9jhK1
+    slides: https://docs.google.com/presentation/d/1VAzrx6vk8bfaJd52HmsFNS-aGEILxU37emuX5xJd6RQ
+    demo: http://data.doremus.org/emotion
+    code: https://github.com/sgiammy/emotion-patterns-in-music-playlists
+- id: lisena2018Improving
+  type: article
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Achichi, Manel
+    - Choffé, Pierre
+    - Cecconi, Cécile
+    - Todorov, Konstantin
+    - Jacquemin, Bernard
+    - Troncy, Raphaël
+    title: 'Improving (Re-) Usability of Musical Datasets: An Overview of the DOREMUS Project'
+    journal: BIBLIOTHEK - Forschung und Praxis
+    number: 42 (2)
+    pages: 194-205
+    year: 2018
+    month: 7
+    doi: 10.1515/bfp-2018-0023
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5509/download/data-publi-5509.pdf
+- id: lisena2018sparqltransformer
+  type: inproceedings
+  fields:
+    title: Transforming the JSON Output of SPARQL Queries for Linked Data Clients
+    author:
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    booktitle: 'WWW''18 Companion: The 2018 Web Conference Companion'
+    address: Lyon, France
+    eventdate: 2018-04-23/2018-04-27
+    year: 2018
+    publisher: ACM
+    numpages: 5
+    doi: 10.1145/3184558.3188739
+    month: 4
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5520/download/data-publi-5520.pdf
+    slides: https://docs.google.com/presentation/d/1YssM-kxhLUz37Y0bgnI7382JlQiY5-50PfLpEimcb8Q
+    code: https://github.com/D2KLab/sparql-transformer
+- id: lisena2018vocabularies
+  type: inproceedings
+  fields:
+    year: 2018
+    title: Controlled Vocabularies for Music Metadata
+    author:
+    - Lisena, Pasquale
+    - Todorov, Konstantin
+    - Cecconi, Cécile
+    - Leresche, Françoise
+    - Canno, Isabelle
+    - Puyrenier, Frédéric
+    - Voisin, Martine
+    - Troncy, Raphaël
+    eventdate: 2018-19-23/2018-09-27
+    booktitle: 19th International Society for Music Information Retrieval Conference (ISMIR)
+    address: Paris, France
+    url: http://ismir2018.ircam.fr/doc/pdfs/68_Paper.pdf
+    month: 9
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5646/download/data-publi-5646.pdf
+    poster: https://drive.google.com/file/d/1MfeLziCWK17wfOXItXlRJ8ebA5Rr-PBu
+    slides: https://docs.google.com/presentation/d/1423Of_aA3-bdJiEUfJsb3uiX0z07eJzccAESD0Rpfo0
+    resource: http://data.doremus.org/vocabularies
+- id: lisena2017doremusTutorial
+  type: inproceedings
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: DOing REusable MUSical Data (DOREMUS)
+    booktitle: '9th Knowledge Capture Conference (K-CAP), Satellites: Workshops and Tutorials'
+    year: 2017
+    isbn: 978-1-4503-5553-7
+    address: Austin, TX, USA
+    pages: 1e:1--1e:6
+    articleno: 1e
+    numpages: 6
+    url: http://doi.acm.org/10.1145/3148011.3188410
+    doi: 10.1145/3148011.3188410
+    publisher: ACM
+    month: 12
+    eventdate: 2017-12-04/2017-12-06
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5476/download/data-publi-5476.pdf
+    site: https://doremus-anr.github.io/kcap17_tutorial/
+    slides: https://doremus-anr.github.io/kcap17_tutorial/slides.html
+- id: lisena2017modeling
+  type: inproceedings
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    - Todorov, Konstantin
+    - Achichi, Manel
+    title: Modeling the Complexity of Music Metadata in Semantic Graphs for Exploration and Discovery
+    booktitle: 4th International Workshop on Digital Libraries for Musicology (DLfM)
+    year: 2017
+    eventdate: 2017-10-28
+    isbn: 978-1-4503-5347-2
+    address: Shanghai, China
+    pages: 17--24
+    numpages: 8
+    url: http://doi.acm.org/10.1145/3144749.3144754
+    doi: 10.1145/3144749.3144754
+    acmid: 3144754
+    publisher: ACM
+    month: 10
+    day: 28
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5307/download/data-publi-5307.pdf
+    slides: https://www.slideshare.net/SquaLeLis/modeling-the-complexity-of-music-metadata-in-semantic-graphs-for-exploration-and-discovery-81662834
+- id: lisena2017citymus
+  type: inproceedings
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Canale, Lorenzo
+    - Ellena, Fabio
+    - Troncy, Raphaël
+    title: 'CityMUS: Music Recommendation When Exploring a City'
+    booktitle: 16th International Semantic Web Conference (ISWC), Posters & Demos Track
+    year: 2017
+    location: Vienna, Austria
+    eventdate: 2017-10-23/2017-10-25
+    url: http://ceur-ws.org/Vol-1963/paper569.pdf
+    month: 10
+  resources:
+    pdf: http://www.eurecom.fr/~troncy/Publications/Lisena_Troncy-iswc17.pdf
+    poster: https://drive.google.com/file/d/0B07-9WSsWiOuZkhscTNJdEE3Y0U/view?usp=sharing
+    slides: https://docs.google.com/presentation/d/1UqjRT2UrgYTE65wLAtynNRMo0Bks29aV3gOQjVfmrdU/edit?usp=sharing
+    demo: https://citymus.doremus.org
+- id: klotz2017drivescover
+  type: inproceedings
+  fields:
+    author:
+    - Klotz, Benjamin
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    - Wilms, Daniel
+    - Bonnet, Christian
+    title: 'DriveSCOVER: A Tourism Recommender System Based on External Driving Factors'
+    booktitle: 16th International Semantic Web Conference (ISWC), Posters & Demos Track
+    year: 2017
+    located: Vienna, Austria
+    eventdate: 2017-10-23/2017-10-25
+    url: http://ceur-ws.org/Vol-1963/paper577.pdf
+    month: 10
+  resources:
+    pdf: http://www.eurecom.fr/~troncy/Publications/Klotz_Troncy-iswc17.pdf
+    demo: http://drivescover.eurecom.fr/
+- id: lisena2017artistsimilarity
+  type: inproceedings
+  fields:
+    year: 2017
+    title: Combining Music Specific Embeddings for Computing Artist Similarity
+    author:
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    eventdate: 2017-10-23/2017-10-27
+    booktitle: 18th International Society for Music Information Retrieval Conference (ISMIR), Late-Breaking Demo Track
+    address: Suzhou, China
+    url: http://www.eurecom.fr/publication/5361
+    month: 10
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5361/download/data-publi-5361.pdf
+    poster: https://drive.google.com/file/d/0ByLy_xr6iMAYOFREZ3RkSThjcms/view
+- id: lisena2016musiccomplexity
+  type: inproceedings
+  fields:
+    title: Modeling, Exploring and Recommending Music in Its Complexity
+    author:
+    - Lisena, Pasquale
+    year: 2016
+    booktitle: 20th International Conference on Knowledge Engineering and Knowledge Management (EKAW), Doctoral Consortium Track
+    publisher: Springer
+    address: Bologna, Italy
+    pages: 264--268
+    doi: 10.1007/978-3-319-58694-6_41
+    isbn: 978-3-319-58694-6
+    url: http://www.eurecom.fr/publication/5057
+    eventdate: 2016-11-19/2016-11-23
+    month: 11
+  resources:
+    pdf: http://www.eurecom.fr/fr/publication/5057/download/data-publi-5057.pdf
+    slides: https://docs.google.com/presentation/d/1JXzVOCmK-Szv53qKd2FZoxR9Mkd20ycblDLNDvMfMM8/edit?usp=sharing
+- id: lisena2016schemaorg
+  type: inproceedings
+  fields:
+    title: 'DOREMUS to Schema.org: Mapping a Complex Vocabulary to a Simpler One'
+    author:
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    year: 2016
+    booktitle: 20th International Conference on Knowledge Engineering and Knowledge Management (EKAW), Posters & Demos Track
+    publisher: Springer
+    address: Bologna, Italy
+    pages: 136--139
+    doi: 10.1007/978-3-319-58694-6_17
+    isbn: 978-3-319-58694-6
+    url: http://www.eurecom.fr/publication/5056
+    eventdate: 2016-11-19/2016-11-23
+    month: 11
+  resources:
+    pdf: http://www.eurecom.fr/~troncy/Publications/Lisena_Troncy-ekaw16.pdf
+    poster: http://www.eurecom.fr/~troncy/Publications/Lisena_Troncy-ekaw16-poster.pdf
+- id: lisena2016overture
+  type: inproceedings
+  fields:
+    year: 2016
+    eventdate: 2016-10-17/2016-10-21
+    title: Exploring Linked Classical Music Catalogs with OVERTURE
+    author:
+    - Lisena, Pasquale
+    - Achichi, Manel
+    - Fernandez, Eva
+    - Todorov, Konstantin
+    - Troncy, Raphaël
+    month: 10
+    booktitle: 15th International Semantic Web Conference (ISWC), Posters & Demos Track
+    address: Kobe, Japan
+    url: http://www.eurecom.fr/publication/5010
+  resources:
+    pdf: http://www.eurecom.fr/en/publication/5010/download/data-publi-5010.pdf
+    poster: http://www.eurecom.fr/~troncy/Publications/Lisena_Troncy-iswc16-poster.pdf
+    demo: http://overture.doremus.org
+- id: lisena2016webcomponents
+  type: inproceedings
+  fields:
+    booktitle: 9th International Conference on Advances in Computer-Human Interactions (ACHI)
+    title: User-Customizable Web Components for Building One-Page Sites
+    author:
+    - Lisena, Pasquale
+    - Xhembulla, Jetmir
+    - Malnati, Giovanni
+    - Morra, Pasquale
+    address: Venezia, Italy
+    publisher: IARIA
+    year: 2016
+    eventdate: 2016-04-24/2016-04-28
+    pages: 411--416
+    url: http://porto.polito.it/2643086/
+    month: 4
+  resources:
+    pdf: http://porto.polito.it/2643086/1/achi_2016_19_40_20117.pdf
+    slides: https://www.slideshare.net/SquaLeLis/usercustomizable-web-components-for-building-onepage-sites
+- id: redondo2014hotspots
+  type: inproceedings
+  fields:
+    author:
+    - Redondo García, José Luis
+    - Sabatino, Mariella
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    title: Detecting Hot Spots in Web Videos
+    booktitle: 13th International Semantic Web Conference (ISWC), Posters & Demo Track
+    year: 2014
+    eventdate: 2014-10-21/2014-10-23
+    address: Riva del Garda, Italy
+    pages: 141--144
+    numpages: 4
+    url: http://www.eurecom.fr/publication/4399
+    publisher: Ceurs
+    month: 10
+  resources:
+    pdf: http://www.eurecom.fr/en/publication/4399/download/mm-publi-4399.pdf
