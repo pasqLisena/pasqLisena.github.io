@@ -88,7 +88,7 @@ entries:
     articleno: 6
     numpages: 7
   resources:
-    pdf: https://doi.org/10.1145/3797958
+    pdf: https://dl.acm.org/doi/10.1145/3797958
 - id: plu2025text2kgbenchlettria
   type: inproceedings
   fields:
@@ -584,6 +584,8 @@ entries:
     address: Dublin, Ireland
     eventdate: 2022-05-26/2022-05-26
     month: 5
+  resources:
+    pdf: https://aclanthology.org/2022.lchange-1.1/
 - id: lisena2022midi2vec
   type: article
   fields:
@@ -949,6 +951,9 @@ entries:
     school: EURECOM, Sophia Antipolis, France
     month: 10
     url: http://www.eurecom.fr/publication/6027
+  resources:
+    pdf: http://www.eurecom.fr/en/publication/6027/download/data-publi-6027.pdf
+    slides: https://docs.google.com/presentation/d/1zR7lWs5e1uZJqZqWW8vcu6644gMGt2es24eFW-FMoCc/
 - id: ghor2019linked
   type: misc
   fields:

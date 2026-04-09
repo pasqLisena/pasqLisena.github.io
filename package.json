@@ -5,7 +5,7 @@
   "main": "index.md",
   "scripts": {
     "build:css": "stylus _styl/main.styl -o css/style.css --include node_modules",
-    "watch:css": "stylus _styl/main.styl -w --include node_modules",
+    "watch:css": "stylus _styl/main.styl -w -o css/style.css --include node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
