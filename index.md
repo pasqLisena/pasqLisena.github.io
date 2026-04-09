@@ -3,12 +3,11 @@ layout: default
 title: "Pasquale Lisena"
 description: "Hello! I am Pasquale, and I am a Researcher in Semantic Web technologies. Currently at EURECOM, France"
 current_proj:
-  - img: './images/logo/odeuropa.jpg'
-    name: 'Odeuropa'
-    uri: https://odeuropa.eu/
-  - img: './images/logo/kFLOW_logo.png'
-    name: 'kFLOW'
-    uri: https://anr-kflow.github.io/
+  - img: './images/logo/LettRAGraph.png'
+    name: 'LettRAGraph'
+  - img: './images/logo/ClimateSense-logo.png'
+    name: 'ClimateSense'
+    uri: https://climatesense-project.eu/
 news: 
   - 'I will present a paper at LREC (May 11/15)'
 ---

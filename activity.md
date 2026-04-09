@@ -66,7 +66,6 @@ description: "Teaching, talks, reviews"
 [SLIDES](https://docs.google.com/presentation/d/1CDXAN8MvxxkvX9L6LejZCXHfbt1Wq-7CfNRlq7eNpMQ/)
 </span>
 
-
 - **Unlocking narratives: The role of knowledge graphs and AI in story understanding**. [Le Monde des Mathématiques Industrielles", 9ème édition, MOMI 2025](https://phd-seminars-sam.inria.fr/momi-2025/), 27 May 2025, Sophia Antipolis, France.
 <span class="links" markdown="1">
 [SLIDES](https://bit.ly/kflow-momi2025)

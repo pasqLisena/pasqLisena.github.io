@@ -14,12 +14,29 @@ list: [1,2,3]
 
 # Current Projects.
 
+<section class="project" markdown="1">
+![LettRAGraph](./images/logo/LettRAGraph.png)
+**LettRAGraph** <span class="sub">i-Demo BpiFrance (2025-2028)</span>    
+Complete pipeline, from text to KG, to GraphRAG.
+</section>
+
+<section class="project" markdown="1">
+![ClimateSense](./images/logo/ClimateSense-logo.png)
+**ClimateSense** <span class="sub">CHIST-ERA (2025-2028)</span>    
+Transforming how misinformation is managed in the climate sector.
+<span class="links" markdown="1">
+[SITE](https://climatesense-project.eu/)
+</span>
+</section>
+
+
+# Past Projects.
 
 <section class="project" markdown="1">
 ![Odeuropa](./images/logo/odeuropa.jpg)
 **Odeuropa** <span class="sub">EU H2020 (2021-2024)</span>    
 Preserve the European Olfactory Heritage.
-I work on Knowledge Graphs, data modeling and knowledge inference.
+I worked on Knowledge Graphs, data modeling and knowledge inference.
 <span class="links" markdown="1">
 [SITE](https://odeuropa.eu/)
 </span>
@@ -29,17 +46,15 @@ I work on Knowledge Graphs, data modeling and knowledge inference.
 ![kFLOW](./images/logo/kFLOW_logo.png)
 **Knowledge Flow** <span class="sub">ANR JCJC (2022-2024)</span>    
 Reconstruct the flow of information from text (NLP, Knowledge Graphs).
-I am the scientific co-ordinator.
+I was the scientific co-ordinator.
 <span class="links" markdown="1">
 [SITE](https://anr-kflow.github.io/)
 </span>
 </section>
 
-# Past Projects.
-
 <section class="project" markdown="1">
 **ANTRACT: Analyse transdisciplinaire des actualités filmées** <span class="sub">FR ANR (2018-2022)</span>    
-I work on web-based face recognition strategies on historical videos.
+I worked on web-based face recognition strategies on historical videos.
 <span class="links" markdown="1">
 [SITE](https://antract.hypotheses.org/1)
 </span>
@@ -50,7 +65,7 @@ I work on web-based face recognition strategies on historical videos.
 ![SILKNOW](./images/logo/silknow.png)
 **SILKNOW** <span class="sub">FR EU H2020 (2018-2021)</span>  
 Semantic Web applied to Silk Cultural Heritage.  
-I work on KG population and thesaurus realisation.
+I worked on KG population and thesaurus realisation.
 <span class="links" markdown="1">
 [SITE](https://silknow.eu/)
 [DATA](https://data.silknow.org/)
@@ -71,7 +86,7 @@ I contributed in realising the biggest dataset about classical music metadata.
 </section>
 
 <section class="project" markdown="1">
-![MeMAD](https://memad.eu/wp-content/uploads/MeMAD_vertical_PNG_RGB.png)
+![MeMAD](./images/logo/memad.jpg)
 **MeMAD: Methods for Managing Audiovisual Data** <span class="sub">EU H2020 (2018-2021)</span>    
 I worked on web-based face recognition strategies on TV videos.
 <span class="links" markdown="1">
