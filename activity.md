@@ -56,6 +56,17 @@ description: "Teaching, talks, reviews"
 
 # Talks.
 
+- **Data, Language and Recommender Systems: Beyond the Classic Recommendation Techniques**. Amadeus Journal Club, 9 February 2026, Sophia Antipolis, France.
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/1j4yvDGTC8jE3wp9DlSwTIMZvb3QsxV-N8Ums0SHTfqU/)
+</span>
+
+- **Linking to the past: Exploring historical scents with AI and knowledge graphs**. Seminar ["Cultural Heritage in the Age of AI"](https://www.facebook.com/groups/DigitalArchaeologyGroup/posts/32267677506156426/), 6 October 2025, Leiden, The Netherlands
+<span class="links" markdown="1">
+[SLIDES](https://docs.google.com/presentation/d/1CDXAN8MvxxkvX9L6LejZCXHfbt1Wq-7CfNRlq7eNpMQ/)
+</span>
+
+
 - **Unlocking narratives: The role of knowledge graphs and AI in story understanding**. [Le Monde des Mathématiques Industrielles", 9ème édition, MOMI 2025](https://phd-seminars-sam.inria.fr/momi-2025/), 27 May 2025, Sophia Antipolis, France.
 <span class="links" markdown="1">
 [SLIDES](https://bit.ly/kflow-momi2025)

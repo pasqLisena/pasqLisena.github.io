@@ -7,7 +7,65 @@ list: [1,2,3]
 
 # Publications.
 
+## 2026
+
+- [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P., [Troncy, R.](http://www.eurecom.fr/~troncy/)
+**CausalSense: Leveraging common sense knowledge and LLMs for joint event extraction and relation classification**
+In: *[LREC 2026, International Conference on Language Resources and Evaluation](https://lrec2026.info/list-of-accepted-papers/)*, 11-16 May 2026, Palma, Mallorca, Spain
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/8673)
+[BIB](./publication/rebboud2026causalsense.bib)
+[POSTER](https://docs.google.com/presentation/d/1xAS6Jd9MqrnIE9vq5cUsCX6rgElB5gW-/)
+[SLIDES](https://docs.google.com/presentation/d/1N6LJ7d5HYtNZl6w_LoFDGrw4XvKjwElSU2VFt6DKGWA/)
+[REPO](https://github.com/ANR-kFLOW/Relation_extraction)
+[DEMO](https://demo.kflow.eurecom.fr/)
+</span>
+
+- [Argese, A.](https://alexargese.github.io/), Lisena, P, [Troncy, R.](http://www.eurecom.fr/~troncy/)
+**Hallucination or creativity: How to evaluate AI-generated scientific stories?**
+In [*TEXT2STORY 2026, 9th International Workshop on Narrative Extraction from Texts*](https://text2story26.inesctec.pt/), in conjunction with the [48th European Conference on Information Retrieval (ECIR 2026)](https://ecir2026.eu/), 29 March 2026, Delft, The Netherlands
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/8619)
+[BIB](./publication/argese2026storyscore.bib)
+[POSTER](https://docs.google.com/presentation/d/1oOXkuvLFPtTqa_3GU8DsrkWO_5-c_bJH/)
+[SLIDES](https://docs.google.com/presentation/d/19uZo-uX4KwA07gs-30XfelrTeseAc5Br/)
+[REPO](https://github.com/D2KLab/StoryScore)
+</span>
+
+- [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P., [Troncy, R.](http://www.eurecom.fr/~troncy/)
+**Integrating causal reasoning into automated fact-checking**. In [*41st ACM SAC Symposium on Applied Computing*](https://www.sigapp.org/sac/sac2026/), Special Track on Knowledge and Natural Language Processing (KNLP), 23-27 March 2026, Thessaloniki, Greece
+<span class="links" markdown="1">
+[PDF](https://arxiv.org/abs/2512.13286)
+[BIB](./publication/rebboud2026causalfactcheck.bib)
+[POSTER](https://docs.google.com/presentation/d/1zt5xUziRjtiW2JzKJY7Q4gLsHJy1JhjZ/)
+[REPO](https://github.com/ANR-kFLOW/Fact_checking_reasoner)
+</span>
+
+- Lisena, P., [Lee, K. A.](https://sites.google.com/view/kongaiklee), [Wang, Y.](https://wangyintu.github.io/), [Todisco, M.](https://www.massimilianotodisco.eu/), [Galdi, C.](https://galdi.eurecom.io/) [Troncy, R.](http://www.eurecom.fr/~troncy/), [Evans, N.](https://www.eurecom.fr/en/people/evans-nicholas), [Lin, Weiwei](https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lin-wei/), [Chau, L.P.](https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-lap-pui/); [Mak, M. W.](http://www.eie.polyu.edu.hk/~mwmak/).
+**Future-proofing deepfake detection by integrating audio, video, and text**. In *[ACM AI Letters](https://dl.acm.org/toc/ailet/2026/1/1)*, Vol. 1, No. 1, March 2026.
+<span class="links" markdown="1">
+[PDF](https://doi.org/10.1145/3797958)
+[BIB](./publication/lisena2026deepfake.bib)
+</span>
+
 ## 2025
+
+- [Plu, J.](https://jplu.github.io/), Escobar, O. M., Trouillez, E., Gapin, A., Lisena, P., [Ehrhart, T.](https://ehrh.art/), [Troncy, R.](http://www.eurecom.fr/~troncy/).
+**Text2KGBench-LettrIA: A refined benchmark for Text2Graph systems**
+In: *[KBC-LM and LM-KBC Challenge (Knowledge Base Construction from Pre-trained Language Models)](https://lm-kbc.github.io/challenge2025/)* at [ISWC 2025](https://iswc2025.semanticweb.org/), 24th International Semantic Web Conference, 2-6 November 2025, Nara, Japan
+<span class="links" markdown="1">
+[PDF](https://ceur-ws.org/Vol-4041/paper3.pdf)
+[BIB](./publication/plu2025text2kgbenchlettria.bib)
+[SLIDES](https://docs.google.com/presentation/d/1186KeXHCTSp4E079ORpP9_ZLLWWtJy6CE4xYevDxQS0/edit?usp=sharing)
+</span>
+
+- Qin, S., [Lee, K. A.](https://sites.google.com/view/kongaiklee),  [Mak, M. W.](http://www.eie.polyu.edu.hk/~mwmak/), Lisena, P, [Todisco, M.](https://www.massimilianotodisco.eu/)
+**Variational regularization for end-to-end speech deepfake detection**
+In *[APSIPA 2025](https://www.apsipa2025.org/), 17th Asia Pacific Signal and Information Processing Association Annual Summit and Conference*, 22-24 October 2025, Shangri-la, Singapore
+<span class="links" markdown="1">
+[PDF](https://www.eurecom.fr/publication/8514)
+[BIB](./publication/qin2025variational.bib)
+</span>
 
 - Vellard, E., Charolois-Pasqua, E., [Rebboud, Y.](https://ryoussra.github.io/), Lisena, P. & [Troncy, R.](http://www.eurecom.fr/~troncy/) **Interactive Playlist Generation from Titles**. In [Nineteenth ACM Conference on Recommender Systems (RecSys ’25)](https://recsys.acm.org/recsys25/), Demo Track, September 22–26, 2025, Prague, Czech Republic
 <span class="links" markdown="1">

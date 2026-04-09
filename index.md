@@ -10,7 +10,6 @@ current_proj:
     name: 'kFLOW'
     uri: https://anr-kflow.github.io/
 news: 
-  - 'I will present a paper at ACM SAC / KNLP (March 23/27)'
   - 'I will present a paper at LREC (May 11/15)'
 ---
 
