@@ -5,20 +5,20 @@ description: "Teaching, talks, reviews"
 
 ---
 
-# Teaching.
+## Teaching.
 
-## Lectures
+### Lectures
 
 - [**Introduction to Data Bases**](https://www.eurecom.fr/en/course/database-2023spring), EURECOM, Spring 2023 - now
 - **[Interaction Design and Development of Modern Web Applications (WebInt)](http://www.eurecom.fr/en/course/WebInt-2020Fall)**, JavaScript lecturer, EURECOM,  2017 - now
 
-## PhD supervision
+### PhD supervision
 
 - Sillano A., **Enhancing Educational Storytelling with
 Human-Centered AI in the LLM Era**, EURECOM + Politecnico di Torino, November 2025 - now
 - Rebboud Y., **Semantic Extraction of Event Relations from Text with Knowledge Graphs**, EURECOM, March 2022 - June 2025
 
-<!-- ## Master student supervision
+<!-- ### Master student supervision
 
 - Fernandez-Marin E., **Exploring Semantic Music Catalogs**, EURECOM + Universidad de Zaragoza, September 2016
 <span class="links" markdown="1">
@@ -30,7 +30,8 @@ Human-Centered AI in the LLM Era**, EURECOM + Politecnico di Torino, November 20
 </span>
 - de Kok M., **From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach**, EURECOM + VU Amsterdam, July 2023. -->
 
-# Tutorials.
+## Tutorials.
+
 - **SPARQL Endpoints and Web API (SWApi)**. In:    
   - *[19th International Semantic Web Conference (ISWC'20)](https://iswc2020.semanticweb.org/)*, Athens, Greece, November 2, 2020.
   - *[30th The Web Conference (TheWebConf'21)](https://www2021.thewebconf.org/)*, Lubiana, Slovenia, April, 2021.
@@ -56,7 +57,7 @@ Human-Centered AI in the LLM Era**, EURECOM + Politecnico di Torino, November 20
 [SLIDES](https://doremus-anr.github.io/kcap17_tutorial/slides.html)
 </span>
 
-# Talks.
+## Talks.
 
 - **Data, Language and Recommender Systems: Beyond the Classic Recommendation Techniques**. Amadeus Journal Club, 9 February 2026, Sophia Antipolis, France.
 <span class="links" markdown="1">
@@ -86,8 +87,6 @@ Human-Centered AI in the LLM Era**, EURECOM + Politecnico di Torino, November 20
 [AUDIO](https://rdv-histoire.com/programme/travail-et-cinema-la-fabrique-des-actualites-francaises-1945-1969)
 </span>
 
-
-
 - **Classical Music and Knowledge Graphs: Managing, reusing and recommending one of the most complex music genres**
 <span class="links" markdown="1">
 [SLIDES](https://docs.google.com/presentation/d/1Ak5pX528n1LudbbgoYbHEvHWZTUNJrZxR4qMKtcBxgg)
@@ -103,7 +102,7 @@ Human-Centered AI in the LLM Era**, EURECOM + Politecnico di Torino, November 20
 [VIDEO](http://www.bnf.fr/fr/professionnels/anx_journees_pros_videos/a.video_161109_presentation_doremus.html)
 </span>
 
-# Community service.
+## Community service.
 
 Conference Organisation Committee
 - The Web Conference (TheWebConf), Poster&Demo Chair, [2022](https://www2022.thewebconf.org/cfp/posters-demos/)

@@ -49,6 +49,6 @@ Best Resource Paper Award
 
 # My Book.
 
-[![Web Data APIs for Knowledge Graphs](https://media.springernature.com/full/springer-static/cover-hires/book/978-3-031-01917-3)](https://link.springer.com/book/10.1007/978-3-031-01917-3)
+[![Web Data APIs for Knowledge Graphs](https://media.springernature.com/full/springer-static/cover-hires/book/978-3-031-01917-3){: .book-cover width="400" height="616" loading="lazy" decoding="async"}](https://link.springer.com/book/10.1007/978-3-031-01917-3)
 
 </section>

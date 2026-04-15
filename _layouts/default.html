@@ -15,7 +15,7 @@
   <noscript><link href="https://fonts.googleapis.com/css?family=Exo:200,400,600|Roboto:300,400,500&display=swap" rel="stylesheet"></noscript>
   <link rel="preload" href="https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet"></noscript>
-  <link rel="preload" as="image" href="/images/pasquale_lisena.jpg">
+  <link rel="preload" as="image" href="/images/pasquale_lisena.jpg" fetchpriority="high">
   <link href="css/style.css" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -57,15 +57,18 @@
           <h2>My Current Projects.</h2>
           <div>
             {% for item in page.current_proj %}
-            <a href="{{item.uri}}"><img class="proj_img" alt="{{item.name}}" src="{{item.img}}" /></a>
+            {% if item.uri %}
+            <a href="{{item.uri}}"><img class="proj_img" alt="{{item.name}}" src="{{item.img}}" width="240" height="96" loading="lazy" decoding="async" /></a>
+            {% else %}
+            <img class="proj_img" alt="{{item.name}}" src="{{item.img}}" width="240" height="96" loading="lazy" decoding="async" />
+            {% endif %}
             {% endfor %}
           </div>
         </div>
 
         <div class="box">
           <h2>My Talk at RecSys 2025.</h2>
-
-          <div id="presentation-embed-39045764"></div>
+<div id="presentation-embed-39045764"></div>
             <script src="https://slideslive.com/embed_presentation.js"></script>
             <script>
               embed = new SlidesLiveEmbed("presentation-embed-39045764", {
@@ -83,6 +86,21 @@
 
   <script type="application/ld+json">
     {{site.data.pasquale | jsonify}}
+  </script>
+
+  <script>
+    document.querySelectorAll('.embed-trigger').forEach(function(button) {
+      button.addEventListener('click', function() {
+        var template = document.getElementById(button.dataset.templateId);
+        var target = document.getElementById(button.dataset.targetId);
+        if (!template || !target || target.childElementCount > 0) {
+          return;
+        }
+
+        target.appendChild(template.content.cloneNode(true));
+        button.remove();
+      });
+    });
   </script>
 </body>
 

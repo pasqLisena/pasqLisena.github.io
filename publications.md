@@ -4,7 +4,7 @@ title: "Publications | Pasquale Lisena"
 description: "List of publication"
 ---
 
-# Publications.
+## Publications.
 
 {% assign entries = site.data.publications.entries %}
 {% assign all_years = "" | split: "" %}
@@ -15,7 +15,7 @@ description: "List of publication"
 {% assign rbrace = '}' %}
 
 {% for year in all_years %}
-## {{ year }}
+### {{ year }}
 
 {% assign year_entries = entries | where_exp: "e", "e.fields.year == year" %}
 {% for entry in year_entries %}

@@ -33,18 +33,19 @@ h1
   &:not(:first-of-type)
     margin-top 2em
 
-h2
+h3
   font-family titleFont
   font-size 1em
   margin-bottom 1em
 
-// .box h2
-//   font-size 1.5em
-//   padding-bottom .2em
-//   display inline-block
-//   color main
-//   border-bottom .2rem solid #000
-//   margin-bottom 1.4em
+.box h2
+  font-family titleFont
+  font-size 1.5em
+  padding-bottom .2em
+  display inline-block
+  color main
+  border-bottom .2rem solid #000
+  margin-bottom 1.4em
 
 p
   line-height 1.2em
@@ -57,6 +58,16 @@ a
   transition all 200ms ease-in-out
   &:hover
     text-decoration underline
+
+.cta-link
+  display inline-block
+  padding .7rem 1rem
+  border 2px solid main
+  border-radius .35rem
+  text-decoration none
+  &:hover
+    background main
+    color #fff
 
 .inner
   margin auto
@@ -83,6 +94,7 @@ a
     flex 0 0 400px
     padding 1em
     text-align center
+    min-height 16rem
     +above('l')
       min-width: 400px
 
@@ -107,6 +119,19 @@ a
 
   img
     max-width 80%
+
+.embed-trigger
+  padding .7rem 1rem
+  min-height 44px
+  border 2px solid main
+  background #fff
+  color main
+  cursor pointer
+  border-radius .35rem
+  font-weight 500
+  &:hover
+    background main
+    color #fff
 
 
 nav
@@ -150,7 +175,7 @@ strong
     display inline-block
   a
     font-weight 400 !important
-    color #595959
+    color #696969
     &:hover
       opacity 1
     &:after
@@ -223,11 +248,17 @@ strong
       order 3
 
 img.proj_img
-  max-width 8em
-  max-height 4em
+  width 8em
+  height 3.2em
+  object-fit contain
   margin 0 0.5em
   display inline-block
   vertical-align middle
+
+img.book-cover
+  width 100%
+  max-width 18em
+  height auto
 
 .award
   font-variant small-caps
@@ -275,7 +306,7 @@ summary
   font-size .8em
   display inline-block
   font-weight 400 !important
-  color #595959
+  color #696969
   cursor pointer
   &:hover
     opacity 1
