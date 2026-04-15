@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -8,8 +8,12 @@
   <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css?family=Exo:200,400,600|Roboto:300,400,500" rel="stylesheet">
-  <link href="https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Exo:200,400,600|Roboto:300,400,500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css?family=Exo:200,400,600|Roboto:300,400,500&display=swap" rel="stylesheet"></noscript>
+  <link rel="preload" href="https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet"></noscript>
   <link href="css/style.css" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,13 +31,13 @@
 <body>
   {% include header.small.html %}
 
-  <section class="page internal">
+  <main class="page internal">
     <div class="inner">
       <div class="box">
         {{ content }}
       </div>
     </div>
-  </section>
+  </main>
 
   {% include footer.html %}
 

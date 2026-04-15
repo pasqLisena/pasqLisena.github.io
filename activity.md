@@ -14,9 +14,11 @@ description: "Teaching, talks, reviews"
 
 ## PhD supervision
 
-- Rebboud Y., **Semantic Extraction of Event Relations from Text with Knowledge Graphs**, EURECOM, March 2022 - now
+- Sillano A., **Enhancing Educational Storytelling with
+Human-Centered AI in the LLM Era**, EURECOM + Politecnico di Torino, November 2025 - now
+- Rebboud Y., **Semantic Extraction of Event Relations from Text with Knowledge Graphs**, EURECOM, March 2022 - June 2025
 
-## Master student supervision
+<!-- ## Master student supervision
 
 - Fernandez-Marin E., **Exploring Semantic Music Catalogs**, EURECOM + Universidad de Zaragoza, September 2016
 <span class="links" markdown="1">
@@ -26,7 +28,7 @@ description: "Teaching, talks, reviews"
 <span class="links" markdown="1">
 [SLIDES](https://docs.google.com/presentation/d/1hSJ5Evs_oMhvIWOBFt6JfAS9uVGK33mIhwUEHirnfqU/edit)
 </span>
-- de Kok M., **From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach**, EURECOM + VU Amsterdam, July 2023.
+- de Kok M., **From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach**, EURECOM + VU Amsterdam, July 2023. -->
 
 # Tutorials.
 - **SPARQL Endpoints and Web API (SWApi)**. In:    
@@ -103,11 +105,14 @@ description: "Teaching, talks, reviews"
 
 # Community service.
 
-Workshop Organisation
-- [Semantic Methods for Events and Stories workshop](https://anr-kflow.github.io/semmes/), held at [ESWC 20223](https://2023.eswc-conferences.org/)
+Conference Organisation Committee
+- The Web Conference (TheWebConf), Poster&Demo Chair, [2022](https://www2022.thewebconf.org/cfp/posters-demos/)
+- Extended Semantic Web Conference (EWSC)
+  - Proceedings Chair [2024](https://2024.eswc-conferences.org/organising-committee/), [2025](https://2025.eswc-conferences.org/organising-committee/)
+  - Poster&Demo Chair [2026](https://2026.eswc-conferences.org/organization/organising-committee/)
 
-Conference Track Chair
-- The Web Conference (TheWebConf), Poster&Demo Track, [2022](https://www2022.thewebconf.org/cfp/posters-demos/)
+Workshop Organisation
+- [Semantic Methods for Events and Stories workshop](https://anr-kflow.github.io/semmes/), held at [ESWC 2023](https://2023.eswc-conferences.org/) and [ESWC 2024](https://2024.eswc-conferences.org/program-overview/)
 
 Program Committe Member
 -	International Semantic Web Conference (ISWC), Poster&Demo Track, [2018](http://iswc2018.semanticweb.org/poster-demo-track-pc/index.html), [2019](https://iswc2019.semanticweb.org/poster-demo-track-pc/), [2020](https://iswc2020.semanticweb.org/organization/posters-demos-track-pc/), [2022](https://iswc2022.semanticweb.org/index.php/poster-demos-track-pc/)

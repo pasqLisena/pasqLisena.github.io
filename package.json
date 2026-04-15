@@ -4,8 +4,8 @@
   "description": "Pasquale Lisena's personal website",
   "main": "index.md",
   "scripts": {
-    "build:css": "stylus _styl/main.styl -o css/style.css --include node_modules",
-    "watch:css": "stylus _styl/main.styl -w -o css/style.css --include node_modules",
+    "build:css": "stylus _styl/main.styl -c -o css/style.css --include node_modules",
+    "watch:css": "stylus _styl/main.styl -w -c -o css/style.css --include node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
