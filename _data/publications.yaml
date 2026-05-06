@@ -240,12 +240,12 @@ entries:
   fields:
     title: One pattern to express them all? Towards Generalised Patterns for Ontology Design in the Digital Humanities
     author:
-    - Sarah Rebecca Ondraszek
-    - Bruno Sartini
-    - Marieke van Erp
-    - Andrea Poltronieri
-    - Pasquale Lisena
-    - Harald Sack
+    - Ondraszek, Sarah Rebecca
+    - Sartini, Bruno
+    - van Erp, Marieke
+    - Poltronieri, Andrea
+    - Lisena, Pasquale
+    - Sack, Harald
     booktitle: 15th Workshop on Ontology Design and Patterns
     year: 2024
     url: https://openreview.net/forum?id=T24qBlUxtH
@@ -280,10 +280,10 @@ entries:
     title: 'From Nodes to Narratives: A Knowledge Graph-based Storytelling Approach'
     author:
     - de Kok, Mike
-    - Youssra Rebboud
-    - Pasquale Lisena
-    - Raphael Troncy
-    - Ilaria Tiddi
+    - Rebboud, Youssra
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    - Tiddi, Ilaria
     year: 2024
     language: English
     series: CEUR Workshop Proceedings
@@ -561,25 +561,25 @@ entries:
     year: 2022
     title: A Multilingual Benchmark to Capture Olfactory Situations over Time
     author:
-    - Stefano Menini
-    - Teresa Paccosi
-    - Sara Tonelli
-    - Marieke van Erp
-    - Inger Leemans
-    - Pasquale Lisena
-    - Raphael Troncy
-    - William Tullett
-    - Ali Hürriyetoğlu
-    - Ger Dijkstra
-    - Femke Gordijn
-    - Elias Jürgens
-    - Josephine Koopman
-    - Aron Ouwerkerk
-    - Sanne Steen
-    - Inna Novalija
-    - Janez Brank
-    - Dunja Mladenic
-    - Anja Zidar
+    - Menini, Teresa
+    - Paccosi, Teresa
+    - Tonelli, Sara
+    - van Erp, Marieke
+    - Leemans, Inger
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    - Tullett, William
+    - Hürriyetoğlu, Ali
+    - Dijkstra, Ger
+    - Gordijn, Femke
+    - Jürgens, Elias
+    - Koopman, Josephine
+    - Ouwerkerk, Aron
+    - Steen, Sanne
+    - Novalija, Inna
+    - Brank, Janez
+    - Mladenic, Dunja
+    - Zidar, Anja
     booktitle: 3rd International Workshop on Computational Approaches to Historical Language Change (LChange)
     address: Dublin, Ireland
     eventdate: 2022-05-26/2022-05-26
@@ -959,77 +959,77 @@ entries:
   fields:
     title: Linked Open Data Validity -- A Technical Report from ISWS 2018
     author:
-    - Tayeb Abderrahmani Ghor
-    - Esha Agrawal
-    - Mehwish Alam
-    - Omar Alqawasmeh
-    - Claudia D'amato
-    - Amina Annane
-    - Amr Azzam
-    - Andrew Berezovskyi
-    - Russa Biswas
-    - Mathias Bonduel
-    - Quentin Brabant
-    - Cristina-iulia Bucur
-    - Elena Camossi
-    - Valentina Anita Carriero
-    - Shruthi Chari
-    - David Chaves Fraga
-    - Fiorela Ciroku
-    - Michael Cochez
-    - Hubert Curien
-    - Vincenzo Cutrona
-    - Rahma Dandan
-    - Danilo Dess
-    - Valerio Di Carlo
-    - Ahmed El Amine Djebri
-    - Marieke Van Erp
-    - Faiq Miftakhul Falakh
-    - Alba Fernndez Izquierdo
-    - Giuseppe Futia
-    - Aldo Gangemi
-    - Simone Gasperoni
-    - Arnaud Grall
-    - Lars Heling
-    - Pierre Henri
-    - Noura Herradi
-    - Subhi Issa
-    - Samaneh Jozashoori
-    - Nyoman Juniarta
-    - Lucie-aime Kaffee
-    - Ilkcan Keles
-    - Prashant Khare
-    - Viktor Kovtun
-    - Valentina Leone
-    - Siying Li
-    - Sven Lieber
-    - Pasquale Lisena
-    - Tatiana Makhalova
-    - Ludovica Marinucci
-    - Thomas Minier
-    - Benjamin Moreau
-    - Alberto Moya Loustaunau
-    - Durgesh Nandini
-    - Sylwia Ozdowska
-    - Amanda Pacini De Moura
-    - Swati Padhee
-    - Guillermo Palma
-    - Pedro Del Pozo Jimnez
-    - Valentina Presutti
-    - Roberto Reda
-    - Ettore Rizza
-    - Henry Rosales-mndez
-    - Sebastian Rudolph
-    - Harald Sack
-    - Luca Sciullo
-    - Humasak Simanjuntak
-    - Carlo Stomeo
-    - Thiviyan Thanapalasingam
-    - Tabea Tietz
-    - Dalia Varanka
-    - Maria-esther Vidal
-    - Michael Wolowyk
-    - Maximilian Zocholl
+    - Ghor, Tayeb Abderrahmani
+    - Agrawal, Esha
+    - Alam, Mehwish
+    - Alqawasmeh, Omar
+    - D'amato, Claudia
+    - Annane, Amina
+    - Azzam, Amr
+    - Berezovskyi, Andrew
+    - Biswas, Russa
+    - Bonduel, Mathias
+    - Brabant, Quentin
+    - Bucur, Cristina-iulia
+    - Camossi, Elena
+    - Carriero, Valentina Anita
+    - Chari, Shruthi
+    - Fraga, David Chaves
+    - Ciroku, Fiorela
+    - Cochez, Michael
+    - Curien, Hubert
+    - Cutrona, Vincenzo
+    - Dandan, Rahma
+    - Dess, Danilo
+    - Carlo, Valerio Di
+    - Djebri, Ahmed El Amine
+    - Van Erp, Marieke
+    - Miftakhul Falakh, Faiq
+    - Izquierdo, Alba Fernndez
+    - Futia, Giuseppe
+    - Gangemi, Aldo
+    - Gasperoni, Simone
+    - Grall, Arnaud
+    - Heling, Lars
+    - Henri, Pierre
+    - Herradi, Noura
+    - Issa, Subhi
+    - Jozashoori, Samaneh
+    - Juniarta, Nyoman
+    - Kaffee, Lucie-aime
+    - Keles, Ilkcan
+    - Khare, Prashant
+    - Kovtun, Viktor
+    - Leone, Valentina
+    - Li, Siying
+    - Lieber, Sven
+    - Lisena, Pasquale
+    - Makhalova, Tatiana
+    - Marinucci, Ludovica
+    - Minier, Thomas
+    - Moreau, Benjamin
+    - Moya Loustaunau, Alberto
+    - Nandini, Durgesh
+    - Ozdowska, Sylwia
+    - Pacini De Moura, Amanda
+    - Padhee, Swati
+    - Palma, Guillermo
+    - Del Pozo Jimnez, Pedro
+    - Presutti, Valentina
+    - Reda, Roberto
+    - Rizza, Ettore
+    - Rosales-mndez, Henry
+    - Rudolph, Sebastian
+    - Sack, Harald
+    - Sciullo, Luca
+    - Simanjuntak, Humasak
+    - Stomeo, Carlo
+    - Thanapalasingam, Thiviyan
+    - Tietz, Tabea
+    - Varanka, Dalia
+    - Vidal, Maria-esther
+    - Wolowyk, Michael
+    - Zocholl, Maximilian
     year: 2019
     eprint: 1903.12554
     archivePrefix: arXiv
