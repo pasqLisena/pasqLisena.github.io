@@ -9,7 +9,7 @@ current_proj:
     name: 'ClimateSense'
     uri: https://climatesense-project.eu/
 news: 
-  - 'I will present a paper at LREC (May 11/15)'
+  - 'The [Data-Driven Storytelling workshop](https://data-driven-storytelling-workshop.replit.app/) will be at ISWC in Bari, Italy (October 2026)'
 ---
 
 <section class="box" markdown="1">
