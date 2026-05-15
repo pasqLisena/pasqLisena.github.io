@@ -1,4 +1,43 @@
 entries:
+- id: argese2026sciteller
+  type: inproceedings
+  fields:
+    author:
+    - Argese, Alex
+    - Sillano, Andrea
+    - Lisena, Pasquale
+    - Troncy, Raphaël
+    - Calò, Tommaso
+    - De Russis, Luigi
+    title: 'An LLM-Based Framework for Persona-Adaptive Scientific Storytelling'
+    booktitle: 2nd Workshop on Sustainable and Trustworthy Large Language Models for Personalization (LLM4Good) at the 34th ACM International Conference on User Modeling, Adaptation and Personalization (UMAP)
+    year: 2026
+    address: Gothenburg, Sweden
+    month: 6
+    publisher: Ceurs
+  resources:
+    pdf: https://www.eurecom.fr/en/publication/8744
+    repo: https://github.com/AlexArgese/ai-scientist-storyteller
+- id: lisena2026pitfalls
+  type: inproceedings
+  fields:
+    author:
+    - Lisena, Pasquale
+    - Plu, Julien
+    - Escobar, Oscar Moreno
+    - Trouillez, Edouard
+    - Troncy, Raphaël
+    title: 'Pitfalls in AI-Generated Ontologies: Strategies for Detection and Mitigation'
+    booktitle: LLMs4KGOE 2026, International Workshop on LLM-driven Knowledge Graph and Ontology Engineering, co-located with ESWC 2026 (23rd European Semantic Web Conference)
+    year: 2026
+    editor: CEUR-WS
+    address: Dubrovnik, Croatia
+    month: 5
+    eventdate: 2026-05-10/2026-05-14
+  resources:
+    pdf: https://www.eurecom.fr/en/publication/8707
+    slides: https://docs.google.com/presentation/d/147Fhjm71yVwoH8I8m04jgnz5ZPCvNWipc6JjavML9t4/edit?usp=sharing
+    repo: https://github.com/D2KLab/Ontology-Pitfalls-Detector
 - id: rebboud2026causalsense
   type: inproceedings
   fields:
@@ -7,17 +46,39 @@ entries:
     - Lisena, Pasquale
     - Troncy, Raphaël
     title: 'CausalSense: Leveraging common sense knowledge and LLMs for joint event extraction and relation classification'
-    booktitle: LREC 2026, International Conference on Language Resources and Evaluation
+    booktitle: Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)
     year: 2026
+    doi: 10.63317/4uiusu5nfowx
     address: Palma, Mallorca, Spain
     month: 5
     eventdate: 2026-05-11/2026-05-16
+    pages: 7619--7630
+    publisher: European Language Resources Association (ELRA)
   resources:
     pdf: https://www.eurecom.fr/publication/8673
     poster: https://docs.google.com/presentation/d/1xAS6Jd9MqrnIE9vq5cUsCX6rgElB5gW-/
     slides: https://docs.google.com/presentation/d/1N6LJ7d5HYtNZl6w_LoFDGrw4XvKjwElSU2VFt6DKGWA/
+    video: https://www.youtube.com/watch?v=QUVLVvrYCow
     repo: https://github.com/ANR-kFLOW/Relation_extraction
     demo: https://demo.kflow.eurecom.fr/
+- id: sillano2026personas
+  type: inproceedings
+  fields:
+    author:
+    - Sillano, Andrea
+    - De Russis, Luigi
+    - Calò, Tommaso
+    - Troncy, Raphaël
+    - Lisena, Pasquale
+    title: 'Mapping personas to text transformations: A taxonomy outline for content adaptation'
+    booktitle: 'ACM CHI 2026 Workshop, From Generation to Simulation: Responsible Use of AI Personas in Human-Centered Design and Research'
+    year: 2026
+    month: 4
+    eventdate: 2026-04-13/2026-04-13
+    address: Barcelona, Spain
+    publisher: CEUR-WS
+  resources:
+    pdf: https://www.eurecom.fr/publication/8704
 - id: argese2026storyscore
   type: inproceedings
   fields:
